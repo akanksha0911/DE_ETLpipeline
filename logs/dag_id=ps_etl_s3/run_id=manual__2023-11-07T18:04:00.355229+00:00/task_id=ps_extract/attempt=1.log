@@ -1,0 +1,29 @@
+[2023-11-07T18:04:02.130+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ps_etl_s3.ps_extract manual__2023-11-07T18:04:00.355229+00:00 [queued]>
+[2023-11-07T18:04:02.140+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ps_etl_s3.ps_extract manual__2023-11-07T18:04:00.355229+00:00 [queued]>
+[2023-11-07T18:04:02.141+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-07T18:04:02.154+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): ps_extract> on 2023-11-07 18:04:00.355229+00:00
+[2023-11-07T18:04:02.160+0000] {standard_task_runner.py:57} INFO - Started process 1019 to run task
+[2023-11-07T18:04:02.164+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ps_etl_s3', 'ps_extract', 'manual__2023-11-07T18:04:00.355229+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/ps_etl_s3_input.py', '--cfg-path', '/tmp/tmpi20evhdg']
+[2023-11-07T18:04:02.167+0000] {standard_task_runner.py:85} INFO - Job 149: Subtask ps_extract
+[2023-11-07T18:04:02.221+0000] {task_command.py:416} INFO - Running <TaskInstance: ps_etl_s3.ps_extract manual__2023-11-07T18:04:00.355229+00:00 [running]> on host 19429b98c313
+[2023-11-07T18:04:02.308+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ps_etl_s3' AIRFLOW_CTX_TASK_ID='ps_extract' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T18:04:00.355229+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-07T18:04:00.355229+00:00'
+[2023-11-07T18:04:02.322+0000] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2023-11-07T18:04:02.323+0000] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2023-11-07T18:04:04.004+0000] {logging_mixin.py:151} INFO - Error reading file Homework_Assignment_Data.xlsx: 'utf-8' codec can't decode byte 0x9d in position 54: invalid start byte
+[2023-11-07T18:04:04.008+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ps_extract.py", line 83, in extract_s3
+    df = pd.read_excel(BytesIO(file_content))
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 478, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/excel/_base.py", line 1500, in __init__
+    raise ValueError(
+ValueError: Excel file format cannot be determined, you must specify an engine manually.
+[2023-11-07T18:04:04.017+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=ps_etl_s3, task_id=ps_extract, execution_date=20231107T180400, start_date=20231107T180402, end_date=20231107T180404
+[2023-11-07T18:04:04.029+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 149 for task ps_extract (Excel file format cannot be determined, you must specify an engine manually.; 1019)
+[2023-11-07T18:04:04.070+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-07T18:04:04.092+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

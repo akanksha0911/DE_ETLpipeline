@@ -1,0 +1,239 @@
+[2023-11-07T07:23:39.610+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ps_etl.load_to_snowflake_table manual__2023-11-07T07:23:28.673547+00:00 [queued]>
+[2023-11-07T07:23:39.618+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ps_etl.load_to_snowflake_table manual__2023-11-07T07:23:28.673547+00:00 [queued]>
+[2023-11-07T07:23:39.618+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-07T07:23:39.631+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): load_to_snowflake_table> on 2023-11-07 07:23:28.673547+00:00
+[2023-11-07T07:23:39.636+0000] {standard_task_runner.py:57} INFO - Started process 4433 to run task
+[2023-11-07T07:23:39.640+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ps_etl', 'load_to_snowflake_table', 'manual__2023-11-07T07:23:28.673547+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/ps_etl.py', '--cfg-path', '/tmp/tmphwak6ylj']
+[2023-11-07T07:23:39.644+0000] {standard_task_runner.py:85} INFO - Job 135: Subtask load_to_snowflake_table
+[2023-11-07T07:23:39.719+0000] {task_command.py:416} INFO - Running <TaskInstance: ps_etl.load_to_snowflake_table manual__2023-11-07T07:23:28.673547+00:00 [running]> on host d2308b8de1b3
+[2023-11-07T07:23:39.791+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ps_etl' AIRFLOW_CTX_TASK_ID='load_to_snowflake_table' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T07:23:28.673547+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-07T07:23:28.673547+00:00'
+[2023-11-07T07:23:39.802+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-07T07:23:39.803+0000] {connection.py:329} INFO - Snowflake Connector for Python Version: 3.2.1, Python Version: 3.8.18, Platform: Linux-6.4.16-linuxkit-x86_64-with-glibc2.2.5
+[2023-11-07T07:23:39.804+0000] {connection.py:1069} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-07T07:23:39.804+0000] {connection.py:1087} INFO - Setting use_openssl_only mode to False
+[2023-11-07T07:23:40.551+0000] {cursor.py:804} INFO - query: [ALTER SESSION SET autocommit=False]
+[2023-11-07T07:23:40.718+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:40.724+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:40.725+0000] {sql.py:418} INFO - Running statement: CREATE SCHEMA IF NOT EXISTS STAGING;, parameters: None
+[2023-11-07T07:23:40.726+0000] {cursor.py:804} INFO - query: [CREATE SCHEMA IF NOT EXISTS STAGING;]
+[2023-11-07T07:23:40.856+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:40.857+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:40.858+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:40.859+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:40.860+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d169-0000-0001ead755c5
+[2023-11-07T07:23:40.860+0000] {sql.py:418} INFO - Running statement: USE SCHEMA STAGING;, parameters: None
+[2023-11-07T07:23:40.861+0000] {cursor.py:804} INFO - query: [USE SCHEMA STAGING;]
+[2023-11-07T07:23:40.995+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:40.996+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:40.996+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:40.997+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:40.997+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d169-0000-0001ead755c9
+[2023-11-07T07:23:40.998+0000] {sql.py:418} INFO - Running statement: CREATE OR REPLACE TABLE LOYALTY_EARNED_HOURLY (
+            DATE TIMESTAMP,
+            USER_ID VARCHAR(20),
+            COUNTRY CHAR(2),
+            TOTAL_LP_EARNED INT
+         );, parameters: None
+[2023-11-07T07:23:40.999+0000] {cursor.py:804} INFO - query: [CREATE OR REPLACE TABLE LOYALTY_EARNED_HOURLY ( DATE TIMESTAMP, USER_ID VARCHAR(...]
+[2023-11-07T07:23:41.275+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:41.275+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:41.276+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:41.277+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:41.278+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d155-0000-0001ead73619
+[2023-11-07T07:23:41.278+0000] {sql.py:418} INFO - Running statement: CREATE OR REPLACE TABLE PURCHASES (
+            DATE TIMESTAMP,
+            USER_ID VARCHAR(20),
+            REVENUE DECIMAL(10, 2),
+            TRANSACTION_ID VARCHAR(36)
+         );, parameters: None
+[2023-11-07T07:23:41.279+0000] {cursor.py:804} INFO - query: [CREATE OR REPLACE TABLE PURCHASES ( DATE TIMESTAMP, USER_ID VARCHAR(20), REVENUE...]
+[2023-11-07T07:23:41.572+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:41.573+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:41.574+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:41.574+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:41.575+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d114-0000-0001ead78625
+[2023-11-07T07:23:41.576+0000] {cursor.py:804} INFO - query: [COMMIT]
+[2023-11-07T07:23:41.726+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:41.727+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:41.728+0000] {connection.py:659} INFO - closed
+[2023-11-07T07:23:41.825+0000] {connection.py:665} INFO - No async queries seem to be running, deleting session
+[2023-11-07T07:23:41.967+0000] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2023-11-07T07:23:41.968+0000] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2023-11-07T07:23:41.981+0000] {logging_mixin.py:151} INFO - copy file Loyalty_Earned_Hourly_Data_Set/processed_leh_2023-11-07-07-23-30.csv
+[2023-11-07T07:23:41.990+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-07T07:23:42.003+0000] {connection.py:329} INFO - Snowflake Connector for Python Version: 3.2.1, Python Version: 3.8.18, Platform: Linux-6.4.16-linuxkit-x86_64-with-glibc2.2.5
+[2023-11-07T07:23:42.004+0000] {connection.py:1069} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-07T07:23:42.521+0000] {cursor.py:804} INFO - query: [ALTER SESSION SET autocommit=False]
+[2023-11-07T07:23:42.722+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:42.723+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:42.723+0000] {sql.py:418} INFO - Running statement: USE SCHEMA STAGING;, parameters: None
+[2023-11-07T07:23:42.724+0000] {cursor.py:804} INFO - query: [USE SCHEMA STAGING;]
+[2023-11-07T07:23:42.868+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:42.868+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:42.869+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:42.869+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:42.870+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d17f-0000-0001ead725d5
+[2023-11-07T07:23:42.870+0000] {sql.py:418} INFO - Running statement: COPY INTO LOYALTY_EARNED_HOURLY
+            FROM 's3://playstudios-processed-data/Loyalty_Earned_Hourly_Data_Set/processed_leh_2023-11-07-07-23-30.csv' credentials=(AWS_KEY_ID='AKIA2MLUITWXLGBHVJPG' AWS_SECRET_KEY='***')
+            FILE_FORMAT = (TYPE = CSV SKIP_HEADER = 1), parameters: None
+[2023-11-07T07:23:42.871+0000] {cursor.py:804} INFO - query: [COPY INTO LOYALTY_EARNED_HOURLY FROM 's3://playstudios-processed-data/Loyalty_Ea...]
+[2023-11-07T07:23:43.515+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:43.516+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:43.516+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:43.517+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:43.517+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d180-0000-0001ead7b309
+[2023-11-07T07:23:43.518+0000] {cursor.py:804} INFO - query: [COMMIT]
+[2023-11-07T07:23:43.869+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:43.870+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:43.870+0000] {connection.py:659} INFO - closed
+[2023-11-07T07:23:43.977+0000] {connection.py:665} INFO - No async queries seem to be running, deleting session
+[2023-11-07T07:23:44.093+0000] {logging_mixin.py:151} INFO - copy file Purchases_Data_Set/processed_purchases_2023-11-07-07-23-30.csv
+[2023-11-07T07:23:44.100+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-07T07:23:44.101+0000] {connection.py:329} INFO - Snowflake Connector for Python Version: 3.2.1, Python Version: 3.8.18, Platform: Linux-6.4.16-linuxkit-x86_64-with-glibc2.2.5
+[2023-11-07T07:23:44.102+0000] {connection.py:1069} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-07T07:23:44.569+0000] {cursor.py:804} INFO - query: [ALTER SESSION SET autocommit=False]
+[2023-11-07T07:23:44.731+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:44.732+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:44.732+0000] {sql.py:418} INFO - Running statement: USE SCHEMA STAGING;, parameters: None
+[2023-11-07T07:23:44.733+0000] {cursor.py:804} INFO - query: [USE SCHEMA STAGING;]
+[2023-11-07T07:23:44.890+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:44.890+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:44.891+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:44.891+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:44.892+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d116-0000-0001ead79601
+[2023-11-07T07:23:44.892+0000] {sql.py:418} INFO - Running statement: COPY INTO PURCHASES
+            FROM 's3://playstudios-processed-data/Purchases_Data_Set/processed_purchases_2023-11-07-07-23-30.csv' credentials=(AWS_KEY_ID='AKIA2MLUITWXLGBHVJPG' AWS_SECRET_KEY='***')
+            FILE_FORMAT = (TYPE = CSV SKIP_HEADER = 1), parameters: None
+[2023-11-07T07:23:44.893+0000] {cursor.py:804} INFO - query: [COPY INTO PURCHASES FROM 's3://playstudios-processed-data/Purchases_Data_Set/pro...]
+[2023-11-07T07:23:45.666+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:45.667+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:45.667+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:45.668+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:45.668+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d145-0000-0001ead7a315
+[2023-11-07T07:23:45.668+0000] {cursor.py:804} INFO - query: [COMMIT]
+[2023-11-07T07:23:46.022+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:46.023+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:46.023+0000] {connection.py:659} INFO - closed
+[2023-11-07T07:23:46.130+0000] {connection.py:665} INFO - No async queries seem to be running, deleting session
+[2023-11-07T07:23:46.262+0000] {base.py:73} INFO - Using connection ID 'snowflake_default' for task execution.
+[2023-11-07T07:23:46.263+0000] {connection.py:329} INFO - Snowflake Connector for Python Version: 3.2.1, Python Version: 3.8.18, Platform: Linux-6.4.16-linuxkit-x86_64-with-glibc2.2.5
+[2023-11-07T07:23:46.263+0000] {connection.py:1069} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-11-07T07:23:46.739+0000] {cursor.py:804} INFO - query: [ALTER SESSION SET autocommit=False]
+[2023-11-07T07:23:46.911+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:46.912+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:46.913+0000] {sql.py:418} INFO - Running statement: CREATE OR REPLACE SCHEMA PROD;, parameters: None
+[2023-11-07T07:23:46.913+0000] {cursor.py:804} INFO - query: [CREATE OR REPLACE SCHEMA PROD;]
+[2023-11-07T07:23:47.142+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:47.143+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:47.144+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:47.144+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:47.145+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d145-0000-0001ead7a319
+[2023-11-07T07:23:47.146+0000] {sql.py:418} INFO - Running statement: USE SCHEMA PROD;, parameters: None
+[2023-11-07T07:23:47.146+0000] {cursor.py:804} INFO - query: [USE SCHEMA PROD;]
+[2023-11-07T07:23:47.282+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:47.283+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:47.284+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:47.285+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:47.285+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d116-0000-0001ead79605
+[2023-11-07T07:23:47.286+0000] {sql.py:418} INFO - Running statement: CREATE OR REPLACE TABLE Hourly_Daily_Summary (
+                app_date TIMESTAMP,
+                user_Id VARCHAR(255),
+                country VARCHAR(255),
+                user_total_lp_earned INT,
+                user_total_revenue DECIMAL(10,2),
+                user_total_purchases INT,
+                user_avg_revenue_per_purchase DECIMAL(10,2),
+                total_daily_revenue DECIMAL(10,2)
+            );, parameters: None
+[2023-11-07T07:23:47.286+0000] {cursor.py:804} INFO - query: [CREATE OR REPLACE TABLE Hourly_Daily_Summary ( app_date TIMESTAMP, user_Id VARCH...]
+[2023-11-07T07:23:47.527+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:47.528+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:47.529+0000] {sql.py:427} INFO - Rows affected: 1
+[2023-11-07T07:23:47.530+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2023-11-07T07:23:47.530+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d180-0000-0001ead7b30d
+[2023-11-07T07:23:47.531+0000] {sql.py:418} INFO - Running statement: INSERT INTO Hourly_Daily_Summary( WITH PurchasesHourly AS (
+                SELECT
+                    DATE_TRUNC('hour', date) AS date_hourly,
+                    USER_ID,
+                    REVENUE,
+                    transaction_id
+                FROM
+                    PS_STAGING_DB.STAGING.PURCHASES
+
+            ),
+            LoyaltyHourly AS (
+                SELECT
+                    date,
+                    user_Id,
+                    country,
+                    total_lp_earned
+                FROM
+                    PS_STAGING_DB.STAGING.LOYALTY_EARNED_HOURLY
+            ),
+            MergedData AS (
+                SELECT
+                    l.date AS app_date,
+                    l.user_Id,
+                    l.country,
+                    l.total_lp_earned,
+                    p.revenue,
+                    p.transaction_id
+                FROM
+                    LoyaltyHourly l
+                LEFT JOIN
+                    PurchasesHourly p ON l.user_Id = p.user_Id AND l.date = p.date_hourly
+            ),
+            HourlySummary AS (
+                SELECT
+                    app_date,
+                    user_Id,
+                    country,
+                    SUM(total_lp_earned) AS user_total_lp_earned,
+                    SUM(COALESCE(revenue, 0)) AS user_total_revenue,
+                    COUNT(transaction_id) AS user_total_purchases,
+                    CASE WHEN COUNT(transaction_id) > 0
+                         THEN ROUND(SUM(COALESCE(revenue, 0)) / COUNT(transaction_id), 2)
+                         ELSE 0 END AS user_avg_revenue_per_purchase
+                FROM
+                    MergedData
+                GROUP BY
+                    app_date, user_Id, country
+            ),
+            DailyRevenue AS (
+                SELECT
+                    user_Id,
+                    DATE(app_date) AS date_daily,
+                    SUM(COALESCE(revenue, 0)) AS total_daily_revenue
+                FROM
+                    MergedData
+                GROUP BY
+                    user_Id, DATE(app_date)
+            )
+            SELECT
+                h.app_date,
+                h.user_Id,
+                h.country,
+                h.user_total_lp_earned,
+                h.user_total_revenue,
+                h.user_total_purchases,
+                h.user_avg_revenue_per_purchase,
+                d.total_daily_revenue
+            FROM
+                HourlySummary h
+            LEFT JOIN
+                DailyRevenue d ON h.user_Id = d.user_Id AND DATE(h.app_date) = d.date_daily
+             ), parameters: None
+[2023-11-07T07:23:47.532+0000] {cursor.py:804} INFO - query: [INSERT INTO Hourly_Daily_Summary( WITH PurchasesHourly AS ( SELECT DATE_TRUNC('h...]
+[2023-11-07T07:23:48.517+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:48.518+0000] {sql.py:427} INFO - Rows affected: 40
+[2023-11-07T07:23:48.519+0000] {snowflake.py:400} INFO - Rows affected: 40
+[2023-11-07T07:23:48.519+0000] {snowflake.py:401} INFO - Snowflake query id: 01b02a3b-0004-d114-0000-0001ead7862d
+[2023-11-07T07:23:48.520+0000] {cursor.py:804} INFO - query: [COMMIT]
+[2023-11-07T07:23:48.813+0000] {cursor.py:817} INFO - query execution done
+[2023-11-07T07:23:48.813+0000] {cursor.py:959} INFO - Number of results in first chunk: 1
+[2023-11-07T07:23:48.814+0000] {connection.py:659} INFO - closed
+[2023-11-07T07:23:48.913+0000] {connection.py:665} INFO - No async queries seem to be running, deleting session
+[2023-11-07T07:23:49.027+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-07T07:23:49.054+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ps_etl, task_id=load_to_snowflake_table, execution_date=20231107T072328, start_date=20231107T072339, end_date=20231107T072349
+[2023-11-07T07:23:49.108+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-07T07:23:49.122+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,868 @@
+[2023-11-06 00:00:20,099] {processor.py:153} INFO - Started process (PID=6404) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:00:20,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:00:20,100] {logging_mixin.py:115} INFO - [2023-11-06 00:00:20,100] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:00:20,405] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:00:20,430] {logging_mixin.py:115} INFO - [2023-11-06 00:00:20,429] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:00:20,453] {logging_mixin.py:115} INFO - [2023-11-06 00:00:20,453] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:00:20,464] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.369 seconds
+[2023-11-06 00:00:50,541] {processor.py:153} INFO - Started process (PID=6463) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:00:50,542] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:00:50,542] {logging_mixin.py:115} INFO - [2023-11-06 00:00:50,542] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:00:50,826] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:00:50,852] {logging_mixin.py:115} INFO - [2023-11-06 00:00:50,852] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:00:50,879] {logging_mixin.py:115} INFO - [2023-11-06 00:00:50,879] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:00:50,894] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.356 seconds
+[2023-11-06 00:01:21,733] {processor.py:153} INFO - Started process (PID=6527) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:01:21,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:01:21,734] {logging_mixin.py:115} INFO - [2023-11-06 00:01:21,734] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:01:22,056] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:01:22,080] {logging_mixin.py:115} INFO - [2023-11-06 00:01:22,079] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:01:22,103] {logging_mixin.py:115} INFO - [2023-11-06 00:01:22,103] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:01:22,112] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.383 seconds
+[2023-11-06 00:01:52,351] {processor.py:153} INFO - Started process (PID=6591) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:01:52,352] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:01:52,353] {logging_mixin.py:115} INFO - [2023-11-06 00:01:52,353] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:01:52,760] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:01:52,788] {logging_mixin.py:115} INFO - [2023-11-06 00:01:52,786] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:01:52,815] {logging_mixin.py:115} INFO - [2023-11-06 00:01:52,815] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:01:52,827] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.480 seconds
+[2023-11-06 00:02:23,765] {processor.py:153} INFO - Started process (PID=6653) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:02:23,774] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:02:23,776] {logging_mixin.py:115} INFO - [2023-11-06 00:02:23,776] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:02:24,205] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:02:24,241] {logging_mixin.py:115} INFO - [2023-11-06 00:02:24,240] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:02:24,275] {logging_mixin.py:115} INFO - [2023-11-06 00:02:24,275] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:02:24,291] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.530 seconds
+[2023-11-06 00:02:33,852] {processor.py:153} INFO - Started process (PID=6658) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:02:33,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:02:33,856] {logging_mixin.py:115} INFO - [2023-11-06 00:02:33,856] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:02:34,283] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:02:34,309] {logging_mixin.py:115} INFO - [2023-11-06 00:02:34,308] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:02:34,334] {logging_mixin.py:115} INFO - [2023-11-06 00:02:34,334] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:02:34,348] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.502 seconds
+[2023-11-06 00:03:05,164] {processor.py:153} INFO - Started process (PID=6722) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:03:05,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:03:05,165] {logging_mixin.py:115} INFO - [2023-11-06 00:03:05,165] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:03:05,480] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:03:05,506] {logging_mixin.py:115} INFO - [2023-11-06 00:03:05,506] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:03:05,532] {logging_mixin.py:115} INFO - [2023-11-06 00:03:05,532] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:03:05,547] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.387 seconds
+[2023-11-06 00:03:35,694] {processor.py:153} INFO - Started process (PID=6786) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:03:35,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:03:35,696] {logging_mixin.py:115} INFO - [2023-11-06 00:03:35,696] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:03:36,067] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:03:36,100] {logging_mixin.py:115} INFO - [2023-11-06 00:03:36,098] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:03:36,144] {logging_mixin.py:115} INFO - [2023-11-06 00:03:36,144] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:03:36,159] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.470 seconds
+[2023-11-06 00:04:06,341] {processor.py:153} INFO - Started process (PID=6841) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:06,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:04:06,343] {logging_mixin.py:115} INFO - [2023-11-06 00:04:06,343] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:06,715] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:06,749] {logging_mixin.py:115} INFO - [2023-11-06 00:04:06,748] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:04:06,780] {logging_mixin.py:115} INFO - [2023-11-06 00:04:06,780] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:04:06,824] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.488 seconds
+[2023-11-06 00:04:19,163] {processor.py:153} INFO - Started process (PID=6872) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:19,164] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:04:19,165] {logging_mixin.py:115} INFO - [2023-11-06 00:04:19,165] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:19,616] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:19,687] {logging_mixin.py:115} INFO - [2023-11-06 00:04:19,685] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:04:19,761] {logging_mixin.py:115} INFO - [2023-11-06 00:04:19,761] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:04:19,821] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.664 seconds
+[2023-11-06 00:04:50,451] {processor.py:153} INFO - Started process (PID=6936) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:50,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:04:50,453] {logging_mixin.py:115} INFO - [2023-11-06 00:04:50,452] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:50,882] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:50,921] {logging_mixin.py:115} INFO - [2023-11-06 00:04:50,920] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:04:50,954] {logging_mixin.py:115} INFO - [2023-11-06 00:04:50,953] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:04:50,998] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.552 seconds
+[2023-11-06 00:04:55,525] {processor.py:153} INFO - Started process (PID=6952) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:55,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:04:55,527] {logging_mixin.py:115} INFO - [2023-11-06 00:04:55,527] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:55,845] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:04:55,870] {logging_mixin.py:115} INFO - [2023-11-06 00:04:55,869] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:04:55,892] {logging_mixin.py:115} INFO - [2023-11-06 00:04:55,891] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:04:55,904] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.383 seconds
+[2023-11-06 00:05:26,740] {processor.py:153} INFO - Started process (PID=7016) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:05:26,741] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:05:26,742] {logging_mixin.py:115} INFO - [2023-11-06 00:05:26,742] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:05:27,047] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:05:27,070] {logging_mixin.py:115} INFO - [2023-11-06 00:05:27,069] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:05:27,091] {logging_mixin.py:115} INFO - [2023-11-06 00:05:27,091] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:05:27,102] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.366 seconds
+[2023-11-06 00:05:53,761] {processor.py:153} INFO - Started process (PID=7069) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:05:53,762] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:05:53,763] {logging_mixin.py:115} INFO - [2023-11-06 00:05:53,763] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:05:54,122] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:05:54,152] {logging_mixin.py:115} INFO - [2023-11-06 00:05:54,151] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:05:54,181] {logging_mixin.py:115} INFO - [2023-11-06 00:05:54,181] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:05:54,198] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.443 seconds
+[2023-11-06 00:06:01,444] {processor.py:153} INFO - Started process (PID=7083) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:01,456] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:06:01,458] {logging_mixin.py:115} INFO - [2023-11-06 00:06:01,457] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:01,844] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:01,867] {logging_mixin.py:115} INFO - [2023-11-06 00:06:01,867] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:06:01,889] {logging_mixin.py:115} INFO - [2023-11-06 00:06:01,889] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:06:01,901] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.462 seconds
+[2023-11-06 00:06:04,610] {processor.py:153} INFO - Started process (PID=7092) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:04,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:06:04,612] {logging_mixin.py:115} INFO - [2023-11-06 00:06:04,612] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:05,015] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:05,047] {logging_mixin.py:115} INFO - [2023-11-06 00:06:05,046] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:06:05,077] {logging_mixin.py:115} INFO - [2023-11-06 00:06:05,077] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:06:05,095] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.488 seconds
+[2023-11-06 00:06:06,941] {processor.py:153} INFO - Started process (PID=7096) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:06,942] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:06:06,943] {logging_mixin.py:115} INFO - [2023-11-06 00:06:06,943] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:07,259] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:07,283] {logging_mixin.py:115} INFO - [2023-11-06 00:06:07,282] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:06:07,305] {logging_mixin.py:115} INFO - [2023-11-06 00:06:07,304] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:06:07,316] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.379 seconds
+[2023-11-06 00:06:38,072] {processor.py:153} INFO - Started process (PID=7151) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:38,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:06:38,076] {logging_mixin.py:115} INFO - [2023-11-06 00:06:38,076] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:38,504] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:38,536] {logging_mixin.py:115} INFO - [2023-11-06 00:06:38,535] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:06:38,567] {logging_mixin.py:115} INFO - [2023-11-06 00:06:38,567] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:06:38,581] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.514 seconds
+[2023-11-06 00:06:44,631] {processor.py:153} INFO - Started process (PID=7163) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:44,632] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:06:44,634] {logging_mixin.py:115} INFO - [2023-11-06 00:06:44,633] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:45,289] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:06:45,325] {logging_mixin.py:115} INFO - [2023-11-06 00:06:45,324] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:06:45,359] {logging_mixin.py:115} INFO - [2023-11-06 00:06:45,359] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:06:45,378] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.752 seconds
+[2023-11-06 00:07:16,045] {processor.py:153} INFO - Started process (PID=7228) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:07:16,046] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:07:16,046] {logging_mixin.py:115} INFO - [2023-11-06 00:07:16,046] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:07:16,327] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:07:16,350] {logging_mixin.py:115} INFO - [2023-11-06 00:07:16,349] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:07:16,371] {logging_mixin.py:115} INFO - [2023-11-06 00:07:16,371] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:07:16,381] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.340 seconds
+[2023-11-06 00:07:47,278] {processor.py:153} INFO - Started process (PID=7284) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:07:47,278] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:07:47,279] {logging_mixin.py:115} INFO - [2023-11-06 00:07:47,279] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:07:47,607] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:07:47,634] {logging_mixin.py:115} INFO - [2023-11-06 00:07:47,633] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:07:47,670] {logging_mixin.py:115} INFO - [2023-11-06 00:07:47,669] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:07:47,687] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.413 seconds
+[2023-11-06 00:08:17,989] {processor.py:153} INFO - Started process (PID=7348) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:08:17,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:08:17,991] {logging_mixin.py:115} INFO - [2023-11-06 00:08:17,991] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:08:18,343] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:08:18,371] {logging_mixin.py:115} INFO - [2023-11-06 00:08:18,370] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:08:18,398] {logging_mixin.py:115} INFO - [2023-11-06 00:08:18,398] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:08:18,412] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.428 seconds
+[2023-11-06 00:08:48,462] {processor.py:153} INFO - Started process (PID=7414) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:08:48,463] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:08:48,464] {logging_mixin.py:115} INFO - [2023-11-06 00:08:48,464] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:08:48,809] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:08:48,840] {logging_mixin.py:115} INFO - [2023-11-06 00:08:48,839] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:08:48,870] {logging_mixin.py:115} INFO - [2023-11-06 00:08:48,870] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:08:48,890] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.432 seconds
+[2023-11-06 00:09:19,660] {processor.py:153} INFO - Started process (PID=7470) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:09:19,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:09:19,662] {logging_mixin.py:115} INFO - [2023-11-06 00:09:19,662] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:09:20,014] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:09:20,042] {logging_mixin.py:115} INFO - [2023-11-06 00:09:20,041] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:09:20,068] {logging_mixin.py:115} INFO - [2023-11-06 00:09:20,067] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:09:20,079] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.423 seconds
+[2023-11-06 00:09:50,137] {processor.py:153} INFO - Started process (PID=7536) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:09:50,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:09:50,138] {logging_mixin.py:115} INFO - [2023-11-06 00:09:50,138] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:09:50,448] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:09:50,473] {logging_mixin.py:115} INFO - [2023-11-06 00:09:50,472] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:09:50,495] {logging_mixin.py:115} INFO - [2023-11-06 00:09:50,495] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:09:50,506] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.372 seconds
+[2023-11-06 00:10:02,664] {processor.py:153} INFO - Started process (PID=7574) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:02,665] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:10:02,666] {logging_mixin.py:115} INFO - [2023-11-06 00:10:02,666] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:03,033] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:03,063] {logging_mixin.py:115} INFO - [2023-11-06 00:10:03,062] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:10:03,089] {logging_mixin.py:115} INFO - [2023-11-06 00:10:03,089] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:10:03,106] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.446 seconds
+[2023-11-06 00:10:33,317] {processor.py:153} INFO - Started process (PID=7638) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:33,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:10:33,320] {logging_mixin.py:115} INFO - [2023-11-06 00:10:33,320] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:33,770] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:33,802] {logging_mixin.py:115} INFO - [2023-11-06 00:10:33,801] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:10:33,829] {logging_mixin.py:115} INFO - [2023-11-06 00:10:33,829] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:10:33,843] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.531 seconds
+[2023-11-06 00:10:38,462] {processor.py:153} INFO - Started process (PID=7640) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:38,463] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:10:38,464] {logging_mixin.py:115} INFO - [2023-11-06 00:10:38,464] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:38,924] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:10:38,960] {logging_mixin.py:115} INFO - [2023-11-06 00:10:38,958] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:10:38,992] {logging_mixin.py:115} INFO - [2023-11-06 00:10:38,992] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:10:39,012] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.556 seconds
+[2023-11-06 00:11:09,325] {processor.py:153} INFO - Started process (PID=7704) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:11:09,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:11:09,328] {logging_mixin.py:115} INFO - [2023-11-06 00:11:09,328] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:11:09,727] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:11:09,756] {logging_mixin.py:115} INFO - [2023-11-06 00:11:09,755] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:11:09,781] {logging_mixin.py:115} INFO - [2023-11-06 00:11:09,781] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:11:09,827] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.507 seconds
+[2023-11-06 00:11:40,638] {processor.py:153} INFO - Started process (PID=7759) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:11:40,639] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:11:40,640] {logging_mixin.py:115} INFO - [2023-11-06 00:11:40,640] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:11:41,004] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:11:41,037] {logging_mixin.py:115} INFO - [2023-11-06 00:11:41,036] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:11:41,066] {logging_mixin.py:115} INFO - [2023-11-06 00:11:41,065] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:11:41,079] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.445 seconds
+[2023-11-06 00:12:11,917] {processor.py:153} INFO - Started process (PID=7823) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:12:11,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:12:11,919] {logging_mixin.py:115} INFO - [2023-11-06 00:12:11,919] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:12:12,249] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:12:12,276] {logging_mixin.py:115} INFO - [2023-11-06 00:12:12,275] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:12:12,301] {logging_mixin.py:115} INFO - [2023-11-06 00:12:12,301] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:12:12,313] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.399 seconds
+[2023-11-06 00:12:42,958] {processor.py:153} INFO - Started process (PID=7887) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:12:42,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:12:42,960] {logging_mixin.py:115} INFO - [2023-11-06 00:12:42,960] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:12:43,303] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:12:43,332] {logging_mixin.py:115} INFO - [2023-11-06 00:12:43,331] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:12:43,357] {logging_mixin.py:115} INFO - [2023-11-06 00:12:43,357] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:12:43,369] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.415 seconds
+[2023-11-06 00:13:13,459] {processor.py:153} INFO - Started process (PID=7943) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:13:13,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:13:13,461] {logging_mixin.py:115} INFO - [2023-11-06 00:13:13,461] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:13:13,782] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:13:13,808] {logging_mixin.py:115} INFO - [2023-11-06 00:13:13,807] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:13:13,832] {logging_mixin.py:115} INFO - [2023-11-06 00:13:13,832] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:13:13,844] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.388 seconds
+[2023-11-06 00:13:44,674] {processor.py:153} INFO - Started process (PID=8007) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:13:44,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:13:44,676] {logging_mixin.py:115} INFO - [2023-11-06 00:13:44,676] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:13:45,070] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:13:45,106] {logging_mixin.py:115} INFO - [2023-11-06 00:13:45,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:13:45,157] {logging_mixin.py:115} INFO - [2023-11-06 00:13:45,157] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:13:45,181] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.512 seconds
+[2023-11-06 00:14:15,527] {processor.py:153} INFO - Started process (PID=8071) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:14:15,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:14:15,529] {logging_mixin.py:115} INFO - [2023-11-06 00:14:15,529] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:14:15,874] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:14:15,904] {logging_mixin.py:115} INFO - [2023-11-06 00:14:15,903] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:14:15,930] {logging_mixin.py:115} INFO - [2023-11-06 00:14:15,930] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:14:15,943] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.420 seconds
+[2023-11-06 00:14:46,796] {processor.py:153} INFO - Started process (PID=8126) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:14:46,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:14:46,797] {logging_mixin.py:115} INFO - [2023-11-06 00:14:46,797] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:14:47,079] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:14:47,103] {logging_mixin.py:115} INFO - [2023-11-06 00:14:47,102] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:14:47,125] {logging_mixin.py:115} INFO - [2023-11-06 00:14:47,125] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:14:47,139] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.346 seconds
+[2023-11-06 00:15:17,679] {processor.py:153} INFO - Started process (PID=8190) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:15:17,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:15:17,681] {logging_mixin.py:115} INFO - [2023-11-06 00:15:17,680] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:15:17,947] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:15:17,970] {logging_mixin.py:115} INFO - [2023-11-06 00:15:17,970] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:15:17,991] {logging_mixin.py:115} INFO - [2023-11-06 00:15:17,991] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:15:18,001] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.326 seconds
+[2023-11-06 00:15:48,066] {processor.py:153} INFO - Started process (PID=8254) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:15:48,067] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:15:48,068] {logging_mixin.py:115} INFO - [2023-11-06 00:15:48,068] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:15:48,414] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:15:48,441] {logging_mixin.py:115} INFO - [2023-11-06 00:15:48,440] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:15:48,468] {logging_mixin.py:115} INFO - [2023-11-06 00:15:48,467] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:15:48,479] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.418 seconds
+[2023-11-06 00:16:18,540] {processor.py:153} INFO - Started process (PID=8309) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:18,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:16:18,542] {logging_mixin.py:115} INFO - [2023-11-06 00:16:18,542] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:19,065] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:19,112] {logging_mixin.py:115} INFO - [2023-11-06 00:16:19,110] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:16:19,146] {logging_mixin.py:115} INFO - [2023-11-06 00:16:19,146] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:16:19,161] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.626 seconds
+[2023-11-06 00:16:21,014] {processor.py:153} INFO - Started process (PID=8321) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:21,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:16:21,016] {logging_mixin.py:115} INFO - [2023-11-06 00:16:21,016] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:21,558] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:21,596] {logging_mixin.py:115} INFO - [2023-11-06 00:16:21,595] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:16:21,629] {logging_mixin.py:115} INFO - [2023-11-06 00:16:21,628] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:16:21,647] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.638 seconds
+[2023-11-06 00:16:51,809] {processor.py:153} INFO - Started process (PID=8376) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:51,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:16:51,810] {logging_mixin.py:115} INFO - [2023-11-06 00:16:51,810] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:52,119] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:16:52,145] {logging_mixin.py:115} INFO - [2023-11-06 00:16:52,145] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:16:52,170] {logging_mixin.py:115} INFO - [2023-11-06 00:16:52,170] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:16:52,183] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.378 seconds
+[2023-11-06 00:17:22,732] {processor.py:153} INFO - Started process (PID=8440) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:17:22,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:17:22,734] {logging_mixin.py:115} INFO - [2023-11-06 00:17:22,734] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:17:23,007] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:17:23,030] {logging_mixin.py:115} INFO - [2023-11-06 00:17:23,029] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:17:23,051] {logging_mixin.py:115} INFO - [2023-11-06 00:17:23,051] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:17:23,061] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.332 seconds
+[2023-11-06 00:17:53,387] {processor.py:153} INFO - Started process (PID=8504) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:17:53,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:17:53,388] {logging_mixin.py:115} INFO - [2023-11-06 00:17:53,388] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:17:53,678] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:17:53,702] {logging_mixin.py:115} INFO - [2023-11-06 00:17:53,702] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:17:53,724] {logging_mixin.py:115} INFO - [2023-11-06 00:17:53,724] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:17:53,735] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.351 seconds
+[2023-11-06 00:18:23,958] {processor.py:153} INFO - Started process (PID=8559) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:18:23,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:18:23,960] {logging_mixin.py:115} INFO - [2023-11-06 00:18:23,960] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:18:24,232] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:18:24,256] {logging_mixin.py:115} INFO - [2023-11-06 00:18:24,255] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:18:24,276] {logging_mixin.py:115} INFO - [2023-11-06 00:18:24,276] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:18:24,286] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.331 seconds
+[2023-11-06 00:18:54,637] {processor.py:153} INFO - Started process (PID=8623) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:18:54,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:18:54,638] {logging_mixin.py:115} INFO - [2023-11-06 00:18:54,638] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:18:54,911] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:18:54,934] {logging_mixin.py:115} INFO - [2023-11-06 00:18:54,933] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:18:54,954] {logging_mixin.py:115} INFO - [2023-11-06 00:18:54,954] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:18:54,964] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.331 seconds
+[2023-11-06 00:19:25,349] {processor.py:153} INFO - Started process (PID=8687) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:19:25,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:19:25,350] {logging_mixin.py:115} INFO - [2023-11-06 00:19:25,350] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:19:25,634] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:19:25,658] {logging_mixin.py:115} INFO - [2023-11-06 00:19:25,657] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:19:25,681] {logging_mixin.py:115} INFO - [2023-11-06 00:19:25,681] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:19:25,692] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.346 seconds
+[2023-11-06 00:19:55,843] {processor.py:153} INFO - Started process (PID=8749) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:19:55,844] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:19:55,845] {logging_mixin.py:115} INFO - [2023-11-06 00:19:55,845] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:19:56,141] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:19:56,168] {logging_mixin.py:115} INFO - [2023-11-06 00:19:56,167] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:19:56,189] {logging_mixin.py:115} INFO - [2023-11-06 00:19:56,189] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:19:56,200] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.360 seconds
+[2023-11-06 00:20:26,440] {processor.py:153} INFO - Started process (PID=8806) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:20:26,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:20:26,442] {logging_mixin.py:115} INFO - [2023-11-06 00:20:26,442] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:20:26,718] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:20:26,741] {logging_mixin.py:115} INFO - [2023-11-06 00:20:26,740] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:20:26,761] {logging_mixin.py:115} INFO - [2023-11-06 00:20:26,761] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:20:26,771] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.334 seconds
+[2023-11-06 00:20:56,989] {processor.py:153} INFO - Started process (PID=8870) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:20:56,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:20:56,991] {logging_mixin.py:115} INFO - [2023-11-06 00:20:56,991] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:20:57,270] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:20:57,293] {logging_mixin.py:115} INFO - [2023-11-06 00:20:57,292] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:20:57,314] {logging_mixin.py:115} INFO - [2023-11-06 00:20:57,314] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:20:57,324] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.338 seconds
+[2023-11-06 00:21:27,580] {processor.py:153} INFO - Started process (PID=8934) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:21:27,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:21:27,581] {logging_mixin.py:115} INFO - [2023-11-06 00:21:27,581] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:21:27,856] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:21:27,880] {logging_mixin.py:115} INFO - [2023-11-06 00:21:27,879] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:21:27,902] {logging_mixin.py:115} INFO - [2023-11-06 00:21:27,902] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:21:27,912] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.335 seconds
+[2023-11-06 00:21:58,154] {processor.py:153} INFO - Started process (PID=8989) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:21:58,154] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:21:58,155] {logging_mixin.py:115} INFO - [2023-11-06 00:21:58,155] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:21:58,427] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:21:58,450] {logging_mixin.py:115} INFO - [2023-11-06 00:21:58,449] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:21:58,470] {logging_mixin.py:115} INFO - [2023-11-06 00:21:58,470] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:21:58,479] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.329 seconds
+[2023-11-06 00:22:28,653] {processor.py:153} INFO - Started process (PID=9053) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:22:28,654] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:22:28,655] {logging_mixin.py:115} INFO - [2023-11-06 00:22:28,655] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:22:28,939] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:22:28,964] {logging_mixin.py:115} INFO - [2023-11-06 00:22:28,963] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:22:28,986] {logging_mixin.py:115} INFO - [2023-11-06 00:22:28,986] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:22:28,997] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.347 seconds
+[2023-11-06 00:22:59,366] {processor.py:153} INFO - Started process (PID=9117) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:22:59,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:22:59,368] {logging_mixin.py:115} INFO - [2023-11-06 00:22:59,368] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:22:59,670] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:22:59,698] {logging_mixin.py:115} INFO - [2023-11-06 00:22:59,697] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:22:59,720] {logging_mixin.py:115} INFO - [2023-11-06 00:22:59,720] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:22:59,731] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.369 seconds
+[2023-11-06 00:23:29,916] {processor.py:153} INFO - Started process (PID=9181) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:23:29,917] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:23:29,918] {logging_mixin.py:115} INFO - [2023-11-06 00:23:29,918] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:23:30,198] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:23:30,222] {logging_mixin.py:115} INFO - [2023-11-06 00:23:30,221] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:23:30,244] {logging_mixin.py:115} INFO - [2023-11-06 00:23:30,244] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:23:30,254] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.341 seconds
+[2023-11-06 00:24:00,616] {processor.py:153} INFO - Started process (PID=9236) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:24:00,617] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:24:00,618] {logging_mixin.py:115} INFO - [2023-11-06 00:24:00,618] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:24:00,907] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:24:00,931] {logging_mixin.py:115} INFO - [2023-11-06 00:24:00,930] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:24:00,953] {logging_mixin.py:115} INFO - [2023-11-06 00:24:00,953] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:24:00,966] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.353 seconds
+[2023-11-06 00:24:31,189] {processor.py:153} INFO - Started process (PID=9300) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:24:31,190] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:24:31,191] {logging_mixin.py:115} INFO - [2023-11-06 00:24:31,191] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:24:31,479] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:24:31,507] {logging_mixin.py:115} INFO - [2023-11-06 00:24:31,506] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:24:31,529] {logging_mixin.py:115} INFO - [2023-11-06 00:24:31,529] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:24:31,539] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.353 seconds
+[2023-11-06 00:25:01,957] {processor.py:153} INFO - Started process (PID=9364) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:25:01,958] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:25:01,959] {logging_mixin.py:115} INFO - [2023-11-06 00:25:01,959] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:25:02,250] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:25:02,278] {logging_mixin.py:115} INFO - [2023-11-06 00:25:02,277] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:25:02,300] {logging_mixin.py:115} INFO - [2023-11-06 00:25:02,300] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:25:02,310] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.356 seconds
+[2023-11-06 00:41:15,117] {processor.py:153} INFO - Started process (PID=9416) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:41:15,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:41:15,119] {logging_mixin.py:115} INFO - [2023-11-06 00:41:15,119] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:41:15,704] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:41:15,750] {logging_mixin.py:115} INFO - [2023-11-06 00:41:15,749] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:41:15,807] {logging_mixin.py:115} INFO - [2023-11-06 00:41:15,806] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:41:15,826] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.714 seconds
+[2023-11-06 00:41:46,333] {processor.py:153} INFO - Started process (PID=9471) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:41:46,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:41:46,346] {logging_mixin.py:115} INFO - [2023-11-06 00:41:46,346] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:41:48,475] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:41:48,621] {logging_mixin.py:115} INFO - [2023-11-06 00:41:48,616] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:41:48,812] {logging_mixin.py:115} INFO - [2023-11-06 00:41:48,812] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:41:48,882] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.579 seconds
+[2023-11-06 00:59:57,573] {processor.py:153} INFO - Started process (PID=9519) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:59:57,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 00:59:57,577] {logging_mixin.py:115} INFO - [2023-11-06 00:59:57,577] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:59:58,287] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 00:59:58,348] {logging_mixin.py:115} INFO - [2023-11-06 00:59:58,346] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 00:59:58,473] {logging_mixin.py:115} INFO - [2023-11-06 00:59:58,471] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 00:59:58,536] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 1.002 seconds
+[2023-11-06 01:00:28,654] {processor.py:153} INFO - Started process (PID=9572) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:00:28,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:00:28,664] {logging_mixin.py:115} INFO - [2023-11-06 01:00:28,663] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:00:31,723] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:00:31,921] {logging_mixin.py:115} INFO - [2023-11-06 01:00:31,913] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:00:32,160] {logging_mixin.py:115} INFO - [2023-11-06 01:00:32,160] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:00:32,255] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.636 seconds
+[2023-11-06 01:01:02,420] {processor.py:153} INFO - Started process (PID=9622) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:01:02,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:01:02,431] {logging_mixin.py:115} INFO - [2023-11-06 01:01:02,430] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:01:04,660] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:01:04,805] {logging_mixin.py:115} INFO - [2023-11-06 01:01:04,800] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:01:04,954] {logging_mixin.py:115} INFO - [2023-11-06 01:01:04,954] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:01:05,013] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.613 seconds
+[2023-11-06 01:01:35,639] {processor.py:153} INFO - Started process (PID=9679) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:01:35,643] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:01:35,649] {logging_mixin.py:115} INFO - [2023-11-06 01:01:35,648] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:01:37,492] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:01:37,683] {logging_mixin.py:115} INFO - [2023-11-06 01:01:37,679] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:01:37,806] {logging_mixin.py:115} INFO - [2023-11-06 01:01:37,805] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:01:37,860] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.245 seconds
+[2023-11-06 01:02:08,021] {processor.py:153} INFO - Started process (PID=9736) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:02:08,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:02:08,032] {logging_mixin.py:115} INFO - [2023-11-06 01:02:08,031] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:02:10,279] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:02:10,454] {logging_mixin.py:115} INFO - [2023-11-06 01:02:10,450] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:02:10,600] {logging_mixin.py:115} INFO - [2023-11-06 01:02:10,600] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:02:10,668] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.665 seconds
+[2023-11-06 01:02:41,094] {processor.py:153} INFO - Started process (PID=9785) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:02:41,099] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:02:41,103] {logging_mixin.py:115} INFO - [2023-11-06 01:02:41,102] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:02:43,958] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:02:44,153] {logging_mixin.py:115} INFO - [2023-11-06 01:02:44,149] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:02:44,585] {logging_mixin.py:115} INFO - [2023-11-06 01:02:44,584] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:02:44,805] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.739 seconds
+[2023-11-06 01:03:14,985] {processor.py:153} INFO - Started process (PID=9842) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:03:14,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:03:15,004] {logging_mixin.py:115} INFO - [2023-11-06 01:03:15,004] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:03:17,378] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:03:17,606] {logging_mixin.py:115} INFO - [2023-11-06 01:03:17,602] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:03:17,789] {logging_mixin.py:115} INFO - [2023-11-06 01:03:17,788] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:03:17,876] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.916 seconds
+[2023-11-06 01:03:48,121] {processor.py:153} INFO - Started process (PID=9899) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:03:48,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:03:48,152] {logging_mixin.py:115} INFO - [2023-11-06 01:03:48,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:03:50,754] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:03:50,982] {logging_mixin.py:115} INFO - [2023-11-06 01:03:50,976] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:03:51,215] {logging_mixin.py:115} INFO - [2023-11-06 01:03:51,214] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:03:51,279] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.193 seconds
+[2023-11-06 01:04:21,385] {processor.py:153} INFO - Started process (PID=9947) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:04:21,388] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:04:21,393] {logging_mixin.py:115} INFO - [2023-11-06 01:04:21,392] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:04:23,082] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:04:23,260] {logging_mixin.py:115} INFO - [2023-11-06 01:04:23,255] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:04:23,459] {logging_mixin.py:115} INFO - [2023-11-06 01:04:23,458] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:04:23,531] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.162 seconds
+[2023-11-06 01:34:34,672] {processor.py:153} INFO - Started process (PID=9987) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:34:34,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:34:34,677] {logging_mixin.py:115} INFO - [2023-11-06 01:34:34,677] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:34:35,429] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:34:35,468] {logging_mixin.py:115} INFO - [2023-11-06 01:34:35,466] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:34:35,524] {logging_mixin.py:115} INFO - [2023-11-06 01:34:35,524] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:34:35,546] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.895 seconds
+[2023-11-06 01:35:06,594] {processor.py:153} INFO - Started process (PID=10036) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:35:06,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:35:06,602] {logging_mixin.py:115} INFO - [2023-11-06 01:35:06,601] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:35:09,352] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:35:09,545] {logging_mixin.py:115} INFO - [2023-11-06 01:35:09,539] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:35:09,748] {logging_mixin.py:115} INFO - [2023-11-06 01:35:09,748] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:35:09,838] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.265 seconds
+[2023-11-06 01:35:40,411] {processor.py:153} INFO - Started process (PID=10093) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:35:40,416] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:35:40,422] {logging_mixin.py:115} INFO - [2023-11-06 01:35:40,421] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:35:42,788] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:35:42,949] {logging_mixin.py:115} INFO - [2023-11-06 01:35:42,943] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:35:43,121] {logging_mixin.py:115} INFO - [2023-11-06 01:35:43,120] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:35:43,194] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.807 seconds
+[2023-11-06 01:36:13,729] {processor.py:153} INFO - Started process (PID=10150) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:36:13,733] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:36:13,739] {logging_mixin.py:115} INFO - [2023-11-06 01:36:13,739] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:36:17,147] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:36:17,385] {logging_mixin.py:115} INFO - [2023-11-06 01:36:17,380] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:36:17,590] {logging_mixin.py:115} INFO - [2023-11-06 01:36:17,589] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:36:17,683] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.987 seconds
+[2023-11-06 01:36:48,591] {processor.py:153} INFO - Started process (PID=10199) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:36:48,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:36:48,604] {logging_mixin.py:115} INFO - [2023-11-06 01:36:48,603] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:36:51,477] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:36:51,643] {logging_mixin.py:115} INFO - [2023-11-06 01:36:51,638] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:36:51,806] {logging_mixin.py:115} INFO - [2023-11-06 01:36:51,806] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:36:51,867] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.323 seconds
+[2023-11-06 01:37:22,227] {processor.py:153} INFO - Started process (PID=10257) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:37:22,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:37:22,235] {logging_mixin.py:115} INFO - [2023-11-06 01:37:22,234] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:37:24,445] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:37:24,667] {logging_mixin.py:115} INFO - [2023-11-06 01:37:24,660] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:37:24,827] {logging_mixin.py:115} INFO - [2023-11-06 01:37:24,827] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:37:24,906] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.699 seconds
+[2023-11-06 01:37:55,019] {processor.py:153} INFO - Started process (PID=10315) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:37:55,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:37:55,027] {logging_mixin.py:115} INFO - [2023-11-06 01:37:55,027] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:37:56,795] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:37:56,927] {logging_mixin.py:115} INFO - [2023-11-06 01:37:56,923] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:37:57,055] {logging_mixin.py:115} INFO - [2023-11-06 01:37:57,055] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:37:57,120] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.124 seconds
+[2023-11-06 01:54:54,247] {processor.py:153} INFO - Started process (PID=10349) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:54:54,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:54:54,249] {logging_mixin.py:115} INFO - [2023-11-06 01:54:54,249] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:54:54,971] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:54:54,998] {logging_mixin.py:115} INFO - [2023-11-06 01:54:54,998] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:54:55,018] {logging_mixin.py:115} INFO - [2023-11-06 01:54:55,018] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:54:55,030] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.788 seconds
+[2023-11-06 01:55:25,477] {processor.py:153} INFO - Started process (PID=10405) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:55:25,482] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:55:25,521] {logging_mixin.py:115} INFO - [2023-11-06 01:55:25,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:55:29,821] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:55:29,983] {logging_mixin.py:115} INFO - [2023-11-06 01:55:29,979] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:55:30,147] {logging_mixin.py:115} INFO - [2023-11-06 01:55:30,146] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:55:30,244] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 4.914 seconds
+[2023-11-06 01:56:00,485] {processor.py:153} INFO - Started process (PID=10462) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:56:00,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:56:00,493] {logging_mixin.py:115} INFO - [2023-11-06 01:56:00,492] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:56:02,884] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:56:02,986] {logging_mixin.py:115} INFO - [2023-11-06 01:56:02,983] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:56:03,091] {logging_mixin.py:115} INFO - [2023-11-06 01:56:03,090] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:56:03,147] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.680 seconds
+[2023-11-06 01:56:33,563] {processor.py:153} INFO - Started process (PID=10516) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:56:33,566] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:56:33,570] {logging_mixin.py:115} INFO - [2023-11-06 01:56:33,570] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:56:35,621] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:56:35,715] {logging_mixin.py:115} INFO - [2023-11-06 01:56:35,713] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:56:35,807] {logging_mixin.py:115} INFO - [2023-11-06 01:56:35,807] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:56:35,855] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.309 seconds
+[2023-11-06 01:57:06,160] {processor.py:153} INFO - Started process (PID=10567) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:57:06,164] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:57:06,169] {logging_mixin.py:115} INFO - [2023-11-06 01:57:06,168] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:57:08,357] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:57:08,475] {logging_mixin.py:115} INFO - [2023-11-06 01:57:08,473] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:57:08,578] {logging_mixin.py:115} INFO - [2023-11-06 01:57:08,577] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:57:08,628] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.487 seconds
+[2023-11-06 01:57:38,993] {processor.py:153} INFO - Started process (PID=10626) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:57:38,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:57:39,004] {logging_mixin.py:115} INFO - [2023-11-06 01:57:39,003] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:57:41,317] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:57:41,466] {logging_mixin.py:115} INFO - [2023-11-06 01:57:41,462] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:57:41,619] {logging_mixin.py:115} INFO - [2023-11-06 01:57:41,619] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:57:41,689] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.718 seconds
+[2023-11-06 01:58:11,999] {processor.py:153} INFO - Started process (PID=10684) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:58:12,005] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:58:12,014] {logging_mixin.py:115} INFO - [2023-11-06 01:58:12,014] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:58:14,865] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:58:14,976] {logging_mixin.py:115} INFO - [2023-11-06 01:58:14,973] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:58:15,119] {logging_mixin.py:115} INFO - [2023-11-06 01:58:15,119] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:58:15,181] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.205 seconds
+[2023-11-06 01:58:48,024] {processor.py:153} INFO - Started process (PID=10741) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:58:48,030] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:58:48,070] {logging_mixin.py:115} INFO - [2023-11-06 01:58:48,069] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:58:53,403] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:58:53,544] {logging_mixin.py:115} INFO - [2023-11-06 01:58:53,540] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:58:53,692] {logging_mixin.py:115} INFO - [2023-11-06 01:58:53,692] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:58:53,781] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 5.809 seconds
+[2023-11-06 01:59:24,107] {processor.py:153} INFO - Started process (PID=10792) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:59:24,112] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:59:24,118] {logging_mixin.py:115} INFO - [2023-11-06 01:59:24,118] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:59:27,335] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:59:27,486] {logging_mixin.py:115} INFO - [2023-11-06 01:59:27,483] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 01:59:27,655] {logging_mixin.py:115} INFO - [2023-11-06 01:59:27,654] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 01:59:27,784] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.699 seconds
+[2023-11-06 01:59:59,315] {processor.py:153} INFO - Started process (PID=10850) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 01:59:59,319] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 01:59:59,336] {logging_mixin.py:115} INFO - [2023-11-06 01:59:59,335] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:00:03,137] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:00:03,258] {logging_mixin.py:115} INFO - [2023-11-06 02:00:03,256] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:00:03,359] {logging_mixin.py:115} INFO - [2023-11-06 02:00:03,359] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:00:03,425] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 4.167 seconds
+[2023-11-06 02:00:33,672] {processor.py:153} INFO - Started process (PID=10909) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:00:33,676] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:00:33,679] {logging_mixin.py:115} INFO - [2023-11-06 02:00:33,679] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:00:35,895] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:00:35,985] {logging_mixin.py:115} INFO - [2023-11-06 02:00:35,982] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:00:36,069] {logging_mixin.py:115} INFO - [2023-11-06 02:00:36,069] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:00:36,115] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.463 seconds
+[2023-11-06 02:01:06,845] {processor.py:153} INFO - Started process (PID=10957) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:01:06,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:01:06,875] {logging_mixin.py:115} INFO - [2023-11-06 02:01:06,874] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:01:09,743] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:01:09,861] {logging_mixin.py:115} INFO - [2023-11-06 02:01:09,858] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:01:09,973] {logging_mixin.py:115} INFO - [2023-11-06 02:01:09,973] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:01:10,028] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.221 seconds
+[2023-11-06 02:01:40,443] {processor.py:153} INFO - Started process (PID=11018) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:01:40,446] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:01:40,450] {logging_mixin.py:115} INFO - [2023-11-06 02:01:40,449] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:01:42,504] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:01:42,629] {logging_mixin.py:115} INFO - [2023-11-06 02:01:42,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:01:42,738] {logging_mixin.py:115} INFO - [2023-11-06 02:01:42,737] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:01:42,787] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.361 seconds
+[2023-11-06 02:02:12,912] {processor.py:153} INFO - Started process (PID=11074) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:02:12,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:02:12,925] {logging_mixin.py:115} INFO - [2023-11-06 02:02:12,925] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:02:15,283] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:02:15,396] {logging_mixin.py:115} INFO - [2023-11-06 02:02:15,394] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:02:15,501] {logging_mixin.py:115} INFO - [2023-11-06 02:02:15,501] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:02:15,550] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.660 seconds
+[2023-11-06 02:02:46,176] {processor.py:153} INFO - Started process (PID=11131) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:02:46,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:02:46,186] {logging_mixin.py:115} INFO - [2023-11-06 02:02:46,185] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:02:48,826] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:02:48,947] {logging_mixin.py:115} INFO - [2023-11-06 02:02:48,944] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:02:49,060] {logging_mixin.py:115} INFO - [2023-11-06 02:02:49,059] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:02:49,114] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.965 seconds
+[2023-11-06 02:03:19,422] {processor.py:153} INFO - Started process (PID=11185) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:03:19,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:03:19,430] {logging_mixin.py:115} INFO - [2023-11-06 02:03:19,429] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:03:21,706] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:03:21,808] {logging_mixin.py:115} INFO - [2023-11-06 02:03:21,805] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:03:21,904] {logging_mixin.py:115} INFO - [2023-11-06 02:03:21,904] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:03:21,961] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.558 seconds
+[2023-11-06 02:03:52,742] {processor.py:153} INFO - Started process (PID=11236) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:03:52,748] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:03:52,755] {logging_mixin.py:115} INFO - [2023-11-06 02:03:52,753] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:03:55,428] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:03:55,521] {logging_mixin.py:115} INFO - [2023-11-06 02:03:55,519] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:03:55,619] {logging_mixin.py:115} INFO - [2023-11-06 02:03:55,618] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:03:55,672] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.951 seconds
+[2023-11-06 02:04:26,406] {processor.py:153} INFO - Started process (PID=11294) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:04:26,411] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:04:26,417] {logging_mixin.py:115} INFO - [2023-11-06 02:04:26,416] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:04:28,278] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:04:28,356] {logging_mixin.py:115} INFO - [2023-11-06 02:04:28,354] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:04:28,429] {logging_mixin.py:115} INFO - [2023-11-06 02:04:28,429] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:04:28,470] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.080 seconds
+[2023-11-06 02:04:58,978] {processor.py:153} INFO - Started process (PID=11353) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:04:58,981] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:04:58,984] {logging_mixin.py:115} INFO - [2023-11-06 02:04:58,984] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:05:00,936] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:05:01,038] {logging_mixin.py:115} INFO - [2023-11-06 02:05:01,034] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:05:01,147] {logging_mixin.py:115} INFO - [2023-11-06 02:05:01,146] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:05:01,210] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.247 seconds
+[2023-11-06 02:05:31,518] {processor.py:153} INFO - Started process (PID=11410) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:05:31,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:05:31,525] {logging_mixin.py:115} INFO - [2023-11-06 02:05:31,525] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:05:33,593] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:05:33,679] {logging_mixin.py:115} INFO - [2023-11-06 02:05:33,677] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:05:33,755] {logging_mixin.py:115} INFO - [2023-11-06 02:05:33,755] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:05:33,797] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.298 seconds
+[2023-11-06 02:06:03,991] {processor.py:153} INFO - Started process (PID=11465) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:06:03,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:06:03,998] {logging_mixin.py:115} INFO - [2023-11-06 02:06:03,998] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:06:06,336] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:06:06,434] {logging_mixin.py:115} INFO - [2023-11-06 02:06:06,431] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:06:06,524] {logging_mixin.py:115} INFO - [2023-11-06 02:06:06,524] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:06:06,586] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.609 seconds
+[2023-11-06 02:06:36,854] {processor.py:153} INFO - Started process (PID=11522) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:06:36,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:06:36,860] {logging_mixin.py:115} INFO - [2023-11-06 02:06:36,860] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:06:38,548] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:06:38,620] {logging_mixin.py:115} INFO - [2023-11-06 02:06:38,618] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:06:38,686] {logging_mixin.py:115} INFO - [2023-11-06 02:06:38,686] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:06:38,725] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 1.884 seconds
+[2023-11-06 02:07:09,147] {processor.py:153} INFO - Started process (PID=11577) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:07:09,176] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:07:09,187] {logging_mixin.py:115} INFO - [2023-11-06 02:07:09,187] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:07:15,284] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:07:15,476] {logging_mixin.py:115} INFO - [2023-11-06 02:07:15,473] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:07:15,655] {logging_mixin.py:115} INFO - [2023-11-06 02:07:15,655] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:07:15,768] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 6.690 seconds
+[2023-11-06 02:07:46,833] {processor.py:153} INFO - Started process (PID=11636) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:07:46,836] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:07:46,840] {logging_mixin.py:115} INFO - [2023-11-06 02:07:46,840] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:07:48,907] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:07:48,996] {logging_mixin.py:115} INFO - [2023-11-06 02:07:48,994] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:07:49,077] {logging_mixin.py:115} INFO - [2023-11-06 02:07:49,077] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:07:49,124] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.309 seconds
+[2023-11-06 02:08:19,287] {processor.py:153} INFO - Started process (PID=11694) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:08:19,294] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:08:19,301] {logging_mixin.py:115} INFO - [2023-11-06 02:08:19,300] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:08:21,771] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:08:21,876] {logging_mixin.py:115} INFO - [2023-11-06 02:08:21,874] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:08:21,976] {logging_mixin.py:115} INFO - [2023-11-06 02:08:21,976] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:08:22,023] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.756 seconds
+[2023-11-06 02:08:52,194] {processor.py:153} INFO - Started process (PID=11752) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:08:52,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:08:52,202] {logging_mixin.py:115} INFO - [2023-11-06 02:08:52,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:08:54,477] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:08:54,572] {logging_mixin.py:115} INFO - [2023-11-06 02:08:54,567] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:08:54,656] {logging_mixin.py:115} INFO - [2023-11-06 02:08:54,656] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:08:54,702] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.525 seconds
+[2023-11-06 02:09:25,108] {processor.py:153} INFO - Started process (PID=11808) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:09:25,111] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:09:25,115] {logging_mixin.py:115} INFO - [2023-11-06 02:09:25,114] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:09:26,788] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:09:26,861] {logging_mixin.py:115} INFO - [2023-11-06 02:09:26,859] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:09:26,924] {logging_mixin.py:115} INFO - [2023-11-06 02:09:26,923] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:09:26,959] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 1.864 seconds
+[2023-11-06 02:09:57,223] {processor.py:153} INFO - Started process (PID=11868) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:09:57,227] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:09:57,232] {logging_mixin.py:115} INFO - [2023-11-06 02:09:57,231] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:09:59,105] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:09:59,213] {logging_mixin.py:115} INFO - [2023-11-06 02:09:59,207] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:09:59,342] {logging_mixin.py:115} INFO - [2023-11-06 02:09:59,341] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:09:59,398] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.198 seconds
+[2023-11-06 02:10:29,778] {processor.py:153} INFO - Started process (PID=11927) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:10:29,783] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:10:29,790] {logging_mixin.py:115} INFO - [2023-11-06 02:10:29,789] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:10:32,229] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:10:32,330] {logging_mixin.py:115} INFO - [2023-11-06 02:10:32,327] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:10:32,437] {logging_mixin.py:115} INFO - [2023-11-06 02:10:32,436] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:10:32,493] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.737 seconds
+[2023-11-06 02:11:03,230] {processor.py:153} INFO - Started process (PID=11982) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:11:03,234] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:11:03,240] {logging_mixin.py:115} INFO - [2023-11-06 02:11:03,239] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:11:06,386] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:11:06,521] {logging_mixin.py:115} INFO - [2023-11-06 02:11:06,517] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:11:06,645] {logging_mixin.py:115} INFO - [2023-11-06 02:11:06,644] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:11:06,703] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 3.496 seconds
+[2023-11-06 02:11:37,075] {processor.py:153} INFO - Started process (PID=12035) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:11:37,079] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:11:37,083] {logging_mixin.py:115} INFO - [2023-11-06 02:11:37,083] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:11:39,272] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:11:39,389] {logging_mixin.py:115} INFO - [2023-11-06 02:11:39,385] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:11:39,488] {logging_mixin.py:115} INFO - [2023-11-06 02:11:39,488] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:11:39,534] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.476 seconds
+[2023-11-06 02:29:07,696] {processor.py:153} INFO - Started process (PID=12076) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:29:07,697] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:29:07,698] {logging_mixin.py:115} INFO - [2023-11-06 02:29:07,698] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:29:08,608] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:29:08,636] {logging_mixin.py:115} INFO - [2023-11-06 02:29:08,635] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:29:08,665] {logging_mixin.py:115} INFO - [2023-11-06 02:29:08,665] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:29:08,733] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 1.042 seconds
+[2023-11-06 02:29:39,157] {processor.py:153} INFO - Started process (PID=12124) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:29:39,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:29:39,169] {logging_mixin.py:115} INFO - [2023-11-06 02:29:39,167] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:29:41,719] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:29:41,833] {logging_mixin.py:115} INFO - [2023-11-06 02:29:41,830] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:29:41,917] {logging_mixin.py:115} INFO - [2023-11-06 02:29:41,917] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:29:41,964] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 2.830 seconds
+[2023-11-06 02:54:27,570] {processor.py:153} INFO - Started process (PID=12177) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:54:27,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:54:27,573] {logging_mixin.py:115} INFO - [2023-11-06 02:54:27,573] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:54:28,614] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:54:28,708] {logging_mixin.py:115} INFO - [2023-11-06 02:54:28,702] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:54:28,889] {logging_mixin.py:115} INFO - [2023-11-06 02:54:28,889] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:54:28,951] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 1.387 seconds
+[2023-11-06 02:54:59,103] {processor.py:153} INFO - Started process (PID=12235) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:54:59,105] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:54:59,106] {logging_mixin.py:115} INFO - [2023-11-06 02:54:59,105] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:54:59,426] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:54:59,453] {logging_mixin.py:115} INFO - [2023-11-06 02:54:59,451] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:54:59,476] {logging_mixin.py:115} INFO - [2023-11-06 02:54:59,475] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:54:59,487] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.387 seconds
+[2023-11-06 02:55:29,628] {processor.py:153} INFO - Started process (PID=12300) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:55:29,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:55:29,630] {logging_mixin.py:115} INFO - [2023-11-06 02:55:29,630] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:55:30,023] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:55:30,067] {logging_mixin.py:115} INFO - [2023-11-06 02:55:30,065] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:55:30,098] {logging_mixin.py:115} INFO - [2023-11-06 02:55:30,097] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:55:30,112] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.489 seconds
+[2023-11-06 02:56:00,263] {processor.py:153} INFO - Started process (PID=12357) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:56:00,264] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:56:00,265] {logging_mixin.py:115} INFO - [2023-11-06 02:56:00,264] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:56:00,565] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:56:00,590] {logging_mixin.py:115} INFO - [2023-11-06 02:56:00,589] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:56:00,611] {logging_mixin.py:115} INFO - [2023-11-06 02:56:00,611] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:56:00,623] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.364 seconds
+[2023-11-06 02:56:30,836] {processor.py:153} INFO - Started process (PID=12424) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:56:30,838] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:56:30,841] {logging_mixin.py:115} INFO - [2023-11-06 02:56:30,840] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:56:31,376] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:56:31,438] {logging_mixin.py:115} INFO - [2023-11-06 02:56:31,436] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:56:31,467] {logging_mixin.py:115} INFO - [2023-11-06 02:56:31,467] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:56:31,483] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.654 seconds
+[2023-11-06 02:57:02,342] {processor.py:153} INFO - Started process (PID=12488) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:02,346] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:57:02,348] {logging_mixin.py:115} INFO - [2023-11-06 02:57:02,348] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:03,030] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:03,106] {logging_mixin.py:115} INFO - [2023-11-06 02:57:03,096] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:57:03,164] {logging_mixin.py:115} INFO - [2023-11-06 02:57:03,163] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:57:03,183] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.850 seconds
+[2023-11-06 02:57:33,608] {processor.py:153} INFO - Started process (PID=12544) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:33,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:57:33,610] {logging_mixin.py:115} INFO - [2023-11-06 02:57:33,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:33,972] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:33,996] {logging_mixin.py:115} INFO - [2023-11-06 02:57:33,995] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:57:34,014] {logging_mixin.py:115} INFO - [2023-11-06 02:57:34,014] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:57:34,024] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.421 seconds
+[2023-11-06 02:57:39,048] {processor.py:153} INFO - Started process (PID=12583) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:39,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:57:39,050] {logging_mixin.py:115} INFO - [2023-11-06 02:57:39,050] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:39,359] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:39,384] {logging_mixin.py:115} INFO - [2023-11-06 02:57:39,383] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:57:39,403] {logging_mixin.py:115} INFO - [2023-11-06 02:57:39,403] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:57:39,416] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.372 seconds
+[2023-11-06 02:57:43,253] {processor.py:153} INFO - Started process (PID=12585) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:43,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:57:43,255] {logging_mixin.py:115} INFO - [2023-11-06 02:57:43,255] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:43,578] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:57:43,602] {logging_mixin.py:115} INFO - [2023-11-06 02:57:43,601] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:57:43,621] {logging_mixin.py:115} INFO - [2023-11-06 02:57:43,621] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:57:43,634] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.385 seconds
+[2023-11-06 02:58:14,358] {processor.py:153} INFO - Started process (PID=12649) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:58:14,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:58:14,360] {logging_mixin.py:115} INFO - [2023-11-06 02:58:14,360] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:58:14,630] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:58:14,654] {logging_mixin.py:115} INFO - [2023-11-06 02:58:14,653] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:58:14,676] {logging_mixin.py:115} INFO - [2023-11-06 02:58:14,676] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:58:14,687] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.332 seconds
+[2023-11-06 02:58:45,351] {processor.py:153} INFO - Started process (PID=12713) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:58:45,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:58:45,352] {logging_mixin.py:115} INFO - [2023-11-06 02:58:45,352] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:58:45,632] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:58:45,657] {logging_mixin.py:115} INFO - [2023-11-06 02:58:45,656] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:58:45,676] {logging_mixin.py:115} INFO - [2023-11-06 02:58:45,675] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:58:45,685] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.338 seconds
+[2023-11-06 02:59:16,463] {processor.py:153} INFO - Started process (PID=12769) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:16,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:59:16,466] {logging_mixin.py:115} INFO - [2023-11-06 02:59:16,466] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:16,869] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:16,902] {logging_mixin.py:115} INFO - [2023-11-06 02:59:16,901] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:59:16,930] {logging_mixin.py:115} INFO - [2023-11-06 02:59:16,930] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:59:16,945] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.486 seconds
+[2023-11-06 02:59:35,372] {processor.py:153} INFO - Started process (PID=12796) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:35,372] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:59:35,373] {logging_mixin.py:115} INFO - [2023-11-06 02:59:35,373] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:35,943] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:35,985] {logging_mixin.py:115} INFO - [2023-11-06 02:59:35,983] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:59:36,036] {logging_mixin.py:115} INFO - [2023-11-06 02:59:36,036] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:59:36,063] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.696 seconds
+[2023-11-06 02:59:43,213] {processor.py:153} INFO - Started process (PID=12835) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:43,213] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 02:59:43,214] {logging_mixin.py:115} INFO - [2023-11-06 02:59:43,214] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:43,527] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 02:59:43,554] {logging_mixin.py:115} INFO - [2023-11-06 02:59:43,553] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 02:59:43,578] {logging_mixin.py:115} INFO - [2023-11-06 02:59:43,578] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 02:59:43,594] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.385 seconds
+[2023-11-06 03:00:14,015] {processor.py:153} INFO - Started process (PID=12890) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 03:00:14,016] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 03:00:14,017] {logging_mixin.py:115} INFO - [2023-11-06 03:00:14,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 03:00:14,455] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 03:00:14,516] {logging_mixin.py:115} INFO - [2023-11-06 03:00:14,515] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 03:00:14,568] {logging_mixin.py:115} INFO - [2023-11-06 03:00:14,568] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 03:00:14,579] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.569 seconds
+[2023-11-06 03:00:45,198] {processor.py:153} INFO - Started process (PID=12954) to work on /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 03:00:45,199] {processor.py:641} INFO - Processing file /opt/airflow/dags/write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-06 03:00:45,199] {logging_mixin.py:115} INFO - [2023-11-06 03:00:45,199] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 03:00:45,491] {processor.py:651} INFO - DAG(s) dict_keys(['split_excel_to_s3']) retrieved from /opt/airflow/dags/write_xlsx_to_csv_s3.py
+[2023-11-06 03:00:45,513] {logging_mixin.py:115} INFO - [2023-11-06 03:00:45,512] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-06 03:00:45,529] {logging_mixin.py:115} INFO - [2023-11-06 03:00:45,529] {dag.py:2972} INFO - Setting next_dagrun for split_excel_to_s3 to None, run_after=None
+[2023-11-06 03:00:45,539] {processor.py:161} INFO - Processing /opt/airflow/dags/write_xlsx_to_csv_s3.py took 0.345 seconds

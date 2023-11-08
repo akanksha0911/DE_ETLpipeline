@@ -1,0 +1,824 @@
+[2023-11-07T17:05:22.310+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:05:22.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:05:22.312+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:22.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:05:23.120+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:05:23.226+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3_input']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:05:23.323+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:23.323+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-07T17:05:23.332+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:23.332+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-07T17:05:23.338+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:23.338+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-07T17:05:23.339+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:23.339+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:05:23.350+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:23.349+0000] {dag.py:2963} INFO - Creating ORM DAG for ps_etl_s3_input
+[2023-11-07T17:05:23.351+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:05:23.350+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3_input to None, run_after=None
+[2023-11-07T17:05:23.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.059 seconds
+[2023-11-07T17:15:23.457+0000] {processor.py:157} INFO - Started process (PID=451) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:15:23.458+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:15:23.459+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:15:23.458+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:15:24.102+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:15:24.189+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:15:24.276+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:15:24.276+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:15:24.285+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:15:24.285+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:15:24.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.852 seconds
+[2023-11-07T17:15:54.491+0000] {processor.py:157} INFO - Started process (PID=464) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:15:54.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:15:54.494+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:15:54.493+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:15:55.150+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:15:55.258+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:15:55.277+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:15:55.277+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:15:55.288+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:15:55.288+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:15:55.304+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.816 seconds
+[2023-11-07T17:16:25.488+0000] {processor.py:157} INFO - Started process (PID=477) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:16:25.489+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:16:25.490+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:16:25.490+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:16:26.157+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:16:26.249+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:16:26.260+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:16:26.259+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:16:26.274+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:16:26.274+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:16:26.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.807 seconds
+[2023-11-07T17:16:56.458+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:16:56.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:16:56.460+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:16:56.460+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:16:57.193+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:16:57.298+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:16:57.407+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:16:57.406+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:16:57.417+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:16:57.417+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:16:57.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.982 seconds
+[2023-11-07T17:17:27.633+0000] {processor.py:157} INFO - Started process (PID=503) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:17:27.634+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:17:27.635+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:17:27.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:17:28.283+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:17:28.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:17:28.400+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:17:28.399+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:17:28.411+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:17:28.411+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:17:28.426+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.798 seconds
+[2023-11-07T17:17:58.566+0000] {processor.py:157} INFO - Started process (PID=516) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:17:58.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:17:58.574+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:17:58.574+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:17:59.202+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:17:59.285+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:17:59.295+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:17:59.295+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:17:59.306+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:17:59.306+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:17:59.322+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.759 seconds
+[2023-11-07T17:18:29.509+0000] {processor.py:157} INFO - Started process (PID=529) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:18:29.511+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:18:29.512+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:18:29.512+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:18:30.156+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:18:30.244+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:18:30.333+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:18:30.333+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:18:30.343+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:18:30.343+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:18:30.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.868 seconds
+[2023-11-07T17:19:00.533+0000] {processor.py:157} INFO - Started process (PID=542) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:19:00.535+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:19:00.536+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:19:00.536+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:19:01.204+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:19:01.308+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:19:01.330+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:19:01.330+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:19:01.342+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:19:01.342+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:19:01.358+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.829 seconds
+[2023-11-07T17:19:31.532+0000] {processor.py:157} INFO - Started process (PID=555) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:19:31.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:19:31.534+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:19:31.534+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:19:32.251+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:19:32.356+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:19:32.367+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:19:32.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:19:32.379+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:19:32.379+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:19:32.399+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.873 seconds
+[2023-11-07T17:20:02.583+0000] {processor.py:157} INFO - Started process (PID=568) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:20:02.584+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:20:02.585+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:20:02.585+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:20:03.256+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:20:03.346+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:20:03.437+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:20:03.436+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:20:03.447+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:20:03.447+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:20:03.463+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.884 seconds
+[2023-11-07T17:20:33.689+0000] {processor.py:157} INFO - Started process (PID=581) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:20:33.691+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:20:33.692+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:20:33.691+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:20:34.350+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:20:34.436+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:20:34.456+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:20:34.455+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:20:34.466+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:20:34.466+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:20:34.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.796 seconds
+[2023-11-07T17:21:04.523+0000] {processor.py:157} INFO - Started process (PID=594) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:21:04.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:21:04.525+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:21:04.525+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:21:05.169+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:21:05.261+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:21:05.289+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:21:05.288+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:21:05.301+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:21:05.300+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:21:05.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.798 seconds
+[2023-11-07T17:21:35.488+0000] {processor.py:157} INFO - Started process (PID=607) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:21:35.492+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:21:35.495+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:21:35.494+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:21:36.173+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:21:36.257+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:21:36.345+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:21:36.344+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:21:36.355+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:21:36.354+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:21:36.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.889 seconds
+[2023-11-07T17:22:06.553+0000] {processor.py:157} INFO - Started process (PID=620) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:22:06.554+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:22:06.555+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:22:06.555+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:22:07.190+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:22:07.274+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:22:07.294+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:22:07.293+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:22:07.318+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:22:07.318+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:22:07.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.786 seconds
+[2023-11-07T17:22:37.529+0000] {processor.py:157} INFO - Started process (PID=633) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:22:37.531+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:22:37.532+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:22:37.531+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:22:38.242+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:22:38.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:22:38.349+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:22:38.348+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:22:38.359+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:22:38.359+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:22:38.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.851 seconds
+[2023-11-07T17:23:08.561+0000] {processor.py:157} INFO - Started process (PID=646) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:23:08.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:23:08.564+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:23:08.564+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:23:09.218+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:23:09.304+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:23:09.386+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:23:09.385+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:23:09.395+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:23:09.395+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:23:09.410+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.853 seconds
+[2023-11-07T17:23:39.619+0000] {processor.py:157} INFO - Started process (PID=659) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:23:39.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:23:39.621+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:23:39.621+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:23:40.285+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:23:40.394+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:23:40.418+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:23:40.417+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:23:40.432+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:23:40.432+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:23:40.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.837 seconds
+[2023-11-07T17:24:10.637+0000] {processor.py:157} INFO - Started process (PID=672) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:24:10.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:24:10.639+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:24:10.639+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:24:11.310+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:24:11.402+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:24:11.412+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:24:11.412+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:24:11.424+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:24:11.424+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:24:11.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.807 seconds
+[2023-11-07T17:24:41.623+0000] {processor.py:157} INFO - Started process (PID=685) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:24:41.625+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:24:41.626+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:24:41.626+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:24:42.248+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:24:42.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:24:42.419+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:24:42.419+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:24:42.429+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:24:42.428+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:24:42.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.825 seconds
+[2023-11-07T17:25:12.618+0000] {processor.py:157} INFO - Started process (PID=698) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:25:12.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:25:12.621+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:25:12.621+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:25:13.262+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:25:13.353+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:25:13.373+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:25:13.373+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:25:13.385+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:25:13.385+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:25:13.402+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.787 seconds
+[2023-11-07T17:25:43.580+0000] {processor.py:157} INFO - Started process (PID=711) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:25:43.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:25:43.582+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:25:43.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:25:44.343+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:25:44.448+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:25:44.459+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:25:44.458+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:25:44.474+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:25:44.474+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl to None, run_after=None
+[2023-11-07T17:25:44.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.918 seconds
+[2023-11-07T17:26:11.976+0000] {processor.py:157} INFO - Started process (PID=724) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:26:11.977+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:26:11.979+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:11.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:26:12.668+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:26:12.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:26:12.876+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:12.875+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-07T17:26:12.885+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:12.885+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-07T17:26:12.891+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:12.891+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-07T17:26:12.892+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:12.892+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:26:12.902+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:12.902+0000] {dag.py:2963} INFO - Creating ORM DAG for ps_etl_s3
+[2023-11-07T17:26:12.903+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:12.903+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:26:12.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.945 seconds
+[2023-11-07T17:26:43.786+0000] {processor.py:157} INFO - Started process (PID=737) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:26:43.787+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:26:43.788+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:43.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:26:44.489+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:26:44.582+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:26:44.601+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:44.601+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:26:44.612+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:26:44.612+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:26:44.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.847 seconds
+[2023-11-07T17:27:14.854+0000] {processor.py:157} INFO - Started process (PID=750) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:27:14.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:27:14.856+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:27:14.856+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:27:15.627+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:27:15.764+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:27:15.785+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:27:15.785+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:27:15.811+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:27:15.811+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:27:15.834+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.984 seconds
+[2023-11-07T17:27:45.965+0000] {processor.py:157} INFO - Started process (PID=770) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:27:45.967+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:27:45.968+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:27:45.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:27:46.724+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:27:46.835+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:27:46.856+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:27:46.855+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:27:46.869+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:27:46.869+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:27:46.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.929 seconds
+[2023-11-07T17:28:16.989+0000] {processor.py:157} INFO - Started process (PID=783) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:28:16.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:28:16.991+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:28:16.991+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:28:17.652+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:28:17.757+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:28:17.777+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:28:17.776+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:28:17.790+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:28:17.789+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:28:17.812+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.826 seconds
+[2023-11-07T17:28:47.960+0000] {processor.py:157} INFO - Started process (PID=796) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:28:47.962+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:28:47.963+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:28:47.963+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:28:48.730+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:28:48.826+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:28:48.863+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:28:48.862+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:28:48.874+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:28:48.874+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:28:48.892+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.935 seconds
+[2023-11-07T17:29:19.044+0000] {processor.py:157} INFO - Started process (PID=809) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:29:19.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:29:19.046+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:29:19.046+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:29:19.739+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:29:19.834+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:29:19.854+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:29:19.853+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:29:19.864+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:29:19.864+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:29:19.881+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.841 seconds
+[2023-11-07T17:29:50.041+0000] {processor.py:157} INFO - Started process (PID=822) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:29:50.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:29:50.043+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:29:50.043+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:29:50.734+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:29:50.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:29:50.849+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:29:50.849+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:29:50.860+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:29:50.860+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:29:50.876+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.839 seconds
+[2023-11-07T17:30:21.571+0000] {processor.py:157} INFO - Started process (PID=835) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:30:21.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:30:21.574+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:30:21.573+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:30:22.298+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:30:22.407+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:30:22.430+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:30:22.429+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:30:22.442+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:30:22.442+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:30:22.459+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.892 seconds
+[2023-11-07T17:30:52.505+0000] {processor.py:157} INFO - Started process (PID=848) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:30:52.506+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:30:52.507+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:30:52.506+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:30:53.187+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:30:53.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:30:53.302+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:30:53.302+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:30:53.315+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:30:53.315+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:30:53.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.860 seconds
+[2023-11-07T17:31:23.855+0000] {processor.py:157} INFO - Started process (PID=861) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:31:23.856+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:31:23.857+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:31:23.857+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:31:24.557+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:31:24.653+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:31:24.672+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:31:24.672+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:31:24.685+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:31:24.684+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:31:24.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.850 seconds
+[2023-11-07T17:31:54.842+0000] {processor.py:157} INFO - Started process (PID=874) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:31:54.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:31:54.844+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:31:54.844+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:31:55.625+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:31:55.729+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:31:55.753+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:31:55.752+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:31:55.766+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:31:55.766+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:31:55.788+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.950 seconds
+[2023-11-07T17:32:25.985+0000] {processor.py:157} INFO - Started process (PID=887) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:32:25.986+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:32:25.988+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:32:25.987+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:32:27.106+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:32:27.227+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:32:27.248+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:32:27.248+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:32:27.259+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:32:27.259+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:32:27.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.300 seconds
+[2023-11-07T17:32:58.164+0000] {processor.py:157} INFO - Started process (PID=900) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:32:58.165+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:32:58.166+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:32:58.166+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:32:58.961+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:32:59.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:32:59.081+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:32:59.080+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:32:59.092+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:32:59.092+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:32:59.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.950 seconds
+[2023-11-07T17:33:29.239+0000] {processor.py:157} INFO - Started process (PID=913) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:33:29.240+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:33:29.241+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:33:29.241+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:33:29.949+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:33:30.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:33:30.081+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:33:30.081+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:33:30.092+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:33:30.092+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:33:30.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.876 seconds
+[2023-11-07T17:34:00.149+0000] {processor.py:157} INFO - Started process (PID=926) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:34:00.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:34:00.151+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:34:00.151+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:34:00.845+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:34:00.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:34:00.967+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:34:00.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:34:00.987+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:34:00.987+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:34:01.037+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.891 seconds
+[2023-11-07T17:34:31.092+0000] {processor.py:157} INFO - Started process (PID=939) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:34:31.093+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:34:31.094+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:34:31.094+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:34:31.841+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:34:31.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:34:31.958+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:34:31.958+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:34:31.969+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:34:31.969+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:34:31.986+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.897 seconds
+[2023-11-07T17:35:02.675+0000] {processor.py:157} INFO - Started process (PID=952) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:35:02.676+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:35:02.677+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:35:02.677+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:35:03.380+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:35:03.482+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:35:03.504+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:35:03.504+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:35:03.516+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:35:03.516+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:35:03.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.862 seconds
+[2023-11-07T17:35:33.737+0000] {processor.py:157} INFO - Started process (PID=965) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:35:33.738+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:35:33.739+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:35:33.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:35:34.455+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:35:34.567+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:35:34.588+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:35:34.587+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:35:34.599+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:35:34.599+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:35:34.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.885 seconds
+[2023-11-07T17:36:04.762+0000] {processor.py:157} INFO - Started process (PID=978) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:36:04.763+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:36:04.765+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:36:04.764+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:36:05.511+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:36:05.608+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:36:05.628+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:36:05.627+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:36:05.639+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:36:05.639+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:36:05.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.897 seconds
+[2023-11-07T17:36:35.825+0000] {processor.py:157} INFO - Started process (PID=991) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:36:35.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:36:35.828+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:36:35.827+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:36:36.580+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:36:36.684+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:36:36.704+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:36:36.704+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:36:36.718+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:36:36.718+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:36:36.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.916 seconds
+[2023-11-07T17:37:06.896+0000] {processor.py:157} INFO - Started process (PID=1004) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:37:06.897+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:37:06.898+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:37:06.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:37:07.589+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:37:07.687+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:37:07.708+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:37:07.707+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:37:07.722+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:37:07.722+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:37:07.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.849 seconds
+[2023-11-07T17:37:37.950+0000] {processor.py:157} INFO - Started process (PID=1017) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:37:37.951+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:37:37.952+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:37:37.952+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:37:38.690+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:37:38.797+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:37:38.820+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:37:38.820+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:37:38.833+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:37:38.833+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:37:38.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.907 seconds
+[2023-11-07T17:38:09.060+0000] {processor.py:157} INFO - Started process (PID=1030) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:38:09.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:38:09.063+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:38:09.062+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:38:09.789+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:38:09.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:38:09.905+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:38:09.905+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:38:09.917+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:38:09.917+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:38:09.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.878 seconds
+[2023-11-07T17:38:40.059+0000] {processor.py:157} INFO - Started process (PID=1043) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:38:40.060+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:38:40.061+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:38:40.061+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:38:40.771+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:38:40.878+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:38:40.899+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:38:40.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:38:40.911+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:38:40.911+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:38:40.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.874 seconds
+[2023-11-07T17:39:11.034+0000] {processor.py:157} INFO - Started process (PID=1056) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:39:11.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:39:11.036+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:39:11.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:39:11.765+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:39:11.865+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:39:11.885+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:39:11.884+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:39:11.897+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:39:11.897+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:39:11.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.888 seconds
+[2023-11-07T17:39:42.030+0000] {processor.py:157} INFO - Started process (PID=1070) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:39:42.031+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:39:42.033+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:39:42.032+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:39:42.797+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:39:42.898+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:39:42.918+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:39:42.917+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:39:42.932+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:39:42.932+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:39:42.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.924 seconds
+[2023-11-07T17:40:13.037+0000] {processor.py:157} INFO - Started process (PID=1083) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:40:13.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:40:13.039+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:40:13.039+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:40:13.784+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:40:13.892+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:40:13.916+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:40:13.915+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:40:13.931+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:40:13.931+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:40:13.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.916 seconds
+[2023-11-07T17:40:44.057+0000] {processor.py:157} INFO - Started process (PID=1096) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:40:44.059+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:40:44.060+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:40:44.060+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:40:44.791+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:40:44.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:40:44.912+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:40:44.912+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:40:44.924+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:40:44.923+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:40:44.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.887 seconds
+[2023-11-07T17:41:14.989+0000] {processor.py:157} INFO - Started process (PID=1109) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:41:14.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:41:14.991+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:41:14.991+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:41:15.751+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:41:15.858+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:41:15.879+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:41:15.878+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:41:15.890+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:41:15.890+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:41:15.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.921 seconds
+[2023-11-07T17:41:45.999+0000] {processor.py:157} INFO - Started process (PID=1122) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:41:46.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:41:46.001+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:41:46.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:41:46.746+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:41:46.844+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:41:46.864+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:41:46.863+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:41:46.876+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:41:46.875+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:41:46.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.912 seconds
+[2023-11-07T17:42:16.996+0000] {processor.py:157} INFO - Started process (PID=1135) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:42:16.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:42:16.999+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:42:16.998+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:42:17.740+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:42:17.843+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:42:17.865+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:42:17.864+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:42:17.878+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:42:17.878+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:42:17.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.904 seconds
+[2023-11-07T17:42:48.037+0000] {processor.py:157} INFO - Started process (PID=1156) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:42:48.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:42:48.039+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:42:48.039+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:42:48.806+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:42:48.908+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:42:48.931+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:42:48.930+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:42:48.945+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:42:48.945+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:42:48.964+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.931 seconds
+[2023-11-07T17:43:19.112+0000] {processor.py:157} INFO - Started process (PID=1170) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:43:19.114+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:43:19.117+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:43:19.116+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:43:20.637+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:43:20.824+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:43:20.859+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:43:20.859+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:43:20.878+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:43:20.878+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:43:20.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.805 seconds
+[2023-11-07T17:43:51.428+0000] {processor.py:157} INFO - Started process (PID=1183) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:43:51.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:43:51.485+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:43:51.484+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:43:57.813+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:43:58.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:43:59.077+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:43:59.075+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:43:59.179+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:43:59.159+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:43:59.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 8.046 seconds
+[2023-11-07T17:44:30.143+0000] {processor.py:157} INFO - Started process (PID=1196) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:44:30.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:44:30.200+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:44:30.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:44:33.250+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:44:33.870+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:44:33.931+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:44:33.930+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:44:33.976+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:44:33.976+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:44:34.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 3.913 seconds
+[2023-11-07T17:45:04.104+0000] {processor.py:157} INFO - Started process (PID=1209) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:45:04.105+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:45:04.107+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:45:04.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:45:04.974+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:45:05.109+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:45:05.134+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:45:05.134+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:45:05.149+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:45:05.148+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:45:05.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.074 seconds
+[2023-11-07T17:45:35.406+0000] {processor.py:157} INFO - Started process (PID=1222) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:45:35.408+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:45:35.409+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:45:35.408+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:45:36.124+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:45:36.237+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:45:36.257+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:45:36.257+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:45:36.270+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:45:36.270+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:45:36.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.885 seconds
+[2023-11-07T17:46:06.477+0000] {processor.py:157} INFO - Started process (PID=1235) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:46:06.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:46:06.480+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:46:06.479+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:46:07.135+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:46:07.229+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:46:07.251+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:46:07.251+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:46:07.264+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:46:07.264+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:46:07.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.809 seconds
+[2023-11-07T17:46:37.455+0000] {processor.py:157} INFO - Started process (PID=1248) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:46:37.456+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:46:37.457+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:46:37.457+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:46:38.181+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:46:38.310+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:46:38.346+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:46:38.346+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:46:38.359+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:46:38.359+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:46:38.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.933 seconds
+[2023-11-07T17:47:08.730+0000] {processor.py:157} INFO - Started process (PID=1261) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:47:08.732+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:47:08.733+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:47:08.732+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:47:09.533+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:47:09.639+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:47:09.660+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:47:09.659+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:47:09.672+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:47:09.672+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:47:09.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.965 seconds
+[2023-11-07T17:47:39.875+0000] {processor.py:157} INFO - Started process (PID=1274) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:47:39.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:47:39.878+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:47:39.878+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:47:40.641+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:47:40.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:47:40.803+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:47:40.802+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:47:40.814+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:47:40.814+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:47:40.831+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.962 seconds
+[2023-11-07T17:48:11.087+0000] {processor.py:157} INFO - Started process (PID=1287) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:48:11.091+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:48:11.093+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:48:11.093+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:48:13.687+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:48:13.868+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:48:13.984+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:48:13.982+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:48:14.110+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:48:14.110+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:48:14.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 3.114 seconds
+[2023-11-07T17:57:00.823+0000] {processor.py:157} INFO - Started process (PID=1307) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:57:00.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:57:00.825+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:57:00.825+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:57:05.469+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:57:06.301+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:57:06.683+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:57:06.672+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:57:06.959+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:57:06.958+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:57:07.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 6.431 seconds
+[2023-11-07T17:57:37.474+0000] {processor.py:157} INFO - Started process (PID=1320) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:57:37.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:57:37.478+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:57:37.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:57:38.771+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:57:38.903+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:57:38.933+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:57:38.932+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:57:38.973+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:57:38.972+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:57:39.007+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.539 seconds
+[2023-11-07T17:58:09.475+0000] {processor.py:157} INFO - Started process (PID=1333) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:58:09.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:58:09.509+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:58:09.508+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:58:10.640+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:58:10.744+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:58:10.770+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:58:10.769+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:58:10.789+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:58:10.788+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:58:10.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.347 seconds
+[2023-11-07T17:58:41.001+0000] {processor.py:157} INFO - Started process (PID=1346) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:58:41.002+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:58:41.003+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:58:41.003+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:58:41.830+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:58:41.936+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:58:41.956+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:58:41.955+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:58:41.968+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:58:41.968+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:58:42.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.003 seconds
+[2023-11-07T17:59:12.328+0000] {processor.py:157} INFO - Started process (PID=1359) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:59:12.329+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:59:12.330+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:59:12.330+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:59:13.104+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:59:13.201+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:59:13.224+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:59:13.223+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:59:13.235+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:59:13.235+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:59:13.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.934 seconds
+[2023-11-07T17:59:43.430+0000] {processor.py:157} INFO - Started process (PID=1372) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:59:43.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T17:59:43.433+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:59:43.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:59:44.166+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T17:59:44.262+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T17:59:44.282+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:59:44.281+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T17:59:44.294+0000] {logging_mixin.py:151} INFO - [2023-11-07T17:59:44.294+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T17:59:44.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.885 seconds
+[2023-11-07T18:00:14.492+0000] {processor.py:157} INFO - Started process (PID=1385) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:00:14.495+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:00:14.498+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:00:14.497+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:00:15.528+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:00:15.689+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:00:15.715+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:00:15.714+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:00:15.726+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:00:15.726+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:00:15.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.262 seconds
+[2023-11-07T18:00:45.947+0000] {processor.py:157} INFO - Started process (PID=1398) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:00:45.951+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:00:45.954+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:00:45.953+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:00:46.977+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:00:47.137+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:00:47.169+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:00:47.168+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:00:47.180+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:00:47.180+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:00:47.205+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.288 seconds
+[2023-11-07T18:01:17.376+0000] {processor.py:157} INFO - Started process (PID=1411) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:01:17.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:01:17.379+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:01:17.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:01:18.119+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:01:18.221+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:01:18.242+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:01:18.241+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:01:18.256+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:01:18.255+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:01:18.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.904 seconds
+[2023-11-07T18:01:48.468+0000] {processor.py:157} INFO - Started process (PID=1424) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:01:48.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:01:48.474+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:01:48.473+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:01:49.671+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:01:49.828+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:01:49.857+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:01:49.857+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:01:49.872+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:01:49.872+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:01:49.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.433 seconds
+[2023-11-07T18:02:20.066+0000] {processor.py:157} INFO - Started process (PID=1437) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:02:20.067+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:02:20.069+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:02:20.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:02:20.856+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:02:20.965+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:02:20.985+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:02:20.985+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:02:20.997+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:02:20.997+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:02:21.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.951 seconds
+[2023-11-07T18:02:51.181+0000] {processor.py:157} INFO - Started process (PID=1450) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:02:51.183+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:02:51.184+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:02:51.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:02:52.037+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:02:52.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:02:52.220+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:02:52.220+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:02:52.235+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:02:52.235+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:02:52.258+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.081 seconds
+[2023-11-07T18:03:22.369+0000] {processor.py:157} INFO - Started process (PID=1463) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:03:22.371+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:03:22.373+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:03:22.372+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:03:23.274+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:03:23.399+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:03:23.429+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:03:23.428+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:03:23.472+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:03:23.472+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:03:23.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.126 seconds
+[2023-11-07T18:03:53.654+0000] {processor.py:157} INFO - Started process (PID=1476) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:03:53.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:03:53.656+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:03:53.656+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:03:54.503+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:03:54.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:03:54.637+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:03:54.637+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:03:54.649+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:03:54.648+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:03:54.665+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.016 seconds
+[2023-11-07T18:04:24.832+0000] {processor.py:157} INFO - Started process (PID=1489) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:04:24.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:04:24.835+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:04:24.835+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:04:25.577+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:04:25.705+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:04:25.726+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:04:25.725+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:04:25.738+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:04:25.737+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:04:25.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.927 seconds
+[2023-11-07T18:04:55.926+0000] {processor.py:157} INFO - Started process (PID=1502) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:04:55.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:04:55.928+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:04:55.928+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:04:56.640+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:04:56.752+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:04:56.778+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:04:56.777+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:04:56.790+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:04:56.789+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:04:56.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.887 seconds
+[2023-11-07T18:05:27.015+0000] {processor.py:157} INFO - Started process (PID=1515) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:05:27.020+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:05:27.021+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:05:27.021+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:05:27.854+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:05:27.969+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:05:27.998+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:05:27.998+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:05:28.017+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:05:28.017+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:05:28.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.032 seconds
+[2023-11-07T18:05:58.193+0000] {processor.py:157} INFO - Started process (PID=1528) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:05:58.206+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:05:58.224+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:05:58.224+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:05:58.883+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:05:58.971+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:05:58.992+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:05:58.992+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:05:59.003+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:05:59.003+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:05:59.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.831 seconds
+[2023-11-07T18:06:29.193+0000] {processor.py:157} INFO - Started process (PID=1541) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:06:29.194+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:06:29.195+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:06:29.195+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:06:29.906+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:06:30.000+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:06:30.019+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:06:30.019+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:06:30.031+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:06:30.031+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:06:30.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.858 seconds
+[2023-11-07T18:07:00.265+0000] {processor.py:157} INFO - Started process (PID=1554) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:07:00.266+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:07:00.267+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:07:00.267+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:07:01.029+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:07:01.143+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:07:01.172+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:07:01.172+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:07:01.186+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:07:01.186+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:07:01.211+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.951 seconds
+[2023-11-07T18:07:31.424+0000] {processor.py:157} INFO - Started process (PID=1568) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:07:31.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:07:31.427+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:07:31.427+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:07:32.542+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:07:32.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:07:32.755+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:07:32.754+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:07:32.783+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:07:32.782+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:07:32.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.396 seconds
+[2023-11-07T18:08:03.014+0000] {processor.py:157} INFO - Started process (PID=1588) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:08:03.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:08:03.017+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:08:03.017+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:08:03.721+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:08:03.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:08:03.854+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:08:03.854+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:08:03.869+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:08:03.869+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:08:03.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.881 seconds
+[2023-11-07T18:08:34.095+0000] {processor.py:157} INFO - Started process (PID=1601) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:08:34.096+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:08:34.098+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:08:34.097+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:08:34.831+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:08:35.001+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:08:35.037+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:08:35.036+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:08:35.076+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:08:35.076+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:08:35.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.030 seconds
+[2023-11-07T18:09:05.278+0000] {processor.py:157} INFO - Started process (PID=1614) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:09:05.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:09:05.280+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:09:05.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:09:06.034+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:09:06.147+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:09:06.171+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:09:06.170+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:09:06.184+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:09:06.184+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:09:06.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.931 seconds
+[2023-11-07T18:09:36.393+0000] {processor.py:157} INFO - Started process (PID=1627) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:09:36.395+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:09:36.398+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:09:36.397+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:09:37.308+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:09:37.405+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:09:37.425+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:09:37.424+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:09:37.436+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:09:37.435+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:09:37.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.063 seconds
+[2023-11-07T18:10:07.586+0000] {processor.py:157} INFO - Started process (PID=1640) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:10:07.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:10:07.589+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:10:07.589+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:10:08.992+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:10:09.112+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:10:09.133+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:10:09.132+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:10:09.143+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:10:09.143+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:10:09.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.577 seconds
+[2023-11-07T18:10:39.374+0000] {processor.py:157} INFO - Started process (PID=1653) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:10:39.375+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:10:39.377+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:10:39.376+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:10:40.223+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:10:40.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:10:40.416+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:10:40.416+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:10:40.440+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:10:40.440+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:10:40.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 1.167 seconds
+[2023-11-07T18:11:10.742+0000] {processor.py:157} INFO - Started process (PID=1666) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:11:10.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:11:10.746+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:11:10.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:11:11.535+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:11:11.633+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:11:11.653+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:11:11.652+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:11:11.666+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:11:11.666+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:11:11.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.944 seconds
+[2023-11-07T18:11:41.861+0000] {processor.py:157} INFO - Started process (PID=1679) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:11:41.863+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:11:41.864+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:11:41.864+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:11:42.534+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:11:42.632+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:11:42.652+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:11:42.652+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:11:42.663+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:11:42.663+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:11:42.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.823 seconds
+[2023-11-07T18:12:12.877+0000] {processor.py:157} INFO - Started process (PID=1692) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:12:12.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:12:12.880+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:12:12.879+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:12:13.586+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:12:13.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:12:13.693+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:12:13.692+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:12:13.704+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:12:13.703+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:12:13.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.847 seconds
+[2023-11-07T18:12:43.892+0000] {processor.py:157} INFO - Started process (PID=1705) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:12:43.897+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:12:43.899+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:12:43.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:12:44.568+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:12:44.656+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:12:44.675+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:12:44.675+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:12:44.686+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:12:44.686+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:12:44.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.815 seconds
+[2023-11-07T18:13:14.954+0000] {processor.py:157} INFO - Started process (PID=1718) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:13:14.955+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:13:14.956+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:13:14.956+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:13:15.684+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:13:15.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:13:15.803+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:13:15.802+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:13:15.814+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:13:15.814+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:13:15.830+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.879 seconds
+[2023-11-07T18:13:46.053+0000] {processor.py:157} INFO - Started process (PID=1731) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:13:46.055+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:13:46.056+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:13:46.056+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:13:46.891+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:13:46.988+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:13:47.008+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:13:47.007+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:13:47.021+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:13:47.020+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:13:47.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.994 seconds
+[2023-11-07T18:14:17.235+0000] {processor.py:157} INFO - Started process (PID=1744) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:14:17.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:14:17.238+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:14:17.237+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:14:17.951+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:14:18.048+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:14:18.069+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:14:18.068+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:14:18.082+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:14:18.082+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:14:18.100+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.870 seconds
+[2023-11-07T18:14:48.292+0000] {processor.py:157} INFO - Started process (PID=1757) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:14:48.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:14:48.295+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:14:48.294+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:14:49.033+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:14:49.118+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:14:49.138+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:14:49.137+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:14:49.148+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:14:49.148+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:14:49.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.877 seconds
+[2023-11-07T18:15:19.344+0000] {processor.py:157} INFO - Started process (PID=1770) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:15:19.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:15:19.346+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:15:19.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:15:20.072+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:15:20.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:15:20.191+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:15:20.191+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:15:20.205+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:15:20.205+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:15:20.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.888 seconds
+[2023-11-07T18:15:50.418+0000] {processor.py:157} INFO - Started process (PID=1783) to work on /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:15:50.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ps_etl_s3_input.py for tasks to queue
+[2023-11-07T18:15:50.420+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:15:50.420+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:15:51.117+0000] {logging_mixin.py:151} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103 UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-11-07T18:15:51.213+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ps_etl_s3']) retrieved from /opt/airflow/dags/ps_etl_s3_input.py
+[2023-11-07T18:15:51.237+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:15:51.236+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-07T18:15:51.248+0000] {logging_mixin.py:151} INFO - [2023-11-07T18:15:51.247+0000] {dag.py:3722} INFO - Setting next_dagrun for ps_etl_s3 to None, run_after=None
+[2023-11-07T18:15:51.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl_s3_input.py took 0.850 seconds

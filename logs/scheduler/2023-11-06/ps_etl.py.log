@@ -1,0 +1,1945 @@
+[2023-11-06T05:26:28.898+0000] {processor.py:157} INFO - Started process (PID=7787) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:26:28.901+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:26:28.904+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:26:28.903+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:26:28.928+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:26:28.925+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 6, in <module>
+    from dags.ps_extract import read_excel_and_split
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:26:28.931+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:26:28.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.090 seconds
+[2023-11-06T05:26:59.434+0000] {processor.py:157} INFO - Started process (PID=7885) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:26:59.436+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:26:59.437+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:26:59.436+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:26:59.446+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:26:59.444+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 6, in <module>
+    from dags.ps_extract import read_excel_and_split
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:26:59.447+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:26:59.471+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.041 seconds
+[2023-11-06T05:27:29.551+0000] {processor.py:157} INFO - Started process (PID=7991) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:27:29.552+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:27:29.554+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:27:29.553+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:27:29.561+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:27:29.559+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 6, in <module>
+    from dags.ps_extract import read_excel_and_split
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:27:29.562+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:27:29.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.066 seconds
+[2023-11-06T05:28:00.142+0000] {processor.py:157} INFO - Started process (PID=8092) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:00.144+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:28:00.147+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:28:00.146+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:00.167+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:28:00.161+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 6, in <module>
+    from dags.ps_extract import read_excel_and_split
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:28:00.169+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:00.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.074 seconds
+[2023-11-06T05:28:18.685+0000] {processor.py:157} INFO - Started process (PID=8163) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:18.686+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:28:18.688+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:28:18.687+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:18.700+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:28:18.697+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:28:18.703+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:18.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.058 seconds
+[2023-11-06T05:28:49.136+0000] {processor.py:157} INFO - Started process (PID=8270) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:49.137+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:28:49.138+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:28:49.137+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:49.145+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:28:49.143+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:28:49.145+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:28:49.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.033 seconds
+[2023-11-06T05:29:19.208+0000] {processor.py:157} INFO - Started process (PID=8369) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:29:19.209+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:29:19.211+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:29:19.210+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:29:19.218+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:29:19.216+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:29:19.219+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:29:19.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:29:49.631+0000] {processor.py:157} INFO - Started process (PID=8467) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:29:49.632+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:29:49.634+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:29:49.633+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:29:49.641+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:29:49.639+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:29:49.642+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:29:49.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T05:30:20.086+0000] {processor.py:157} INFO - Started process (PID=8558) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:30:20.088+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:30:20.090+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:30:20.089+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:30:20.099+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:30:20.096+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:30:20.100+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:30:20.156+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.078 seconds
+[2023-11-06T05:30:50.264+0000] {processor.py:157} INFO - Started process (PID=8657) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:30:50.266+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:30:50.268+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:30:50.267+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:30:50.281+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:30:50.277+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:30:50.283+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:30:50.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.056 seconds
+[2023-11-06T05:31:20.653+0000] {processor.py:157} INFO - Started process (PID=8753) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:31:20.655+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:31:20.657+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:31:20.656+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:31:20.669+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:31:20.666+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:31:20.670+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:31:20.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.053 seconds
+[2023-11-06T05:31:50.802+0000] {processor.py:157} INFO - Started process (PID=8861) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:31:50.803+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:31:50.805+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:31:50.804+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:31:50.814+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:31:50.812+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:31:50.815+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:31:50.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:32:21.167+0000] {processor.py:157} INFO - Started process (PID=8960) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:32:21.169+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:32:21.171+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:32:21.171+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:32:21.181+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:32:21.178+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:32:21.182+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:32:21.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.048 seconds
+[2023-11-06T05:32:51.670+0000] {processor.py:157} INFO - Started process (PID=9068) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:32:51.672+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:32:51.674+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:32:51.674+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:32:51.684+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:32:51.682+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:32:51.685+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:32:51.715+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.051 seconds
+[2023-11-06T05:33:21.841+0000] {processor.py:157} INFO - Started process (PID=9166) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:33:21.843+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:33:21.844+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:33:21.844+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:33:21.851+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:33:21.849+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:33:21.852+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:33:21.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.035 seconds
+[2023-11-06T05:33:52.555+0000] {processor.py:157} INFO - Started process (PID=9265) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:33:52.556+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:33:52.558+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:33:52.557+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:33:52.574+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:33:52.572+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:33:52.576+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:33:52.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.048 seconds
+[2023-11-06T05:34:23.079+0000] {processor.py:157} INFO - Started process (PID=9373) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:34:23.081+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:34:23.084+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:34:23.082+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:34:23.094+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:34:23.092+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:34:23.095+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:34:23.128+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.054 seconds
+[2023-11-06T05:34:53.256+0000] {processor.py:157} INFO - Started process (PID=9472) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:34:53.257+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:34:53.258+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:34:53.258+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:34:53.267+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:34:53.265+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:34:53.268+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:34:53.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.042 seconds
+[2023-11-06T05:35:23.827+0000] {processor.py:157} INFO - Started process (PID=9580) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:35:23.830+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:35:23.831+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:35:23.831+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:35:23.843+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:35:23.839+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:35:23.845+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:35:23.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.054 seconds
+[2023-11-06T05:35:53.932+0000] {processor.py:157} INFO - Started process (PID=9679) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:35:53.933+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:35:53.934+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:35:53.934+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:35:53.942+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:35:53.940+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:35:53.942+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:35:53.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:36:24.490+0000] {processor.py:157} INFO - Started process (PID=9778) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:36:24.491+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:36:24.493+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:36:24.492+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:36:24.501+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:36:24.499+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:36:24.502+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:36:24.525+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:36:55.052+0000] {processor.py:157} INFO - Started process (PID=9886) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:36:55.064+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:36:55.066+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:36:55.066+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:36:55.076+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:36:55.074+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:36:55.077+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:36:55.104+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.058 seconds
+[2023-11-06T05:37:25.309+0000] {processor.py:157} INFO - Started process (PID=9985) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:37:25.310+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:37:25.312+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:37:25.312+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:37:25.321+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:37:25.319+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:37:25.321+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:37:25.344+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:37:55.388+0000] {processor.py:157} INFO - Started process (PID=10085) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:37:55.390+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:37:55.391+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:37:55.391+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:37:55.402+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:37:55.400+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:37:55.403+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:37:55.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.046 seconds
+[2023-11-06T05:38:26.040+0000] {processor.py:157} INFO - Started process (PID=10193) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:38:26.042+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:38:26.043+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:38:26.043+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:38:26.053+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:38:26.051+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:38:26.054+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:38:26.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.044 seconds
+[2023-11-06T05:38:56.553+0000] {processor.py:157} INFO - Started process (PID=10292) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:38:56.554+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:38:56.556+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:38:56.555+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:38:56.565+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:38:56.563+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:38:56.566+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:38:56.591+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.043 seconds
+[2023-11-06T05:39:26.988+0000] {processor.py:157} INFO - Started process (PID=10400) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:39:26.990+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:39:26.992+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:39:26.991+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:39:27.003+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:39:27.000+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:39:27.004+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:39:27.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.052 seconds
+[2023-11-06T05:39:57.904+0000] {processor.py:157} INFO - Started process (PID=10499) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:39:57.906+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:39:57.907+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:39:57.907+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:39:57.915+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:39:57.913+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:39:57.916+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:39:57.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:40:28.224+0000] {processor.py:157} INFO - Started process (PID=10594) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:40:28.226+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:40:28.230+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:40:28.229+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:40:28.245+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:40:28.242+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:40:28.247+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:40:28.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.070 seconds
+[2023-11-06T05:40:58.426+0000] {processor.py:157} INFO - Started process (PID=10699) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:40:58.427+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:40:58.428+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:40:58.428+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:40:58.438+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:40:58.436+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:40:58.439+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:40:58.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.046 seconds
+[2023-11-06T05:41:28.574+0000] {processor.py:157} INFO - Started process (PID=10794) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:41:28.576+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:41:28.578+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:41:28.577+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:41:28.588+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:41:28.586+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:41:28.589+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:41:28.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T05:41:59.457+0000] {processor.py:157} INFO - Started process (PID=10893) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:41:59.458+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:41:59.459+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:41:59.459+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:41:59.467+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:41:59.465+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:41:59.468+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:41:59.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T05:42:29.654+0000] {processor.py:157} INFO - Started process (PID=11001) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:42:29.656+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:42:29.657+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:42:29.657+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:42:29.665+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:42:29.663+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:42:29.665+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:42:29.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T05:43:00.230+0000] {processor.py:157} INFO - Started process (PID=11100) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:43:00.232+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:43:00.234+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:43:00.233+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:43:00.245+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:43:00.243+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:43:00.247+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:43:00.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.055 seconds
+[2023-11-06T05:43:30.651+0000] {processor.py:157} INFO - Started process (PID=11208) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:43:30.653+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:43:30.655+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:43:30.654+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:43:30.663+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:43:30.662+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:43:30.664+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:43:30.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.042 seconds
+[2023-11-06T05:44:01.448+0000] {processor.py:157} INFO - Started process (PID=11307) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:44:01.449+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:44:01.451+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:44:01.450+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:44:01.459+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:44:01.457+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:44:01.460+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:44:01.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.071 seconds
+[2023-11-06T05:44:32.016+0000] {processor.py:157} INFO - Started process (PID=11413) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:44:32.018+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:44:32.019+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:44:32.019+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:44:32.033+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:44:32.031+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:44:32.034+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:44:32.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.054 seconds
+[2023-11-06T05:45:02.268+0000] {processor.py:157} INFO - Started process (PID=11514) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:45:02.269+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:45:02.271+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:45:02.271+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:45:02.283+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:45:02.280+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:45:02.284+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:45:02.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.059 seconds
+[2023-11-06T05:45:32.388+0000] {processor.py:157} INFO - Started process (PID=11613) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:45:32.390+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:45:32.391+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:45:32.391+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:45:32.401+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:45:32.398+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:45:32.402+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:45:32.428+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.045 seconds
+[2023-11-06T05:46:02.675+0000] {processor.py:157} INFO - Started process (PID=11712) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:46:02.677+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:46:02.678+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:46:02.678+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:46:02.686+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:46:02.684+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:46:02.687+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:46:02.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.041 seconds
+[2023-11-06T05:46:32.865+0000] {processor.py:157} INFO - Started process (PID=11820) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:46:32.867+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:46:32.870+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:46:32.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:46:32.885+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:46:32.882+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:46:32.886+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:46:32.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.060 seconds
+[2023-11-06T05:47:03.679+0000] {processor.py:157} INFO - Started process (PID=11919) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:47:03.681+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:47:03.683+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:47:03.682+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:47:03.693+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:47:03.691+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:47:03.694+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:47:03.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T05:47:33.832+0000] {processor.py:157} INFO - Started process (PID=12018) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:47:33.834+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:47:33.835+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:47:33.835+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:47:33.844+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:47:33.842+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:47:33.844+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:47:33.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.044 seconds
+[2023-11-06T05:48:04.073+0000] {processor.py:157} INFO - Started process (PID=12124) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:48:04.074+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:48:04.076+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:48:04.076+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:48:04.087+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:48:04.085+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:48:04.088+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:48:04.118+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T05:48:34.833+0000] {processor.py:157} INFO - Started process (PID=12209) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:48:34.834+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:48:34.836+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:48:34.835+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:48:34.843+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:48:34.841+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:48:34.844+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:48:34.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.051 seconds
+[2023-11-06T05:49:05.112+0000] {processor.py:157} INFO - Started process (PID=12307) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:49:05.113+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:49:05.114+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:49:05.114+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:49:05.122+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:49:05.120+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:49:05.123+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:49:05.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T05:49:35.234+0000] {processor.py:157} INFO - Started process (PID=12414) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:49:35.236+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:49:35.237+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:49:35.236+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:49:35.246+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:49:35.243+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:49:35.246+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:49:35.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.042 seconds
+[2023-11-06T05:50:05.336+0000] {processor.py:157} INFO - Started process (PID=12513) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:50:05.338+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:50:05.341+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:50:05.340+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:50:05.356+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:50:05.352+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:50:05.358+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:50:05.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.077 seconds
+[2023-11-06T05:50:35.582+0000] {processor.py:157} INFO - Started process (PID=12610) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:50:35.589+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:50:35.598+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:50:35.597+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:50:35.626+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:50:35.623+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:50:35.629+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:50:35.724+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.149 seconds
+[2023-11-06T05:51:06.725+0000] {processor.py:157} INFO - Started process (PID=12717) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:51:06.727+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:51:06.730+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:51:06.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:51:06.743+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:51:06.739+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:51:06.745+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:51:06.789+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.070 seconds
+[2023-11-06T05:51:36.824+0000] {processor.py:157} INFO - Started process (PID=12816) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:51:36.826+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:51:36.827+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:51:36.827+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:51:36.836+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:51:36.834+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:51:36.837+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:51:36.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:52:07.331+0000] {processor.py:157} INFO - Started process (PID=12915) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:52:07.332+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:52:07.333+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:52:07.333+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:52:07.340+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:52:07.338+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:52:07.341+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:52:07.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.035 seconds
+[2023-11-06T05:52:37.671+0000] {processor.py:157} INFO - Started process (PID=13023) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:52:37.672+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:52:37.674+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:52:37.673+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:52:37.682+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:52:37.680+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:52:37.683+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:52:37.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.041 seconds
+[2023-11-06T05:53:07.859+0000] {processor.py:157} INFO - Started process (PID=13122) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:53:07.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:53:07.862+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:53:07.861+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:53:07.871+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:53:07.868+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:53:07.872+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:53:07.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:53:38.223+0000] {processor.py:157} INFO - Started process (PID=13221) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:53:38.226+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:53:38.229+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:53:38.228+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:53:38.242+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:53:38.239+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:53:38.243+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:53:38.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.059 seconds
+[2023-11-06T05:54:08.768+0000] {processor.py:157} INFO - Started process (PID=13320) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:54:08.770+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:54:08.772+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:54:08.771+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:54:08.782+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:54:08.780+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:54:08.783+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:54:08.845+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.082 seconds
+[2023-11-06T05:54:39.012+0000] {processor.py:157} INFO - Started process (PID=13428) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:54:39.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:54:39.032+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:54:39.031+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:54:39.042+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:54:39.039+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:54:39.043+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:54:39.070+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.063 seconds
+[2023-11-06T05:55:09.308+0000] {processor.py:157} INFO - Started process (PID=13510) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:55:09.310+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:55:09.312+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:55:09.311+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:55:09.323+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:55:09.321+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:55:09.324+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:55:09.370+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.068 seconds
+[2023-11-06T05:55:40.028+0000] {processor.py:157} INFO - Started process (PID=13618) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:55:40.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:55:40.031+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:55:40.031+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:55:40.038+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:55:40.036+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:55:40.038+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:55:40.062+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.038 seconds
+[2023-11-06T05:56:10.830+0000] {processor.py:157} INFO - Started process (PID=13717) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:56:10.832+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:56:10.833+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:56:10.833+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:56:10.841+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:56:10.839+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:56:10.842+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:56:10.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T05:56:40.996+0000] {processor.py:157} INFO - Started process (PID=13816) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:56:40.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:56:40.998+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:56:40.998+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:56:41.007+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:56:41.005+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:56:41.008+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:56:41.038+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.047 seconds
+[2023-11-06T05:57:11.457+0000] {processor.py:157} INFO - Started process (PID=13924) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:11.459+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:57:11.462+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:57:11.461+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:11.473+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:57:11.471+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:57:11.474+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:11.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T05:57:24.256+0000] {processor.py:157} INFO - Started process (PID=13982) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:24.264+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:57:24.266+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:57:24.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:24.283+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:57:24.280+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:57:24.285+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:24.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.079 seconds
+[2023-11-06T05:57:54.891+0000] {processor.py:157} INFO - Started process (PID=14062) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:54.902+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:57:54.904+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:57:54.904+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:54.968+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:57:54.966+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:57:54.970+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:57:55.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.117 seconds
+[2023-11-06T05:58:25.138+0000] {processor.py:157} INFO - Started process (PID=14170) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:58:25.139+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:58:25.140+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:58:25.140+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:58:25.149+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:58:25.147+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:58:25.150+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:58:25.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.040 seconds
+[2023-11-06T05:58:55.715+0000] {processor.py:157} INFO - Started process (PID=14269) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:58:55.717+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:58:55.719+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:58:55.718+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:58:55.755+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:58:55.751+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:58:55.762+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:58:55.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.096 seconds
+[2023-11-06T05:59:26.235+0000] {processor.py:157} INFO - Started process (PID=14377) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:59:26.236+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:59:26.237+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:59:26.237+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:59:26.245+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:59:26.243+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:59:26.246+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:59:26.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T05:59:57.029+0000] {processor.py:157} INFO - Started process (PID=14476) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:59:57.031+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T05:59:57.034+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:59:57.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:59:57.058+0000] {logging_mixin.py:150} INFO - [2023-11-06T05:59:57.051+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T05:59:57.060+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T05:59:57.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.093 seconds
+[2023-11-06T06:00:27.549+0000] {processor.py:157} INFO - Started process (PID=14574) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:00:27.550+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:00:27.552+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:00:27.551+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:00:27.561+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:00:27.559+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:00:27.562+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:00:27.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.041 seconds
+[2023-11-06T06:00:58.147+0000] {processor.py:157} INFO - Started process (PID=14682) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:00:58.149+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:00:58.150+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:00:58.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:00:58.161+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:00:58.157+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:00:58.163+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:00:58.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.045 seconds
+[2023-11-06T06:01:29.180+0000] {processor.py:157} INFO - Started process (PID=14781) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:01:29.181+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:01:29.183+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:01:29.183+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:01:29.193+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:01:29.191+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:01:29.194+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:01:29.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.048 seconds
+[2023-11-06T06:01:59.494+0000] {processor.py:157} INFO - Started process (PID=14898) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:01:59.495+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:01:59.496+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:01:59.496+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:01:59.504+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:01:59.502+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:01:59.505+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:01:59.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T06:02:29.848+0000] {processor.py:157} INFO - Started process (PID=15023) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:02:29.849+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:02:29.850+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:02:29.850+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:02:29.858+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:02:29.856+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:02:29.858+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:02:29.879+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.035 seconds
+[2023-11-06T06:03:00.133+0000] {processor.py:157} INFO - Started process (PID=15139) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:03:00.134+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:03:00.137+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:03:00.136+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:03:00.152+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:03:00.148+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:03:00.154+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:03:00.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.084 seconds
+[2023-11-06T06:03:30.394+0000] {processor.py:157} INFO - Started process (PID=15264) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:03:30.396+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:03:30.397+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:03:30.397+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:03:30.408+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:03:30.406+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:03:30.409+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:03:30.434+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.045 seconds
+[2023-11-06T06:04:00.944+0000] {processor.py:157} INFO - Started process (PID=15379) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:04:00.945+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:04:00.947+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:04:00.946+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:04:00.957+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:04:00.954+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:04:00.958+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:04:00.984+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.044 seconds
+[2023-11-06T06:04:31.483+0000] {processor.py:157} INFO - Started process (PID=15495) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:04:31.484+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:04:31.486+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:04:31.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:04:31.498+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:04:31.496+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:04:31.499+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:04:31.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.059 seconds
+[2023-11-06T06:05:01.827+0000] {processor.py:157} INFO - Started process (PID=15620) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:05:01.829+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:05:01.831+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:05:01.830+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:05:01.842+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:05:01.839+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:05:01.843+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:05:01.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.056 seconds
+[2023-11-06T06:05:32.776+0000] {processor.py:157} INFO - Started process (PID=15736) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:05:32.778+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:05:32.780+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:05:32.780+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:05:32.798+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:05:32.793+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:05:32.802+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:05:32.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.084 seconds
+[2023-11-06T06:06:03.397+0000] {processor.py:157} INFO - Started process (PID=15859) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:06:03.398+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:06:03.399+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:06:03.399+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:06:03.411+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:06:03.409+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:06:03.412+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:06:03.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.044 seconds
+[2023-11-06T06:06:33.587+0000] {processor.py:157} INFO - Started process (PID=15994) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:06:33.589+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:06:33.590+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:06:33.590+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:06:33.602+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:06:33.599+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:06:33.603+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:06:33.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T06:07:04.101+0000] {processor.py:157} INFO - Started process (PID=16126) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:07:04.105+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:07:04.108+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:07:04.107+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:07:04.125+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:07:04.118+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:07:04.155+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:07:04.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.124 seconds
+[2023-11-06T06:07:35.606+0000] {processor.py:157} INFO - Started process (PID=16268) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:07:35.609+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:07:35.612+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:07:35.611+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:07:35.625+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:07:35.622+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:07:35.626+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:07:35.663+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.064 seconds
+[2023-11-06T06:08:06.822+0000] {processor.py:157} INFO - Started process (PID=16400) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:08:06.823+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:08:06.824+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:08:06.824+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:08:06.832+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:08:06.830+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:08:06.833+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:08:06.863+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.047 seconds
+[2023-11-06T06:08:37.628+0000] {processor.py:157} INFO - Started process (PID=16523) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:08:37.631+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:08:37.633+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:08:37.632+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:08:37.642+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:08:37.640+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:08:37.644+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:08:37.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T06:09:08.566+0000] {processor.py:157} INFO - Started process (PID=16608) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:09:08.568+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:09:08.570+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:09:08.569+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:09:08.582+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:09:08.579+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:09:08.583+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:09:08.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.066 seconds
+[2023-11-06T06:09:39.066+0000] {processor.py:157} INFO - Started process (PID=16723) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:09:39.068+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:09:39.069+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:09:39.069+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:09:39.080+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:09:39.077+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:09:39.081+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:09:39.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.041 seconds
+[2023-11-06T06:10:09.686+0000] {processor.py:157} INFO - Started process (PID=16848) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:10:09.687+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:10:09.689+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:10:09.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:10:09.698+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:10:09.695+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:10:09.699+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:10:09.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T06:10:35.371+0000] {processor.py:157} INFO - Started process (PID=16979) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:10:35.372+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:10:35.376+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:10:35.375+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:10:35.399+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:10:35.396+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:10:35.400+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:10:35.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.076 seconds
+[2023-11-06T06:11:05.941+0000] {processor.py:157} INFO - Started process (PID=17079) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:11:05.942+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:11:05.944+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:11:05.944+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:11:05.958+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:11:05.955+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:11:05.960+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:11:05.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.064 seconds
+[2023-11-06T06:11:36.275+0000] {processor.py:157} INFO - Started process (PID=17212) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:11:36.276+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:11:36.278+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:11:36.278+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:11:36.290+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:11:36.287+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:11:36.291+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:11:36.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T06:12:06.969+0000] {processor.py:157} INFO - Started process (PID=17354) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:12:06.970+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:12:06.972+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:12:06.971+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:12:06.984+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:12:06.980+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:12:06.985+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:12:07.019+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.056 seconds
+[2023-11-06T06:12:37.327+0000] {processor.py:157} INFO - Started process (PID=17487) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:12:37.329+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:12:37.330+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:12:37.330+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:12:37.340+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:12:37.337+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:12:37.341+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:12:37.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.046 seconds
+[2023-11-06T06:13:07.922+0000] {processor.py:157} INFO - Started process (PID=17619) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:13:07.924+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:13:07.925+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:13:07.925+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:13:07.933+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:13:07.931+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:13:07.935+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:13:07.963+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.045 seconds
+[2023-11-06T06:13:38.019+0000] {processor.py:157} INFO - Started process (PID=17745) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:13:38.020+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:13:38.022+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:13:38.022+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:13:38.030+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:13:38.028+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:13:38.031+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:13:38.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.042 seconds
+[2023-11-06T06:14:08.443+0000] {processor.py:157} INFO - Started process (PID=17878) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:14:08.445+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:14:08.446+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:14:08.446+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:14:08.455+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:14:08.453+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:14:08.456+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:14:08.483+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.044 seconds
+[2023-11-06T06:14:39.003+0000] {processor.py:157} INFO - Started process (PID=18011) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:14:39.005+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:14:39.008+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:14:39.007+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:14:39.021+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:14:39.017+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:14:39.022+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:14:39.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.067 seconds
+[2023-11-06T06:15:09.487+0000] {processor.py:157} INFO - Started process (PID=18153) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:09.488+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:15:09.490+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:15:09.489+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:09.502+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:15:09.499+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 3, in <module>
+    from dags.ps_extract import read_excel_and_split,get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:15:09.503+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:09.531+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T06:15:26.179+0000] {processor.py:157} INFO - Started process (PID=18237) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:26.181+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:15:26.184+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:15:26.183+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:26.204+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:15:26.202+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:15:26.206+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:26.259+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.090 seconds
+[2023-11-06T06:15:39.757+0000] {processor.py:157} INFO - Started process (PID=18287) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:39.758+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:15:39.760+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:15:39.759+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:39.776+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:15:39.773+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:15:39.777+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:15:39.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.059 seconds
+[2023-11-06T06:16:10.167+0000] {processor.py:157} INFO - Started process (PID=18420) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:10.168+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:16:10.170+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:16:10.170+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:10.181+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:16:10.179+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:16:10.183+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:10.211+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T06:16:27.239+0000] {processor.py:157} INFO - Started process (PID=18494) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:27.242+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:16:27.245+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:16:27.244+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:27.273+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:16:27.265+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:16:27.277+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:27.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.102 seconds
+[2023-11-06T06:16:57.405+0000] {processor.py:157} INFO - Started process (PID=18627) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:57.407+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:16:57.408+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:16:57.408+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:57.418+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:16:57.416+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:16:57.419+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:16:57.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.045 seconds
+[2023-11-06T06:17:27.761+0000] {processor.py:157} INFO - Started process (PID=18760) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:17:27.763+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:17:27.765+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:17:27.765+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:17:27.779+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:17:27.776+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:17:27.780+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:17:27.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.052 seconds
+[2023-11-06T06:17:58.350+0000] {processor.py:157} INFO - Started process (PID=18902) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:17:58.351+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:17:58.353+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:17:58.353+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:17:58.363+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:17:58.361+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:17:58.364+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:17:58.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T06:18:29.305+0000] {processor.py:157} INFO - Started process (PID=19035) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:18:29.307+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:18:29.309+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:18:29.308+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:18:29.317+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:18:29.315+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import read_excel_and_split, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:18:29.318+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:18:29.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T06:18:33.586+0000] {processor.py:157} INFO - Started process (PID=19070) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:18:33.587+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:18:33.590+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:18:33.589+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:18:33.604+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:18:33.601+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 53
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:18:33.605+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:18:33.641+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.064 seconds
+[2023-11-06T06:19:04.192+0000] {processor.py:157} INFO - Started process (PID=19205) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:04.202+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:19:04.205+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:19:04.204+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:04.218+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:19:04.216+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 53
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:19:04.231+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:04.275+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.093 seconds
+[2023-11-06T06:19:34.357+0000] {processor.py:157} INFO - Started process (PID=19321) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:34.374+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:19:34.377+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:19:34.376+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:34.417+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:19:34.415+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 53
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:19:34.419+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:34.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.104 seconds
+[2023-11-06T06:19:40.318+0000] {processor.py:157} INFO - Started process (PID=19346) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:40.320+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:19:40.322+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:19:40.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:40.332+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:19:40.329+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 53
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:19:40.333+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:19:40.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.061 seconds
+[2023-11-06T06:20:10.939+0000] {processor.py:157} INFO - Started process (PID=19488) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:20:10.941+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:20:10.946+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:20:10.944+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:20:10.961+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:20:10.958+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 53
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:20:10.964+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:20:11.012+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.079 seconds
+[2023-11-06T06:20:38.525+0000] {processor.py:157} INFO - Started process (PID=19605) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:20:38.527+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:20:38.528+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:20:38.528+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:20:38.541+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:20:38.539+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 60
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:20:38.542+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:20:38.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.075 seconds
+[2023-11-06T06:21:08.743+0000] {processor.py:157} INFO - Started process (PID=19747) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:21:08.744+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:21:08.745+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:21:08.745+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:21:08.753+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:21:08.752+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 60
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:21:08.754+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:21:08.779+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.041 seconds
+[2023-11-06T06:21:38.988+0000] {processor.py:157} INFO - Started process (PID=19864) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:21:38.990+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:21:38.991+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:21:38.991+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:21:38.998+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:21:38.997+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 60
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:21:38.999+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:21:39.022+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.039 seconds
+[2023-11-06T06:22:09.385+0000] {processor.py:157} INFO - Started process (PID=19997) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:22:09.387+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:22:09.388+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:22:09.387+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:22:09.394+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:22:09.393+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 60
+    ''',
+    ^
+IndentationError: unexpected indent
+[2023-11-06T06:22:09.394+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:22:09.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.034 seconds
+[2023-11-06T06:22:30.354+0000] {processor.py:157} INFO - Started process (PID=20075) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:22:30.356+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:22:30.357+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:22:30.357+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:22:30.386+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:22:30.380+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:22:30.395+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:22:30.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.127 seconds
+[2023-11-06T06:23:00.879+0000] {processor.py:157} INFO - Started process (PID=20207) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:23:00.880+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:23:00.882+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:23:00.881+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:23:00.891+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:23:00.889+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:23:00.892+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:23:00.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.043 seconds
+[2023-11-06T06:23:31.606+0000] {processor.py:157} INFO - Started process (PID=20349) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:23:31.608+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:23:31.609+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:23:31.609+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:23:31.623+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:23:31.620+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:23:31.624+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:23:31.657+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.057 seconds
+[2023-11-06T06:24:01.787+0000] {processor.py:157} INFO - Started process (PID=20482) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:24:01.789+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:24:01.790+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:24:01.790+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:24:01.801+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:24:01.799+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:24:01.803+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:24:01.831+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.049 seconds
+[2023-11-06T06:24:32.429+0000] {processor.py:157} INFO - Started process (PID=20616) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:24:32.431+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T06:24:32.432+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:24:32.432+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:24:32.443+0000] {logging_mixin.py:150} INFO - [2023-11-06T06:24:32.441+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T06:24:32.444+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T06:24:32.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.044 seconds
+[2023-11-06T08:54:17.243+0000] {processor.py:157} INFO - Started process (PID=20689) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T08:54:17.251+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T08:54:17.261+0000] {logging_mixin.py:150} INFO - [2023-11-06T08:54:17.261+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T08:54:17.281+0000] {logging_mixin.py:150} INFO - [2023-11-06T08:54:17.277+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T08:54:17.283+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T08:54:17.341+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.110 seconds
+[2023-11-06T08:54:48.133+0000] {processor.py:157} INFO - Started process (PID=20802) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T08:54:48.145+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T08:54:48.163+0000] {logging_mixin.py:150} INFO - [2023-11-06T08:54:48.158+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T08:54:48.227+0000] {logging_mixin.py:150} INFO - [2023-11-06T08:54:48.213+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T08:54:48.234+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T08:54:48.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.278 seconds
+[2023-11-06T09:24:37.372+0000] {processor.py:157} INFO - Started process (PID=20924) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T09:24:37.387+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T09:24:37.433+0000] {logging_mixin.py:150} INFO - [2023-11-06T09:24:37.433+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T09:24:37.483+0000] {logging_mixin.py:150} INFO - [2023-11-06T09:24:37.478+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T09:24:37.492+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T09:24:37.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.169 seconds
+[2023-11-06T17:02:21.084+0000] {processor.py:157} INFO - Started process (PID=21070) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:02:21.159+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:02:21.255+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:02:21.238+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:02:21.659+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:02:21.603+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:02:21.682+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:02:22.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 1.163 seconds
+[2023-11-06T17:02:52.732+0000] {processor.py:157} INFO - Started process (PID=21205) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:02:52.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:02:52.736+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:02:52.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:02:52.745+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:02:52.743+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:02:52.746+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:02:52.783+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.057 seconds
+[2023-11-06T17:03:22.968+0000] {processor.py:157} INFO - Started process (PID=21321) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:03:22.972+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:03:22.974+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:03:22.974+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:03:23.002+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:03:22.998+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:03:23.005+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:03:23.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.136 seconds
+[2023-11-06T17:03:53.846+0000] {processor.py:157} INFO - Started process (PID=21463) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:03:53.848+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:03:53.851+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:03:53.850+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:03:53.867+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:03:53.863+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:03:53.868+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:03:53.948+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.093 seconds
+[2023-11-06T17:04:24.641+0000] {processor.py:157} INFO - Started process (PID=21596) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:04:24.642+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:04:24.644+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:04:24.643+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:04:24.655+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:04:24.652+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:04:24.660+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:04:24.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.077 seconds
+[2023-11-06T17:04:54.809+0000] {processor.py:157} INFO - Started process (PID=21737) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:04:54.811+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:04:54.813+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:04:54.813+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:04:54.827+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:04:54.823+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:04:54.829+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:04:54.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.068 seconds
+[2023-11-06T17:05:25.058+0000] {processor.py:157} INFO - Started process (PID=21869) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:05:25.060+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:05:25.061+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:05:25.061+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:05:25.069+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:05:25.068+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:05:25.070+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:05:25.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.035 seconds
+[2023-11-06T17:05:55.251+0000] {processor.py:157} INFO - Started process (PID=22002) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:05:55.262+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:05:55.263+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:05:55.263+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:05:55.271+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:05:55.269+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:05:55.272+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:05:55.297+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.050 seconds
+[2023-11-06T17:06:25.347+0000] {processor.py:157} INFO - Started process (PID=22144) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:06:25.349+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:06:25.350+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:06:25.350+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:06:25.359+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:06:25.356+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:06:25.360+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:06:25.381+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.038 seconds
+[2023-11-06T17:06:55.514+0000] {processor.py:157} INFO - Started process (PID=22277) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:06:55.515+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:06:55.516+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:06:55.516+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:06:55.523+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:06:55.521+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:06:55.524+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:06:55.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T17:07:25.901+0000] {processor.py:157} INFO - Started process (PID=22419) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:07:25.902+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:07:25.903+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:07:25.903+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:07:25.911+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:07:25.909+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:07:25.911+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:07:25.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.037 seconds
+[2023-11-06T17:07:56.535+0000] {processor.py:157} INFO - Started process (PID=22552) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:07:56.536+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:07:56.537+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:07:56.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:07:56.544+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:07:56.542+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:07:56.545+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:07:56.567+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T17:08:27.316+0000] {processor.py:157} INFO - Started process (PID=22694) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:08:27.318+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:08:27.319+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:08:27.319+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:08:27.327+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:08:27.325+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:08:27.328+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:08:27.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.036 seconds
+[2023-11-06T17:08:58.066+0000] {processor.py:157} INFO - Started process (PID=22827) to work on /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:08:58.067+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ps_etl.py for tasks to queue
+[2023-11-06T17:08:58.069+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:08:58.069+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:08:58.078+0000] {logging_mixin.py:150} INFO - [2023-11-06T17:08:58.076+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/ps_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ps_etl.py", line 4, in <module>
+    from dags.ps_extract import extract, get_extract_dag
+ModuleNotFoundError: No module named 'dags'
+[2023-11-06T17:08:58.079+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/ps_etl.py
+[2023-11-06T17:08:58.105+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ps_etl.py took 0.043 seconds

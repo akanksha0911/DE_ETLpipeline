@@ -1,0 +1,1444 @@
+[2023-11-04 21:58:03,012] {processor.py:153} INFO - Started process (PID=1274) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:58:03,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 21:58:03,014] {logging_mixin.py:115} INFO - [2023-11-04 21:58:03,013] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:58:03,312] {logging_mixin.py:115} INFO - [2023-11-04 21:58:03,311] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 21:58:03,313] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:58:03,334] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.325 seconds
+[2023-11-04 21:58:33,396] {processor.py:153} INFO - Started process (PID=1293) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:58:33,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 21:58:33,398] {logging_mixin.py:115} INFO - [2023-11-04 21:58:33,398] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:58:33,481] {logging_mixin.py:115} INFO - [2023-11-04 21:58:33,480] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 21:58:33,482] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:58:33,502] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 21:59:03,567] {processor.py:153} INFO - Started process (PID=1321) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:59:03,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 21:59:03,569] {logging_mixin.py:115} INFO - [2023-11-04 21:59:03,569] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:59:03,650] {logging_mixin.py:115} INFO - [2023-11-04 21:59:03,649] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 21:59:03,651] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:59:03,670] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.106 seconds
+[2023-11-04 21:59:33,731] {processor.py:153} INFO - Started process (PID=1349) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:59:33,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 21:59:33,733] {logging_mixin.py:115} INFO - [2023-11-04 21:59:33,732] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:59:33,819] {logging_mixin.py:115} INFO - [2023-11-04 21:59:33,818] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 21:59:33,820] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 21:59:33,844] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.116 seconds
+[2023-11-04 22:00:03,914] {processor.py:153} INFO - Started process (PID=1368) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:00:03,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:00:03,916] {logging_mixin.py:115} INFO - [2023-11-04 22:00:03,916] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:00:04,023] {logging_mixin.py:115} INFO - [2023-11-04 22:00:04,021] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:00:04,024] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:00:04,051] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.141 seconds
+[2023-11-04 22:00:34,125] {processor.py:153} INFO - Started process (PID=1396) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:00:34,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:00:34,127] {logging_mixin.py:115} INFO - [2023-11-04 22:00:34,127] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:00:34,243] {logging_mixin.py:115} INFO - [2023-11-04 22:00:34,241] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:00:34,244] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:00:34,275] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.155 seconds
+[2023-11-04 22:01:04,381] {processor.py:153} INFO - Started process (PID=1415) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:01:04,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:01:04,385] {logging_mixin.py:115} INFO - [2023-11-04 22:01:04,385] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:01:04,844] {logging_mixin.py:115} INFO - [2023-11-04 22:01:04,841] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:01:04,846] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:01:04,924] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.554 seconds
+[2023-11-04 22:01:35,117] {processor.py:153} INFO - Started process (PID=1434) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:01:35,118] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:01:35,120] {logging_mixin.py:115} INFO - [2023-11-04 22:01:35,120] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:01:35,319] {logging_mixin.py:115} INFO - [2023-11-04 22:01:35,316] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:01:35,322] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:01:35,366] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.259 seconds
+[2023-11-04 22:02:05,515] {processor.py:153} INFO - Started process (PID=1453) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:02:05,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:02:05,521] {logging_mixin.py:115} INFO - [2023-11-04 22:02:05,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:02:06,198] {logging_mixin.py:115} INFO - [2023-11-04 22:02:06,195] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:02:06,199] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:02:06,284] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.784 seconds
+[2023-11-04 22:02:36,324] {processor.py:153} INFO - Started process (PID=1481) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:02:36,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:02:36,325] {logging_mixin.py:115} INFO - [2023-11-04 22:02:36,325] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:02:36,448] {logging_mixin.py:115} INFO - [2023-11-04 22:02:36,446] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:02:36,448] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:02:36,485] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.165 seconds
+[2023-11-04 22:03:06,550] {processor.py:153} INFO - Started process (PID=1500) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:03:06,551] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:03:06,552] {logging_mixin.py:115} INFO - [2023-11-04 22:03:06,552] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:03:06,681] {logging_mixin.py:115} INFO - [2023-11-04 22:03:06,680] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:03:06,682] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:03:06,703] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.156 seconds
+[2023-11-04 22:03:36,774] {processor.py:153} INFO - Started process (PID=1528) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:03:36,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:03:36,776] {logging_mixin.py:115} INFO - [2023-11-04 22:03:36,776] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:03:36,859] {logging_mixin.py:115} INFO - [2023-11-04 22:03:36,858] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:03:36,860] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:03:36,881] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.110 seconds
+[2023-11-04 22:04:06,951] {processor.py:153} INFO - Started process (PID=1554) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:04:06,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:04:06,959] {logging_mixin.py:115} INFO - [2023-11-04 22:04:06,959] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:04:07,092] {logging_mixin.py:115} INFO - [2023-11-04 22:04:07,090] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:04:07,093] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:04:07,129] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.185 seconds
+[2023-11-04 22:04:37,199] {processor.py:153} INFO - Started process (PID=1575) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:04:37,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:04:37,201] {logging_mixin.py:115} INFO - [2023-11-04 22:04:37,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:04:37,304] {logging_mixin.py:115} INFO - [2023-11-04 22:04:37,302] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:04:37,305] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:04:37,334] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.138 seconds
+[2023-11-04 22:05:07,404] {processor.py:153} INFO - Started process (PID=1603) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:05:07,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:05:07,406] {logging_mixin.py:115} INFO - [2023-11-04 22:05:07,406] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:05:07,487] {logging_mixin.py:115} INFO - [2023-11-04 22:05:07,486] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:05:07,488] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:05:07,510] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.111 seconds
+[2023-11-04 22:05:37,579] {processor.py:153} INFO - Started process (PID=1622) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:05:37,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:05:37,583] {logging_mixin.py:115} INFO - [2023-11-04 22:05:37,582] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:05:37,706] {logging_mixin.py:115} INFO - [2023-11-04 22:05:37,704] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:05:37,707] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:05:37,732] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.158 seconds
+[2023-11-04 22:06:07,800] {processor.py:153} INFO - Started process (PID=1650) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:06:07,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:06:07,807] {logging_mixin.py:115} INFO - [2023-11-04 22:06:07,807] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:06:07,888] {logging_mixin.py:115} INFO - [2023-11-04 22:06:07,887] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:06:07,889] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:06:07,908] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.111 seconds
+[2023-11-04 22:06:37,978] {processor.py:153} INFO - Started process (PID=1669) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:06:37,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:06:37,979] {logging_mixin.py:115} INFO - [2023-11-04 22:06:37,979] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:06:38,059] {logging_mixin.py:115} INFO - [2023-11-04 22:06:38,058] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:06:38,068] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:06:38,086] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.112 seconds
+[2023-11-04 22:07:08,152] {processor.py:153} INFO - Started process (PID=1697) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:07:08,153] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:07:08,153] {logging_mixin.py:115} INFO - [2023-11-04 22:07:08,153] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:07:08,240] {logging_mixin.py:115} INFO - [2023-11-04 22:07:08,239] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:07:08,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:07:08,261] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.113 seconds
+[2023-11-04 22:07:38,335] {processor.py:153} INFO - Started process (PID=1725) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:07:38,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:07:38,337] {logging_mixin.py:115} INFO - [2023-11-04 22:07:38,337] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:07:38,466] {logging_mixin.py:115} INFO - [2023-11-04 22:07:38,465] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:07:38,467] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:07:38,492] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.162 seconds
+[2023-11-04 22:08:08,589] {processor.py:153} INFO - Started process (PID=1744) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:08:08,590] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:08:08,591] {logging_mixin.py:115} INFO - [2023-11-04 22:08:08,591] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:08:08,723] {logging_mixin.py:115} INFO - [2023-11-04 22:08:08,721] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:08:08,740] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:08:08,790] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.205 seconds
+[2023-11-04 22:08:38,869] {processor.py:153} INFO - Started process (PID=1772) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:08:38,870] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:08:38,871] {logging_mixin.py:115} INFO - [2023-11-04 22:08:38,870] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:08:38,967] {logging_mixin.py:115} INFO - [2023-11-04 22:08:38,966] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:08:38,968] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:08:38,988] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.124 seconds
+[2023-11-04 22:09:09,053] {processor.py:153} INFO - Started process (PID=1798) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:09:09,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:09:09,054] {logging_mixin.py:115} INFO - [2023-11-04 22:09:09,054] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:09:09,136] {logging_mixin.py:115} INFO - [2023-11-04 22:09:09,134] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:09:09,137] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:09:09,157] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.108 seconds
+[2023-11-04 22:09:39,219] {processor.py:153} INFO - Started process (PID=1819) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:09:39,219] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:09:39,220] {logging_mixin.py:115} INFO - [2023-11-04 22:09:39,220] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:09:39,303] {logging_mixin.py:115} INFO - [2023-11-04 22:09:39,301] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:09:39,303] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:09:39,323] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.107 seconds
+[2023-11-04 22:10:09,398] {processor.py:153} INFO - Started process (PID=1847) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:10:09,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:10:09,428] {logging_mixin.py:115} INFO - [2023-11-04 22:10:09,428] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:10:09,673] {logging_mixin.py:115} INFO - [2023-11-04 22:10:09,671] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:10:09,674] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:10:09,722] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.339 seconds
+[2023-11-04 22:10:39,805] {processor.py:153} INFO - Started process (PID=1866) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:10:39,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:10:39,807] {logging_mixin.py:115} INFO - [2023-11-04 22:10:39,807] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:10:39,903] {logging_mixin.py:115} INFO - [2023-11-04 22:10:39,902] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:10:39,904] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:10:39,925] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.125 seconds
+[2023-11-04 22:11:10,003] {processor.py:153} INFO - Started process (PID=1894) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:11:10,004] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:11:10,005] {logging_mixin.py:115} INFO - [2023-11-04 22:11:10,005] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:11:10,087] {logging_mixin.py:115} INFO - [2023-11-04 22:11:10,086] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:11:10,088] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:11:10,108] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:11:40,176] {processor.py:153} INFO - Started process (PID=1913) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:11:40,177] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:11:40,178] {logging_mixin.py:115} INFO - [2023-11-04 22:11:40,178] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:11:40,264] {logging_mixin.py:115} INFO - [2023-11-04 22:11:40,263] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:11:40,265] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:11:40,286] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.114 seconds
+[2023-11-04 22:12:10,351] {processor.py:153} INFO - Started process (PID=1941) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:12:10,352] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:12:10,353] {logging_mixin.py:115} INFO - [2023-11-04 22:12:10,353] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:12:10,436] {logging_mixin.py:115} INFO - [2023-11-04 22:12:10,434] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:12:10,436] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:12:10,455] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:12:40,519] {processor.py:153} INFO - Started process (PID=1969) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:12:40,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:12:40,521] {logging_mixin.py:115} INFO - [2023-11-04 22:12:40,521] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:12:40,608] {logging_mixin.py:115} INFO - [2023-11-04 22:12:40,607] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:12:40,609] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:12:40,628] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.113 seconds
+[2023-11-04 22:13:10,698] {processor.py:153} INFO - Started process (PID=1988) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:13:10,698] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:13:10,700] {logging_mixin.py:115} INFO - [2023-11-04 22:13:10,699] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:13:10,780] {logging_mixin.py:115} INFO - [2023-11-04 22:13:10,779] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:13:10,793] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:13:10,814] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.121 seconds
+[2023-11-04 22:13:40,878] {processor.py:153} INFO - Started process (PID=2016) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:13:40,879] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:13:40,879] {logging_mixin.py:115} INFO - [2023-11-04 22:13:40,879] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:13:40,961] {logging_mixin.py:115} INFO - [2023-11-04 22:13:40,959] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:13:40,962] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:13:40,983] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.110 seconds
+[2023-11-04 22:14:11,053] {processor.py:153} INFO - Started process (PID=2044) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:14:11,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:14:11,055] {logging_mixin.py:115} INFO - [2023-11-04 22:14:11,055] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:14:11,145] {logging_mixin.py:115} INFO - [2023-11-04 22:14:11,144] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:14:11,146] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:14:11,173] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.123 seconds
+[2023-11-04 22:14:41,244] {processor.py:153} INFO - Started process (PID=2063) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:14:41,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:14:41,246] {logging_mixin.py:115} INFO - [2023-11-04 22:14:41,246] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:14:41,329] {logging_mixin.py:115} INFO - [2023-11-04 22:14:41,328] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:14:41,329] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:14:41,349] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:15:11,419] {processor.py:153} INFO - Started process (PID=2091) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:15:11,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:15:11,421] {logging_mixin.py:115} INFO - [2023-11-04 22:15:11,421] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:15:11,504] {logging_mixin.py:115} INFO - [2023-11-04 22:15:11,503] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:15:11,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:15:11,524] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:15:42,433] {processor.py:153} INFO - Started process (PID=2119) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:15:42,434] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:15:42,435] {logging_mixin.py:115} INFO - [2023-11-04 22:15:42,435] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:15:42,513] {logging_mixin.py:115} INFO - [2023-11-04 22:15:42,512] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:15:42,514] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:15:42,532] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.102 seconds
+[2023-11-04 22:16:12,599] {processor.py:153} INFO - Started process (PID=2138) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:16:12,600] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:16:12,602] {logging_mixin.py:115} INFO - [2023-11-04 22:16:12,601] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:16:12,709] {logging_mixin.py:115} INFO - [2023-11-04 22:16:12,708] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:16:12,710] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:16:12,735] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.140 seconds
+[2023-11-04 22:16:42,801] {processor.py:153} INFO - Started process (PID=2167) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:16:42,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:16:42,802] {logging_mixin.py:115} INFO - [2023-11-04 22:16:42,802] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:16:42,883] {logging_mixin.py:115} INFO - [2023-11-04 22:16:42,882] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:16:42,884] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:16:42,905] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.108 seconds
+[2023-11-04 22:17:13,010] {processor.py:153} INFO - Started process (PID=2195) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:17:13,011] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:17:13,012] {logging_mixin.py:115} INFO - [2023-11-04 22:17:13,011] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:17:13,149] {logging_mixin.py:115} INFO - [2023-11-04 22:17:13,147] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:17:13,150] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:17:13,203] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.197 seconds
+[2023-11-04 22:17:43,298] {processor.py:153} INFO - Started process (PID=2214) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:17:43,302] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:17:43,304] {logging_mixin.py:115} INFO - [2023-11-04 22:17:43,304] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:17:43,435] {logging_mixin.py:115} INFO - [2023-11-04 22:17:43,434] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:17:43,436] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:17:43,459] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.171 seconds
+[2023-11-04 22:18:13,533] {processor.py:153} INFO - Started process (PID=2242) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:18:13,534] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:18:13,534] {logging_mixin.py:115} INFO - [2023-11-04 22:18:13,534] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:18:13,620] {logging_mixin.py:115} INFO - [2023-11-04 22:18:13,618] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:18:13,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:18:13,640] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.112 seconds
+[2023-11-04 22:18:43,708] {processor.py:153} INFO - Started process (PID=2271) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:18:43,709] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:18:43,710] {logging_mixin.py:115} INFO - [2023-11-04 22:18:43,710] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:18:43,799] {logging_mixin.py:115} INFO - [2023-11-04 22:18:43,797] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:18:43,799] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:18:43,820] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.116 seconds
+[2023-11-04 22:19:13,889] {processor.py:153} INFO - Started process (PID=2290) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:19:13,890] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:19:13,891] {logging_mixin.py:115} INFO - [2023-11-04 22:19:13,891] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:19:13,983] {logging_mixin.py:115} INFO - [2023-11-04 22:19:13,982] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:19:13,984] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:19:14,006] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.122 seconds
+[2023-11-04 22:19:44,069] {processor.py:153} INFO - Started process (PID=2318) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:19:44,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:19:44,071] {logging_mixin.py:115} INFO - [2023-11-04 22:19:44,071] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:19:44,162] {logging_mixin.py:115} INFO - [2023-11-04 22:19:44,161] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:19:44,163] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:19:44,210] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.145 seconds
+[2023-11-04 22:20:14,286] {processor.py:153} INFO - Started process (PID=2337) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:20:14,287] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:20:14,288] {logging_mixin.py:115} INFO - [2023-11-04 22:20:14,288] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:20:14,376] {logging_mixin.py:115} INFO - [2023-11-04 22:20:14,375] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:20:14,383] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:20:14,402] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.120 seconds
+[2023-11-04 22:20:44,466] {processor.py:153} INFO - Started process (PID=2365) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:20:44,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:20:44,468] {logging_mixin.py:115} INFO - [2023-11-04 22:20:44,468] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:20:44,622] {logging_mixin.py:115} INFO - [2023-11-04 22:20:44,620] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:20:44,623] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:20:44,648] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.186 seconds
+[2023-11-04 22:21:14,719] {processor.py:153} INFO - Started process (PID=2393) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:21:14,720] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:21:14,722] {logging_mixin.py:115} INFO - [2023-11-04 22:21:14,721] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:21:14,831] {logging_mixin.py:115} INFO - [2023-11-04 22:21:14,829] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:21:14,831] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:21:14,859] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.146 seconds
+[2023-11-04 22:21:44,942] {processor.py:153} INFO - Started process (PID=2412) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:21:44,943] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:21:44,944] {logging_mixin.py:115} INFO - [2023-11-04 22:21:44,944] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:21:45,030] {logging_mixin.py:115} INFO - [2023-11-04 22:21:45,029] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:21:45,031] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:21:45,051] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.113 seconds
+[2023-11-04 22:22:15,123] {processor.py:153} INFO - Started process (PID=2441) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:22:15,123] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:22:15,125] {logging_mixin.py:115} INFO - [2023-11-04 22:22:15,124] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:22:15,208] {logging_mixin.py:115} INFO - [2023-11-04 22:22:15,207] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:22:15,209] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:22:15,228] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.110 seconds
+[2023-11-04 22:22:45,315] {processor.py:153} INFO - Started process (PID=2460) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:22:45,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:22:45,317] {logging_mixin.py:115} INFO - [2023-11-04 22:22:45,317] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:22:45,399] {logging_mixin.py:115} INFO - [2023-11-04 22:22:45,398] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:22:45,400] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:22:45,420] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:23:15,496] {processor.py:153} INFO - Started process (PID=2488) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:23:15,497] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:23:15,498] {logging_mixin.py:115} INFO - [2023-11-04 22:23:15,498] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:23:15,597] {logging_mixin.py:115} INFO - [2023-11-04 22:23:15,596] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:23:15,598] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:23:15,618] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.125 seconds
+[2023-11-04 22:23:45,683] {processor.py:153} INFO - Started process (PID=2516) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:23:45,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:23:45,685] {logging_mixin.py:115} INFO - [2023-11-04 22:23:45,685] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:23:45,767] {logging_mixin.py:115} INFO - [2023-11-04 22:23:45,765] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:23:45,767] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:23:45,801] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.121 seconds
+[2023-11-04 22:24:15,921] {processor.py:153} INFO - Started process (PID=2535) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:24:15,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:24:15,922] {logging_mixin.py:115} INFO - [2023-11-04 22:24:15,922] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:24:16,035] {logging_mixin.py:115} INFO - [2023-11-04 22:24:16,033] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:24:16,035] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:24:16,057] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.142 seconds
+[2023-11-04 22:24:46,148] {processor.py:153} INFO - Started process (PID=2563) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:24:46,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:24:46,149] {logging_mixin.py:115} INFO - [2023-11-04 22:24:46,149] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:24:46,254] {logging_mixin.py:115} INFO - [2023-11-04 22:24:46,253] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:24:46,255] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:24:46,282] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.137 seconds
+[2023-11-04 22:25:16,344] {processor.py:153} INFO - Started process (PID=2582) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:25:16,345] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:25:16,346] {logging_mixin.py:115} INFO - [2023-11-04 22:25:16,346] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:25:16,434] {logging_mixin.py:115} INFO - [2023-11-04 22:25:16,433] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:25:16,435] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:25:16,456] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.116 seconds
+[2023-11-04 22:25:46,547] {processor.py:153} INFO - Started process (PID=2610) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:25:46,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:25:46,557] {logging_mixin.py:115} INFO - [2023-11-04 22:25:46,557] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:25:46,705] {logging_mixin.py:115} INFO - [2023-11-04 22:25:46,704] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:25:46,707] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:25:46,745] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.206 seconds
+[2023-11-04 22:26:16,830] {processor.py:153} INFO - Started process (PID=2629) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:16,830] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:26:16,831] {logging_mixin.py:115} INFO - [2023-11-04 22:26:16,831] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:16,912] {logging_mixin.py:115} INFO - [2023-11-04 22:26:16,911] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:26:16,913] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:16,933] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.108 seconds
+[2023-11-04 22:26:47,000] {processor.py:153} INFO - Started process (PID=2657) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:47,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:26:47,002] {logging_mixin.py:115} INFO - [2023-11-04 22:26:47,002] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:47,092] {logging_mixin.py:115} INFO - [2023-11-04 22:26:47,090] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:26:47,093] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:47,114] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.118 seconds
+[2023-11-04 22:26:56,022] {processor.py:153} INFO - Started process (PID=2667) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:56,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:26:56,024] {logging_mixin.py:115} INFO - [2023-11-04 22:26:56,024] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:56,139] {logging_mixin.py:115} INFO - [2023-11-04 22:26:56,137] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:26:56,140] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:26:56,164] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.146 seconds
+[2023-11-04 22:27:26,241] {processor.py:153} INFO - Started process (PID=2686) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:27:26,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:27:26,242] {logging_mixin.py:115} INFO - [2023-11-04 22:27:26,242] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:27:26,356] {logging_mixin.py:115} INFO - [2023-11-04 22:27:26,354] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:27:26,357] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:27:26,380] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.143 seconds
+[2023-11-04 22:27:56,442] {processor.py:153} INFO - Started process (PID=2714) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:27:56,443] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:27:56,444] {logging_mixin.py:115} INFO - [2023-11-04 22:27:56,444] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:27:56,526] {logging_mixin.py:115} INFO - [2023-11-04 22:27:56,525] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:27:56,527] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:27:56,547] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.108 seconds
+[2023-11-04 22:28:26,621] {processor.py:153} INFO - Started process (PID=2742) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:28:26,623] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:28:26,625] {logging_mixin.py:115} INFO - [2023-11-04 22:28:26,624] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:28:26,834] {logging_mixin.py:115} INFO - [2023-11-04 22:28:26,832] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:28:26,836] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:28:26,885] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.272 seconds
+[2023-11-04 22:28:56,964] {processor.py:153} INFO - Started process (PID=2761) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:28:56,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:28:56,966] {logging_mixin.py:115} INFO - [2023-11-04 22:28:56,966] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:28:57,058] {logging_mixin.py:115} INFO - [2023-11-04 22:28:57,056] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:28:57,067] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:28:57,093] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.133 seconds
+[2023-11-04 22:29:27,161] {processor.py:153} INFO - Started process (PID=2789) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:29:27,162] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:29:27,162] {logging_mixin.py:115} INFO - [2023-11-04 22:29:27,162] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:29:27,251] {logging_mixin.py:115} INFO - [2023-11-04 22:29:27,250] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:29:27,252] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:29:27,273] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.116 seconds
+[2023-11-04 22:29:57,342] {processor.py:153} INFO - Started process (PID=2808) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:29:57,343] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:29:57,343] {logging_mixin.py:115} INFO - [2023-11-04 22:29:57,343] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:29:57,431] {logging_mixin.py:115} INFO - [2023-11-04 22:29:57,430] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:29:57,432] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:29:57,453] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.115 seconds
+[2023-11-04 22:30:27,522] {processor.py:153} INFO - Started process (PID=2836) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:30:27,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:30:27,526] {logging_mixin.py:115} INFO - [2023-11-04 22:30:27,526] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:30:27,616] {logging_mixin.py:115} INFO - [2023-11-04 22:30:27,615] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:30:27,617] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:30:27,638] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.120 seconds
+[2023-11-04 22:30:57,734] {processor.py:153} INFO - Started process (PID=2855) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:30:57,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:30:57,740] {logging_mixin.py:115} INFO - [2023-11-04 22:30:57,740] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:30:57,964] {logging_mixin.py:115} INFO - [2023-11-04 22:30:57,959] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:30:57,967] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:30:58,025] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.303 seconds
+[2023-11-04 22:31:28,136] {processor.py:153} INFO - Started process (PID=2883) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:31:28,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:31:28,137] {logging_mixin.py:115} INFO - [2023-11-04 22:31:28,137] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:31:28,221] {logging_mixin.py:115} INFO - [2023-11-04 22:31:28,220] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:31:28,222] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:31:28,242] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.110 seconds
+[2023-11-04 22:31:58,314] {processor.py:153} INFO - Started process (PID=2911) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:31:58,315] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:31:58,315] {logging_mixin.py:115} INFO - [2023-11-04 22:31:58,315] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:31:58,422] {logging_mixin.py:115} INFO - [2023-11-04 22:31:58,420] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:31:58,423] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:31:58,455] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.145 seconds
+[2023-11-04 22:32:28,535] {processor.py:153} INFO - Started process (PID=2930) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:32:28,536] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:32:28,537] {logging_mixin.py:115} INFO - [2023-11-04 22:32:28,537] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:32:28,622] {logging_mixin.py:115} INFO - [2023-11-04 22:32:28,621] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 3, in <module>
+    from airflow.providers.apache.spark.transfers.csv_to_spark import CSVToSparkOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache'
+[2023-11-04 22:32:28,622] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:32:28,644] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.113 seconds
+[2023-11-04 22:32:51,593] {processor.py:153} INFO - Started process (PID=2949) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:32:51,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:32:51,604] {logging_mixin.py:115} INFO - [2023-11-04 22:32:51,604] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:32:51,717] {logging_mixin.py:115} INFO - [2023-11-04 22:32:51,715] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:32:51,717] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:32:51,737] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.147 seconds
+[2023-11-04 22:33:11,779] {processor.py:153} INFO - Started process (PID=2968) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:33:11,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:33:11,780] {logging_mixin.py:115} INFO - [2023-11-04 22:33:11,780] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:33:11,869] {logging_mixin.py:115} INFO - [2023-11-04 22:33:11,868] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:33:11,870] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:33:11,891] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.116 seconds
+[2023-11-04 22:33:41,964] {processor.py:153} INFO - Started process (PID=2996) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:33:41,964] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:33:41,965] {logging_mixin.py:115} INFO - [2023-11-04 22:33:41,965] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:33:42,080] {logging_mixin.py:115} INFO - [2023-11-04 22:33:42,079] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:33:42,081] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:33:42,110] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.150 seconds
+[2023-11-04 22:34:12,181] {processor.py:153} INFO - Started process (PID=3015) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:12,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:34:12,183] {logging_mixin.py:115} INFO - [2023-11-04 22:34:12,183] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:12,266] {logging_mixin.py:115} INFO - [2023-11-04 22:34:12,264] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:34:12,266] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:12,286] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:34:42,351] {processor.py:153} INFO - Started process (PID=3043) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:42,351] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:34:42,352] {logging_mixin.py:115} INFO - [2023-11-04 22:34:42,352] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:42,427] {logging_mixin.py:115} INFO - [2023-11-04 22:34:42,425] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:34:42,427] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:42,446] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.099 seconds
+[2023-11-04 22:34:48,480] {processor.py:153} INFO - Started process (PID=3044) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:48,481] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:34:48,482] {logging_mixin.py:115} INFO - [2023-11-04 22:34:48,482] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:48,601] {logging_mixin.py:115} INFO - [2023-11-04 22:34:48,599] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:34:48,601] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:34:48,622] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.148 seconds
+[2023-11-04 22:35:18,694] {processor.py:153} INFO - Started process (PID=3072) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:35:18,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:35:18,696] {logging_mixin.py:115} INFO - [2023-11-04 22:35:18,696] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:35:18,783] {logging_mixin.py:115} INFO - [2023-11-04 22:35:18,782] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:35:18,784] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:35:18,816] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.127 seconds
+[2023-11-04 22:35:48,904] {processor.py:153} INFO - Started process (PID=3100) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:35:48,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:35:48,905] {logging_mixin.py:115} INFO - [2023-11-04 22:35:48,905] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:35:48,988] {logging_mixin.py:115} INFO - [2023-11-04 22:35:48,986] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 376, in apply_defaults
+    raise AirflowException(f"missing keyword arguments {display}")
+airflow.exceptions.AirflowException: missing keyword arguments 'dest_key', 'filename'
+[2023-11-04 22:35:48,989] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:35:49,016] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.116 seconds
+[2023-11-04 22:36:13,974] {processor.py:153} INFO - Started process (PID=3119) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:36:13,990] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:36:13,991] {logging_mixin.py:115} INFO - [2023-11-04 22:36:13,991] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:36:14,086] {logging_mixin.py:115} INFO - [2023-11-04 22:36:14,084] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filename'
+[2023-11-04 22:36:14,086] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:36:14,115] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.145 seconds
+[2023-11-04 22:36:44,186] {processor.py:153} INFO - Started process (PID=3138) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:36:44,186] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:36:44,187] {logging_mixin.py:115} INFO - [2023-11-04 22:36:44,187] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:36:44,303] {logging_mixin.py:115} INFO - [2023-11-04 22:36:44,300] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filename'
+[2023-11-04 22:36:44,304] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:36:44,333] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.151 seconds
+[2023-11-04 22:37:14,408] {processor.py:153} INFO - Started process (PID=3166) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:37:14,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:37:14,410] {logging_mixin.py:115} INFO - [2023-11-04 22:37:14,410] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:37:14,493] {logging_mixin.py:115} INFO - [2023-11-04 22:37:14,491] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filename'
+[2023-11-04 22:37:14,493] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:37:14,514] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.109 seconds
+[2023-11-04 22:37:44,580] {processor.py:153} INFO - Started process (PID=3194) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:37:44,581] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:37:44,581] {logging_mixin.py:115} INFO - [2023-11-04 22:37:44,581] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:37:44,658] {logging_mixin.py:115} INFO - [2023-11-04 22:37:44,657] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filename'
+[2023-11-04 22:37:44,659] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:37:44,680] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.104 seconds
+[2023-11-04 22:38:14,752] {processor.py:153} INFO - Started process (PID=3213) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:14,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:38:14,755] {logging_mixin.py:115} INFO - [2023-11-04 22:38:14,755] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:14,868] {logging_mixin.py:115} INFO - [2023-11-04 22:38:14,866] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/read_csv_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_csv_to_s3.py", line 29, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 373, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filename'
+[2023-11-04 22:38:14,868] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:14,894] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.146 seconds
+[2023-11-04 22:38:38,816] {processor.py:153} INFO - Started process (PID=3232) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:38,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:38:38,819] {logging_mixin.py:115} INFO - [2023-11-04 22:38:38,818] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:38,927] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:39,017] {logging_mixin.py:115} INFO - [2023-11-04 22:38:39,017] {manager.py:508} INFO - Created Permission View: can edit on DAG:read_csv_to_s3
+[2023-11-04 22:38:39,027] {logging_mixin.py:115} INFO - [2023-11-04 22:38:39,027] {manager.py:508} INFO - Created Permission View: can delete on DAG:read_csv_to_s3
+[2023-11-04 22:38:39,034] {logging_mixin.py:115} INFO - [2023-11-04 22:38:39,034] {manager.py:508} INFO - Created Permission View: can read on DAG:read_csv_to_s3
+[2023-11-04 22:38:39,035] {logging_mixin.py:115} INFO - [2023-11-04 22:38:39,035] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:38:39,044] {logging_mixin.py:115} INFO - [2023-11-04 22:38:39,044] {dag.py:2439} INFO - Creating ORM DAG for read_csv_to_s3
+[2023-11-04 22:38:39,054] {logging_mixin.py:115} INFO - [2023-11-04 22:38:39,054] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:38:39,065] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.253 seconds
+[2023-11-04 22:38:48,095] {processor.py:153} INFO - Started process (PID=3242) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:48,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:38:48,096] {logging_mixin.py:115} INFO - [2023-11-04 22:38:48,096] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:48,179] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:38:48,193] {logging_mixin.py:115} INFO - [2023-11-04 22:38:48,193] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:38:48,216] {logging_mixin.py:115} INFO - [2023-11-04 22:38:48,216] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:38:48,229] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.137 seconds
+[2023-11-04 22:39:18,298] {processor.py:153} INFO - Started process (PID=3270) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:39:18,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:39:18,300] {logging_mixin.py:115} INFO - [2023-11-04 22:39:18,300] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:39:18,393] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:39:18,416] {logging_mixin.py:115} INFO - [2023-11-04 22:39:18,416] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:39:18,438] {logging_mixin.py:115} INFO - [2023-11-04 22:39:18,438] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:39:18,460] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.166 seconds
+[2023-11-04 22:39:48,525] {processor.py:153} INFO - Started process (PID=3289) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:39:48,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:39:48,527] {logging_mixin.py:115} INFO - [2023-11-04 22:39:48,527] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:39:48,614] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:39:48,638] {logging_mixin.py:115} INFO - [2023-11-04 22:39:48,638] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:39:48,661] {logging_mixin.py:115} INFO - [2023-11-04 22:39:48,661] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:39:48,670] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.149 seconds
+[2023-11-04 22:40:18,735] {processor.py:153} INFO - Started process (PID=3317) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:40:18,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:40:18,736] {logging_mixin.py:115} INFO - [2023-11-04 22:40:18,736] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:40:18,819] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:40:18,845] {logging_mixin.py:115} INFO - [2023-11-04 22:40:18,845] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:40:18,867] {logging_mixin.py:115} INFO - [2023-11-04 22:40:18,867] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:40:18,877] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.145 seconds
+[2023-11-04 22:40:48,941] {processor.py:153} INFO - Started process (PID=3345) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:40:48,941] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:40:48,942] {logging_mixin.py:115} INFO - [2023-11-04 22:40:48,942] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:40:49,023] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:40:49,047] {logging_mixin.py:115} INFO - [2023-11-04 22:40:49,047] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:40:49,068] {logging_mixin.py:115} INFO - [2023-11-04 22:40:49,068] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:40:49,078] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.141 seconds
+[2023-11-04 22:41:12,002] {processor.py:153} INFO - Started process (PID=3364) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:41:12,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:41:12,004] {logging_mixin.py:115} INFO - [2023-11-04 22:41:12,004] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:41:12,091] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:41:12,159] {logging_mixin.py:115} INFO - [2023-11-04 22:41:12,158] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:41:12,181] {logging_mixin.py:115} INFO - [2023-11-04 22:41:12,181] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:41:12,197] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.199 seconds
+[2023-11-04 22:41:42,259] {processor.py:153} INFO - Started process (PID=3383) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:41:42,260] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:41:42,261] {logging_mixin.py:115} INFO - [2023-11-04 22:41:42,261] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:41:42,349] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:41:42,375] {logging_mixin.py:115} INFO - [2023-11-04 22:41:42,375] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:41:42,403] {logging_mixin.py:115} INFO - [2023-11-04 22:41:42,403] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:41:42,419] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.164 seconds
+[2023-11-04 22:42:12,484] {processor.py:153} INFO - Started process (PID=3411) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:42:12,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:42:12,485] {logging_mixin.py:115} INFO - [2023-11-04 22:42:12,485] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:42:12,567] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:42:12,590] {logging_mixin.py:115} INFO - [2023-11-04 22:42:12,590] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:42:12,613] {logging_mixin.py:115} INFO - [2023-11-04 22:42:12,613] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:42:12,625] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.145 seconds
+[2023-11-04 22:42:42,722] {processor.py:153} INFO - Started process (PID=3439) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:42:42,722] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:42:42,723] {logging_mixin.py:115} INFO - [2023-11-04 22:42:42,723] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:42:42,803] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:42:42,827] {logging_mixin.py:115} INFO - [2023-11-04 22:42:42,827] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:42:42,848] {logging_mixin.py:115} INFO - [2023-11-04 22:42:42,848] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:42:42,859] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.140 seconds
+[2023-11-04 22:43:25,644] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:43:25,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:43:25,646] {logging_mixin.py:115} INFO - [2023-11-04 22:43:25,646] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:43:25,946] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:43:25,975] {logging_mixin.py:115} INFO - [2023-11-04 22:43:25,975] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:43:26,006] {logging_mixin.py:115} INFO - [2023-11-04 22:43:26,006] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:43:26,021] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.381 seconds
+[2023-11-04 22:43:56,101] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:43:56,102] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:43:56,103] {logging_mixin.py:115} INFO - [2023-11-04 22:43:56,103] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:43:56,180] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:43:56,203] {logging_mixin.py:115} INFO - [2023-11-04 22:43:56,203] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:43:56,224] {logging_mixin.py:115} INFO - [2023-11-04 22:43:56,224] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:43:56,234] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.136 seconds
+[2023-11-04 22:44:26,308] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:44:26,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:44:26,310] {logging_mixin.py:115} INFO - [2023-11-04 22:44:26,310] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:44:26,393] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:44:26,416] {logging_mixin.py:115} INFO - [2023-11-04 22:44:26,416] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:44:26,437] {logging_mixin.py:115} INFO - [2023-11-04 22:44:26,437] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:44:26,447] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.143 seconds
+[2023-11-04 22:44:56,515] {processor.py:153} INFO - Started process (PID=121) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:44:56,516] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:44:56,517] {logging_mixin.py:115} INFO - [2023-11-04 22:44:56,517] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:44:56,642] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:44:56,688] {logging_mixin.py:115} INFO - [2023-11-04 22:44:56,688] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:44:56,726] {logging_mixin.py:115} INFO - [2023-11-04 22:44:56,726] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:44:56,754] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.244 seconds
+[2023-11-04 22:45:26,840] {processor.py:153} INFO - Started process (PID=149) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:45:26,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:45:26,842] {logging_mixin.py:115} INFO - [2023-11-04 22:45:26,842] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:45:26,936] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:45:26,960] {logging_mixin.py:115} INFO - [2023-11-04 22:45:26,960] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:45:26,985] {logging_mixin.py:115} INFO - [2023-11-04 22:45:26,985] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:45:26,996] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.160 seconds
+[2023-11-04 22:45:57,069] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:45:57,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:45:57,071] {logging_mixin.py:115} INFO - [2023-11-04 22:45:57,071] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:45:57,185] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:45:57,243] {logging_mixin.py:115} INFO - [2023-11-04 22:45:57,242] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:45:57,281] {logging_mixin.py:115} INFO - [2023-11-04 22:45:57,281] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:45:57,294] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.230 seconds
+[2023-11-04 22:46:03,333] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:03,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:46:03,335] {logging_mixin.py:115} INFO - [2023-11-04 22:46:03,334] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:03,418] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:03,440] {logging_mixin.py:115} INFO - [2023-11-04 22:46:03,440] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:46:03,462] {logging_mixin.py:115} INFO - [2023-11-04 22:46:03,462] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:46:03,474] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.145 seconds
+[2023-11-04 22:46:14,364] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:14,364] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:46:14,365] {logging_mixin.py:115} INFO - [2023-11-04 22:46:14,365] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:14,447] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:14,470] {logging_mixin.py:115} INFO - [2023-11-04 22:46:14,470] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:46:14,493] {logging_mixin.py:115} INFO - [2023-11-04 22:46:14,493] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:46:14,505] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.144 seconds
+[2023-11-04 22:46:44,610] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:44,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:46:44,612] {logging_mixin.py:115} INFO - [2023-11-04 22:46:44,611] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:44,701] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:46:44,730] {logging_mixin.py:115} INFO - [2023-11-04 22:46:44,730] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:46:44,757] {logging_mixin.py:115} INFO - [2023-11-04 22:46:44,756] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:46:44,769] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.163 seconds
+[2023-11-04 22:47:14,856] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:47:14,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:47:14,858] {logging_mixin.py:115} INFO - [2023-11-04 22:47:14,858] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:47:14,978] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:47:15,030] {logging_mixin.py:115} INFO - [2023-11-04 22:47:15,030] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:47:15,113] {logging_mixin.py:115} INFO - [2023-11-04 22:47:15,113] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:47:15,155] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.303 seconds
+[2023-11-04 22:47:45,238] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:47:45,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:47:45,240] {logging_mixin.py:115} INFO - [2023-11-04 22:47:45,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:47:45,366] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:47:45,398] {logging_mixin.py:115} INFO - [2023-11-04 22:47:45,397] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:47:45,430] {logging_mixin.py:115} INFO - [2023-11-04 22:47:45,430] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:47:45,443] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.212 seconds
+[2023-11-04 22:48:15,517] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:15,517] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:48:15,518] {logging_mixin.py:115} INFO - [2023-11-04 22:48:15,518] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:15,599] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:15,623] {logging_mixin.py:115} INFO - [2023-11-04 22:48:15,623] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:48:15,646] {logging_mixin.py:115} INFO - [2023-11-04 22:48:15,646] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:48:15,656] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.143 seconds
+[2023-11-04 22:48:45,724] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:45,725] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:48:45,726] {logging_mixin.py:115} INFO - [2023-11-04 22:48:45,725] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:45,804] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:45,829] {logging_mixin.py:115} INFO - [2023-11-04 22:48:45,829] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:48:45,853] {logging_mixin.py:115} INFO - [2023-11-04 22:48:45,853] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:48:45,885] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.164 seconds
+[2023-11-04 22:48:53,748] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:53,749] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:48:53,749] {logging_mixin.py:115} INFO - [2023-11-04 22:48:53,749] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:53,838] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:48:53,901] {logging_mixin.py:115} INFO - [2023-11-04 22:48:53,901] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:48:53,921] {logging_mixin.py:115} INFO - [2023-11-04 22:48:53,921] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:48:53,944] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.200 seconds
+[2023-11-04 22:49:24,002] {processor.py:153} INFO - Started process (PID=351) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:49:24,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:49:24,004] {logging_mixin.py:115} INFO - [2023-11-04 22:49:24,003] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:49:24,098] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:49:24,133] {logging_mixin.py:115} INFO - [2023-11-04 22:49:24,133] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:49:24,155] {logging_mixin.py:115} INFO - [2023-11-04 22:49:24,155] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:49:24,165] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.167 seconds
+[2023-11-04 22:49:54,251] {processor.py:153} INFO - Started process (PID=370) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:49:54,252] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:49:54,253] {logging_mixin.py:115} INFO - [2023-11-04 22:49:54,253] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:49:54,340] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:49:54,362] {logging_mixin.py:115} INFO - [2023-11-04 22:49:54,362] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:49:54,385] {logging_mixin.py:115} INFO - [2023-11-04 22:49:54,385] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:49:54,398] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.151 seconds
+[2023-11-04 22:50:24,463] {processor.py:153} INFO - Started process (PID=398) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:50:24,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:50:24,465] {logging_mixin.py:115} INFO - [2023-11-04 22:50:24,465] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:50:24,546] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:50:24,569] {logging_mixin.py:115} INFO - [2023-11-04 22:50:24,569] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:50:24,590] {logging_mixin.py:115} INFO - [2023-11-04 22:50:24,590] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:50:24,600] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.142 seconds
+[2023-11-04 22:50:54,668] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:50:54,669] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:50:54,670] {logging_mixin.py:115} INFO - [2023-11-04 22:50:54,670] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:50:54,772] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:50:54,795] {logging_mixin.py:115} INFO - [2023-11-04 22:50:54,795] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:50:54,816] {logging_mixin.py:115} INFO - [2023-11-04 22:50:54,816] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:50:54,826] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.162 seconds
+[2023-11-04 22:51:24,889] {processor.py:153} INFO - Started process (PID=445) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:51:24,890] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:51:24,891] {logging_mixin.py:115} INFO - [2023-11-04 22:51:24,891] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:51:24,971] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:51:24,997] {logging_mixin.py:115} INFO - [2023-11-04 22:51:24,997] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:51:25,026] {logging_mixin.py:115} INFO - [2023-11-04 22:51:25,026] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:51:25,040] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.153 seconds
+[2023-11-04 22:51:55,105] {processor.py:153} INFO - Started process (PID=473) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:51:55,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:51:55,106] {logging_mixin.py:115} INFO - [2023-11-04 22:51:55,106] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:51:55,193] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:51:55,216] {logging_mixin.py:115} INFO - [2023-11-04 22:51:55,216] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:51:55,242] {logging_mixin.py:115} INFO - [2023-11-04 22:51:55,242] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:51:55,254] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.152 seconds
+[2023-11-04 22:52:25,320] {processor.py:153} INFO - Started process (PID=501) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:52:25,321] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:52:25,322] {logging_mixin.py:115} INFO - [2023-11-04 22:52:25,322] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:52:25,406] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:52:25,429] {logging_mixin.py:115} INFO - [2023-11-04 22:52:25,429] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:52:25,450] {logging_mixin.py:115} INFO - [2023-11-04 22:52:25,450] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:52:25,460] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.144 seconds
+[2023-11-04 22:52:55,533] {processor.py:153} INFO - Started process (PID=520) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:52:55,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:52:55,534] {logging_mixin.py:115} INFO - [2023-11-04 22:52:55,534] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:52:55,616] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:52:55,639] {logging_mixin.py:115} INFO - [2023-11-04 22:52:55,639] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:52:55,660] {logging_mixin.py:115} INFO - [2023-11-04 22:52:55,660] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:52:55,670] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.142 seconds
+[2023-11-04 22:53:25,733] {processor.py:153} INFO - Started process (PID=548) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:53:25,734] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:53:25,735] {logging_mixin.py:115} INFO - [2023-11-04 22:53:25,735] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:53:25,827] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:53:25,852] {logging_mixin.py:115} INFO - [2023-11-04 22:53:25,852] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:53:25,877] {logging_mixin.py:115} INFO - [2023-11-04 22:53:25,876] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:53:25,887] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.159 seconds
+[2023-11-04 22:53:55,951] {processor.py:153} INFO - Started process (PID=576) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:53:55,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:53:55,953] {logging_mixin.py:115} INFO - [2023-11-04 22:53:55,953] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:53:56,042] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:53:56,071] {logging_mixin.py:115} INFO - [2023-11-04 22:53:56,071] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:53:56,099] {logging_mixin.py:115} INFO - [2023-11-04 22:53:56,099] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:53:56,114] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.166 seconds
+[2023-11-04 22:54:26,229] {processor.py:153} INFO - Started process (PID=595) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:54:26,230] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:54:26,231] {logging_mixin.py:115} INFO - [2023-11-04 22:54:26,231] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:54:26,314] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:54:26,339] {logging_mixin.py:115} INFO - [2023-11-04 22:54:26,339] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:54:26,363] {logging_mixin.py:115} INFO - [2023-11-04 22:54:26,363] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:54:26,373] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.147 seconds
+[2023-11-04 22:54:56,426] {processor.py:153} INFO - Started process (PID=623) to work on /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:54:56,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/read_csv_to_s3.py for tasks to queue
+[2023-11-04 22:54:56,428] {logging_mixin.py:115} INFO - [2023-11-04 22:54:56,428] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:54:56,518] {processor.py:651} INFO - DAG(s) dict_keys(['read_csv_to_s3']) retrieved from /opt/airflow/dags/read_csv_to_s3.py
+[2023-11-04 22:54:56,544] {logging_mixin.py:115} INFO - [2023-11-04 22:54:56,544] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-11-04 22:54:56,566] {logging_mixin.py:115} INFO - [2023-11-04 22:54:56,566] {dag.py:2972} INFO - Setting next_dagrun for read_csv_to_s3 to None, run_after=None
+[2023-11-04 22:54:56,576] {processor.py:161} INFO - Processing /opt/airflow/dags/read_csv_to_s3.py took 0.155 seconds

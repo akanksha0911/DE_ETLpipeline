@@ -1,0 +1,42 @@
+[2023-11-05 23:01:14,887] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: split_excel_to_s3.read_excel manual__2023-11-05T23:01:13.965927+00:00 [queued]>
+[2023-11-05 23:01:14,896] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: split_excel_to_s3.read_excel manual__2023-11-05T23:01:13.965927+00:00 [queued]>
+[2023-11-05 23:01:14,897] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05 23:01:14,897] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-11-05 23:01:14,898] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-05 23:01:14,910] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): read_excel> on 2023-11-05 23:01:13.965927+00:00
+[2023-11-05 23:01:14,915] {standard_task_runner.py:52} INFO - Started process 1785 to run task
+[2023-11-05 23:01:14,918] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'split_excel_to_s3', 'read_excel', 'manual__2023-11-05T23:01:13.965927+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/write_xlsx_to_csv_s3.py', '--cfg-path', '/tmp/tmpm7gtnogy', '--error-file', '/tmp/tmppmwsxzlx']
+[2023-11-05 23:01:14,919] {standard_task_runner.py:80} INFO - Job 48: Subtask read_excel
+[2023-11-05 23:01:14,981] {task_command.py:371} INFO - Running <TaskInstance: split_excel_to_s3.read_excel manual__2023-11-05T23:01:13.965927+00:00 [running]> on host c2e2f4edd06f
+[2023-11-05 23:01:15,090] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=split_excel_to_s3
+AIRFLOW_CTX_TASK_ID=read_excel
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-05T23:01:13.965927+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-05T23:01:13.965927+00:00
+[2023-11-05 23:01:15,102] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/write_xlsx_to_csv_s3.py", line 24, in read_excel
+    df = pd.read_excel(file_path)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 364, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_base.py", line 1233, in __init__
+    self._reader = self._engines[engine](self._io, storage_options=storage_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/excel/_openpyxl.py", line 521, in __init__
+    import_optional_dependency("openpyxl")
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/compat/_optional.py", line 118, in import_optional_dependency
+    raise ImportError(msg) from None
+ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+[2023-11-05 23:01:15,116] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=split_excel_to_s3, task_id=read_excel, execution_date=20231105T230113, start_date=20231105T230114, end_date=20231105T230115
+[2023-11-05 23:01:15,132] {standard_task_runner.py:97} ERROR - Failed to execute job 48 for task read_excel (Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.; 1785)
+[2023-11-05 23:01:15,171] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-11-05 23:01:15,215] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

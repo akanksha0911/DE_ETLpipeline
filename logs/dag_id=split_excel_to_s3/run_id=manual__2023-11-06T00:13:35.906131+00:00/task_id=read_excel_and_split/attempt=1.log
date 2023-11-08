@@ -1,0 +1,25 @@
+[2023-11-06 00:13:37,045] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: split_excel_to_s3.read_excel_and_split manual__2023-11-06T00:13:35.906131+00:00 [queued]>
+[2023-11-06 00:13:37,058] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: split_excel_to_s3.read_excel_and_split manual__2023-11-06T00:13:35.906131+00:00 [queued]>
+[2023-11-06 00:13:37,074] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-06 00:13:37,074] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2023-11-06 00:13:37,075] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-06 00:13:37,092] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): read_excel_and_split> on 2023-11-06 00:13:35.906131+00:00
+[2023-11-06 00:13:37,099] {standard_task_runner.py:52} INFO - Started process 3069 to run task
+[2023-11-06 00:13:37,103] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'split_excel_to_s3', 'read_excel_and_split', 'manual__2023-11-06T00:13:35.906131+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/write_xlsx_to_csv_s3.py', '--cfg-path', '/tmp/tmp_d6me1ij', '--error-file', '/tmp/tmpbfn76p00']
+[2023-11-06 00:13:37,105] {standard_task_runner.py:80} INFO - Job 62: Subtask read_excel_and_split
+[2023-11-06 00:13:37,180] {task_command.py:371} INFO - Running <TaskInstance: split_excel_to_s3.read_excel_and_split manual__2023-11-06T00:13:35.906131+00:00 [running]> on host 59b74f6ac638
+[2023-11-06 00:13:37,258] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=split_excel_to_s3
+AIRFLOW_CTX_TASK_ID=read_excel_and_split
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-06T00:13:35.906131+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-06T00:13:35.906131+00:00
+[2023-11-06 00:13:37,617] {base.py:68} INFO - Using connection ID 'aws_default' for task execution.
+[2023-11-06 00:13:37,617] {base_aws.py:206} INFO - Credentials retrieved from login
+[2023-11-06 00:13:38,401] {python.py:173} INFO - Done. Returned value was: None
+[2023-11-06 00:13:38,414] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=split_excel_to_s3, task_id=read_excel_and_split, execution_date=20231106T001335, start_date=20231106T001337, end_date=20231106T001338
+[2023-11-06 00:13:38,441] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-11-06 00:13:38,473] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

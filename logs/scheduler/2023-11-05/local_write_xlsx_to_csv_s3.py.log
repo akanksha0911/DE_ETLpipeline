@@ -1,0 +1,1271 @@
+[2023-11-05 23:01:52,843] {processor.py:153} INFO - Started process (PID=4697) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:01:52,844] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:01:52,845] {logging_mixin.py:115} INFO - [2023-11-05 23:01:52,845] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:01:53,255] {logging_mixin.py:115} INFO - [2023-11-05 23:01:53,252] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:01:53,256] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:01:53,297] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.510 seconds
+[2023-11-05 23:02:23,369] {processor.py:153} INFO - Started process (PID=4763) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:02:23,370] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:02:23,371] {logging_mixin.py:115} INFO - [2023-11-05 23:02:23,371] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:02:23,856] {logging_mixin.py:115} INFO - [2023-11-05 23:02:23,854] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:02:23,857] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:02:23,879] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.514 seconds
+[2023-11-05 23:02:54,002] {processor.py:153} INFO - Started process (PID=4822) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:02:54,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:02:54,003] {logging_mixin.py:115} INFO - [2023-11-05 23:02:54,003] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:02:54,300] {logging_mixin.py:115} INFO - [2023-11-05 23:02:54,298] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:02:54,300] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:02:54,319] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.321 seconds
+[2023-11-05 23:03:25,242] {processor.py:153} INFO - Started process (PID=4889) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:03:25,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:03:25,243] {logging_mixin.py:115} INFO - [2023-11-05 23:03:25,243] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:03:25,558] {logging_mixin.py:115} INFO - [2023-11-05 23:03:25,555] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:03:25,560] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:03:25,594] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.356 seconds
+[2023-11-05 23:03:56,022] {processor.py:153} INFO - Started process (PID=4955) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:03:56,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:03:56,024] {logging_mixin.py:115} INFO - [2023-11-05 23:03:56,024] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:03:56,297] {logging_mixin.py:115} INFO - [2023-11-05 23:03:56,295] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:03:56,297] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:03:56,316] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.297 seconds
+[2023-11-05 23:04:27,067] {processor.py:153} INFO - Started process (PID=5012) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:04:27,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:04:27,078] {logging_mixin.py:115} INFO - [2023-11-05 23:04:27,077] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:04:27,454] {logging_mixin.py:115} INFO - [2023-11-05 23:04:27,452] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:04:27,455] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:04:27,488] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.425 seconds
+[2023-11-05 23:04:57,927] {processor.py:153} INFO - Started process (PID=5078) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:04:57,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:04:57,941] {logging_mixin.py:115} INFO - [2023-11-05 23:04:57,941] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:04:58,257] {logging_mixin.py:115} INFO - [2023-11-05 23:04:58,255] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:04:58,257] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:04:58,278] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.355 seconds
+[2023-11-05 23:05:28,328] {processor.py:153} INFO - Started process (PID=5146) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:05:28,328] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:05:28,329] {logging_mixin.py:115} INFO - [2023-11-05 23:05:28,329] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:05:28,657] {logging_mixin.py:115} INFO - [2023-11-05 23:05:28,654] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:05:28,659] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:05:28,708] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.384 seconds
+[2023-11-05 23:05:59,147] {processor.py:153} INFO - Started process (PID=5200) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:05:59,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:05:59,148] {logging_mixin.py:115} INFO - [2023-11-05 23:05:59,148] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:05:59,466] {logging_mixin.py:115} INFO - [2023-11-05 23:05:59,464] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:05:59,467] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:05:59,486] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.343 seconds
+[2023-11-05 23:06:29,573] {processor.py:153} INFO - Started process (PID=5268) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:06:29,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:06:29,575] {logging_mixin.py:115} INFO - [2023-11-05 23:06:29,575] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:06:29,933] {logging_mixin.py:115} INFO - [2023-11-05 23:06:29,930] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:06:29,933] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:06:29,953] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.383 seconds
+[2023-11-05 23:07:00,069] {processor.py:153} INFO - Started process (PID=5336) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:07:00,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:07:00,071] {logging_mixin.py:115} INFO - [2023-11-05 23:07:00,071] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:07:00,386] {logging_mixin.py:115} INFO - [2023-11-05 23:07:00,384] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:07:00,387] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:07:00,406] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.340 seconds
+[2023-11-05 23:07:30,470] {processor.py:153} INFO - Started process (PID=5401) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:07:30,471] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:07:30,472] {logging_mixin.py:115} INFO - [2023-11-05 23:07:30,472] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:07:30,807] {logging_mixin.py:115} INFO - [2023-11-05 23:07:30,804] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:07:30,808] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:07:30,830] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.364 seconds
+[2023-11-05 23:08:01,736] {processor.py:153} INFO - Started process (PID=5460) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:08:01,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:08:01,738] {logging_mixin.py:115} INFO - [2023-11-05 23:08:01,737] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:08:02,081] {logging_mixin.py:115} INFO - [2023-11-05 23:08:02,079] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:08:02,081] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:08:02,104] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.372 seconds
+[2023-11-05 23:09:13,288] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:09:13,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:09:13,291] {logging_mixin.py:115} INFO - [2023-11-05 23:09:13,291] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:09:15,319] {logging_mixin.py:115} INFO - [2023-11-05 23:09:15,317] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:09:15,334] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:09:15,365] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 2.081 seconds
+[2023-11-05 23:09:45,616] {processor.py:153} INFO - Started process (PID=118) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:09:45,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:09:45,621] {logging_mixin.py:115} INFO - [2023-11-05 23:09:45,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:09:46,327] {logging_mixin.py:115} INFO - [2023-11-05 23:09:46,324] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:09:46,328] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:09:46,357] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.749 seconds
+[2023-11-05 23:10:16,425] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:10:16,426] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:10:16,427] {logging_mixin.py:115} INFO - [2023-11-05 23:10:16,427] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:10:16,857] {logging_mixin.py:115} INFO - [2023-11-05 23:10:16,855] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:10:16,859] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:10:16,894] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.475 seconds
+[2023-11-05 23:10:47,875] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:10:47,877] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:10:47,878] {logging_mixin.py:115} INFO - [2023-11-05 23:10:47,878] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:10:48,228] {logging_mixin.py:115} INFO - [2023-11-05 23:10:48,226] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:10:48,229] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:10:48,252] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.380 seconds
+[2023-11-05 23:11:18,802] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:11:18,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:11:18,807] {logging_mixin.py:115} INFO - [2023-11-05 23:11:18,807] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:11:19,426] {logging_mixin.py:115} INFO - [2023-11-05 23:11:19,424] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:11:19,427] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:11:19,455] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.660 seconds
+[2023-11-05 23:11:50,097] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:11:50,098] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:11:50,099] {logging_mixin.py:115} INFO - [2023-11-05 23:11:50,099] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:11:50,483] {logging_mixin.py:115} INFO - [2023-11-05 23:11:50,481] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:11:50,484] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:11:50,508] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.415 seconds
+[2023-11-05 23:12:20,956] {processor.py:153} INFO - Started process (PID=423) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:12:20,957] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:12:20,957] {logging_mixin.py:115} INFO - [2023-11-05 23:12:20,957] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:12:21,252] {logging_mixin.py:115} INFO - [2023-11-05 23:12:21,250] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:12:21,253] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:12:21,274] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.321 seconds
+[2023-11-05 23:12:51,311] {processor.py:153} INFO - Started process (PID=501) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:12:51,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:12:51,313] {logging_mixin.py:115} INFO - [2023-11-05 23:12:51,313] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:12:51,690] {logging_mixin.py:115} INFO - [2023-11-05 23:12:51,688] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:12:51,690] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:12:51,712] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.405 seconds
+[2023-11-05 23:13:21,934] {processor.py:153} INFO - Started process (PID=567) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:13:21,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:13:21,935] {logging_mixin.py:115} INFO - [2023-11-05 23:13:21,935] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:13:22,236] {logging_mixin.py:115} INFO - [2023-11-05 23:13:22,234] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:13:22,237] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:13:22,257] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.327 seconds
+[2023-11-05 23:13:53,106] {processor.py:153} INFO - Started process (PID=629) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:13:53,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:13:53,107] {logging_mixin.py:115} INFO - [2023-11-05 23:13:53,107] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:13:53,381] {logging_mixin.py:115} INFO - [2023-11-05 23:13:53,379] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:13:53,382] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:13:53,402] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.299 seconds
+[2023-11-05 23:14:23,577] {processor.py:153} INFO - Started process (PID=695) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:14:23,578] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:14:23,579] {logging_mixin.py:115} INFO - [2023-11-05 23:14:23,579] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:14:24,038] {logging_mixin.py:115} INFO - [2023-11-05 23:14:24,036] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:14:24,039] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:14:24,061] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.489 seconds
+[2023-11-05 23:14:54,365] {processor.py:153} INFO - Started process (PID=771) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:14:54,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:14:54,366] {logging_mixin.py:115} INFO - [2023-11-05 23:14:54,366] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:14:54,667] {logging_mixin.py:115} INFO - [2023-11-05 23:14:54,665] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:14:54,668] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:14:54,688] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.327 seconds
+[2023-11-05 23:15:24,726] {processor.py:153} INFO - Started process (PID=828) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:15:24,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:15:24,728] {logging_mixin.py:115} INFO - [2023-11-05 23:15:24,728] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:15:25,062] {logging_mixin.py:115} INFO - [2023-11-05 23:15:25,060] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:15:25,062] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:15:25,085] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.362 seconds
+[2023-11-05 23:15:55,432] {processor.py:153} INFO - Started process (PID=894) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:15:55,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:15:55,434] {logging_mixin.py:115} INFO - [2023-11-05 23:15:55,433] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:15:55,743] {logging_mixin.py:115} INFO - [2023-11-05 23:15:55,739] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:15:55,743] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:15:55,768] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.340 seconds
+[2023-11-05 23:16:25,907] {processor.py:153} INFO - Started process (PID=960) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:16:25,907] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:16:25,908] {logging_mixin.py:115} INFO - [2023-11-05 23:16:25,908] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:16:26,277] {logging_mixin.py:115} INFO - [2023-11-05 23:16:26,274] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:16:26,278] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:16:26,302] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.399 seconds
+[2023-11-05 23:16:56,686] {processor.py:153} INFO - Started process (PID=1017) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:16:56,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:16:56,687] {logging_mixin.py:115} INFO - [2023-11-05 23:16:56,687] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:16:57,102] {logging_mixin.py:115} INFO - [2023-11-05 23:16:57,100] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:16:57,104] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:16:57,132] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.451 seconds
+[2023-11-05 23:17:28,036] {processor.py:153} INFO - Started process (PID=1083) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:17:28,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:17:28,038] {logging_mixin.py:115} INFO - [2023-11-05 23:17:28,038] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:17:28,374] {logging_mixin.py:115} INFO - [2023-11-05 23:17:28,372] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:17:28,375] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:17:28,397] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.366 seconds
+[2023-11-05 23:17:59,241] {processor.py:153} INFO - Started process (PID=1149) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:17:59,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:17:59,242] {logging_mixin.py:115} INFO - [2023-11-05 23:17:59,242] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:17:59,620] {logging_mixin.py:115} INFO - [2023-11-05 23:17:59,618] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:17:59,621] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:17:59,656] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.419 seconds
+[2023-11-05 23:18:29,930] {processor.py:153} INFO - Started process (PID=1206) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:18:29,931] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:18:29,932] {logging_mixin.py:115} INFO - [2023-11-05 23:18:29,932] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:18:30,224] {logging_mixin.py:115} INFO - [2023-11-05 23:18:30,222] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:18:30,225] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:18:30,245] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.318 seconds
+[2023-11-05 23:19:00,465] {processor.py:153} INFO - Started process (PID=1272) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:19:00,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:19:00,466] {logging_mixin.py:115} INFO - [2023-11-05 23:19:00,466] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:19:00,769] {logging_mixin.py:115} INFO - [2023-11-05 23:19:00,767] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:19:00,770] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:19:00,790] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.329 seconds
+[2023-11-05 23:19:30,828] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:19:30,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:19:30,830] {logging_mixin.py:115} INFO - [2023-11-05 23:19:30,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:19:31,235] {logging_mixin.py:115} INFO - [2023-11-05 23:19:31,232] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:19:31,235] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:19:31,261] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.437 seconds
+[2023-11-05 23:20:01,955] {processor.py:153} INFO - Started process (PID=1395) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:20:01,956] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:20:01,957] {logging_mixin.py:115} INFO - [2023-11-05 23:20:01,957] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:20:02,288] {logging_mixin.py:115} INFO - [2023-11-05 23:20:02,285] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:20:02,288] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:20:02,313] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.362 seconds
+[2023-11-05 23:20:32,481] {processor.py:153} INFO - Started process (PID=1466) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:20:32,482] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:20:32,483] {logging_mixin.py:115} INFO - [2023-11-05 23:20:32,483] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:20:32,778] {logging_mixin.py:115} INFO - [2023-11-05 23:20:32,776] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:20:32,779] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:20:32,799] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.321 seconds
+[2023-11-05 23:21:02,871] {processor.py:153} INFO - Started process (PID=1534) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:21:02,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:21:02,872] {logging_mixin.py:115} INFO - [2023-11-05 23:21:02,872] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:21:03,235] {logging_mixin.py:115} INFO - [2023-11-05 23:21:03,233] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:21:03,236] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:21:03,259] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.393 seconds
+[2023-11-05 23:21:33,349] {processor.py:153} INFO - Started process (PID=1591) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:21:33,350] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:21:33,350] {logging_mixin.py:115} INFO - [2023-11-05 23:21:33,350] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:21:33,712] {logging_mixin.py:115} INFO - [2023-11-05 23:21:33,710] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:21:33,713] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:21:33,734] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.389 seconds
+[2023-11-05 23:22:04,217] {processor.py:153} INFO - Started process (PID=1657) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:22:04,218] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:22:04,219] {logging_mixin.py:115} INFO - [2023-11-05 23:22:04,219] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:22:04,523] {logging_mixin.py:115} INFO - [2023-11-05 23:22:04,521] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:22:04,524] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:22:04,544] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.330 seconds
+[2023-11-05 23:22:34,685] {processor.py:153} INFO - Started process (PID=1723) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:22:34,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:22:34,687] {logging_mixin.py:115} INFO - [2023-11-05 23:22:34,687] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:22:35,029] {logging_mixin.py:115} INFO - [2023-11-05 23:22:35,026] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:22:35,030] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:22:35,052] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.372 seconds
+[2023-11-05 23:23:05,804] {processor.py:153} INFO - Started process (PID=1783) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:23:05,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:23:05,806] {logging_mixin.py:115} INFO - [2023-11-05 23:23:05,806] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:23:06,091] {logging_mixin.py:115} INFO - [2023-11-05 23:23:06,089] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:23:06,091] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:23:06,110] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.309 seconds
+[2023-11-05 23:23:36,429] {processor.py:153} INFO - Started process (PID=1851) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:23:36,430] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:23:36,431] {logging_mixin.py:115} INFO - [2023-11-05 23:23:36,431] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:23:36,811] {logging_mixin.py:115} INFO - [2023-11-05 23:23:36,808] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:23:36,811] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:23:36,834] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.409 seconds
+[2023-11-05 23:24:07,022] {processor.py:153} INFO - Started process (PID=1915) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:24:07,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:24:07,024] {logging_mixin.py:115} INFO - [2023-11-05 23:24:07,024] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:24:07,384] {logging_mixin.py:115} INFO - [2023-11-05 23:24:07,382] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:24:07,385] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:24:07,409] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.391 seconds
+[2023-11-05 23:24:37,594] {processor.py:153} INFO - Started process (PID=1975) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:24:37,595] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:24:37,596] {logging_mixin.py:115} INFO - [2023-11-05 23:24:37,596] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:24:37,898] {logging_mixin.py:115} INFO - [2023-11-05 23:24:37,896] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:24:37,899] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:24:37,921] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.330 seconds
+[2023-11-05 23:25:08,159] {processor.py:153} INFO - Started process (PID=2041) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:25:08,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:25:08,161] {logging_mixin.py:115} INFO - [2023-11-05 23:25:08,161] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:25:08,448] {logging_mixin.py:115} INFO - [2023-11-05 23:25:08,446] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:25:08,449] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:25:08,468] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.312 seconds
+[2023-11-05 23:25:38,512] {processor.py:153} INFO - Started process (PID=2098) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:25:38,513] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:25:38,514] {logging_mixin.py:115} INFO - [2023-11-05 23:25:38,514] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:25:38,814] {logging_mixin.py:115} INFO - [2023-11-05 23:25:38,812] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:25:38,815] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:25:38,836] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.328 seconds
+[2023-11-05 23:26:09,076] {processor.py:153} INFO - Started process (PID=2164) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:26:09,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:26:09,077] {logging_mixin.py:115} INFO - [2023-11-05 23:26:09,077] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:26:09,416] {logging_mixin.py:115} INFO - [2023-11-05 23:26:09,414] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:26:09,417] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:26:09,438] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.367 seconds
+[2023-11-05 23:26:39,629] {processor.py:153} INFO - Started process (PID=2231) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:26:39,629] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:26:39,630] {logging_mixin.py:115} INFO - [2023-11-05 23:26:39,630] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:26:39,946] {logging_mixin.py:115} INFO - [2023-11-05 23:26:39,944] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:26:39,947] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:26:39,968] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.344 seconds
+[2023-11-05 23:27:10,036] {processor.py:153} INFO - Started process (PID=2291) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:27:10,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:27:10,038] {logging_mixin.py:115} INFO - [2023-11-05 23:27:10,038] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:27:10,413] {logging_mixin.py:115} INFO - [2023-11-05 23:27:10,410] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:27:10,414] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:27:10,443] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.411 seconds
+[2023-11-05 23:27:41,272] {processor.py:153} INFO - Started process (PID=2361) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:27:41,273] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:27:41,273] {logging_mixin.py:115} INFO - [2023-11-05 23:27:41,273] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:27:41,562] {logging_mixin.py:115} INFO - [2023-11-05 23:27:41,560] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:27:41,563] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:27:41,582] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.314 seconds
+[2023-11-05 23:28:11,986] {processor.py:153} INFO - Started process (PID=2423) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:28:11,987] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:28:11,988] {logging_mixin.py:115} INFO - [2023-11-05 23:28:11,988] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:28:12,307] {logging_mixin.py:115} INFO - [2023-11-05 23:28:12,305] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:28:12,308] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:28:12,328] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.347 seconds
+[2023-11-05 23:28:42,458] {processor.py:153} INFO - Started process (PID=2484) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:28:42,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:28:42,460] {logging_mixin.py:115} INFO - [2023-11-05 23:28:42,460] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:28:42,755] {logging_mixin.py:115} INFO - [2023-11-05 23:28:42,753] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:28:42,755] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:28:42,776] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.321 seconds
+[2023-11-05 23:29:12,909] {processor.py:153} INFO - Started process (PID=2550) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:29:12,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:29:12,911] {logging_mixin.py:115} INFO - [2023-11-05 23:29:12,911] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:29:13,246] {logging_mixin.py:115} INFO - [2023-11-05 23:29:13,243] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:29:13,247] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:29:13,269] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.365 seconds
+[2023-11-05 23:29:43,409] {processor.py:153} INFO - Started process (PID=2609) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:29:43,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:29:43,411] {logging_mixin.py:115} INFO - [2023-11-05 23:29:43,411] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:29:43,931] {logging_mixin.py:115} INFO - [2023-11-05 23:29:43,929] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:29:43,932] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:29:43,960] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.555 seconds
+[2023-11-05 23:30:14,390] {processor.py:153} INFO - Started process (PID=2677) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:30:14,391] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:30:14,392] {logging_mixin.py:115} INFO - [2023-11-05 23:30:14,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:30:14,824] {logging_mixin.py:115} INFO - [2023-11-05 23:30:14,822] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:30:14,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:30:14,849] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.463 seconds
+[2023-11-05 23:30:45,454] {processor.py:153} INFO - Started process (PID=2745) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:30:45,455] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:30:45,456] {logging_mixin.py:115} INFO - [2023-11-05 23:30:45,456] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:30:45,846] {logging_mixin.py:115} INFO - [2023-11-05 23:30:45,844] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:30:45,847] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:30:45,873] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.423 seconds
+[2023-11-05 23:31:15,903] {processor.py:153} INFO - Started process (PID=2806) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:31:15,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:31:15,904] {logging_mixin.py:115} INFO - [2023-11-05 23:31:15,904] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:31:16,189] {logging_mixin.py:115} INFO - [2023-11-05 23:31:16,187] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:31:16,190] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:31:16,211] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.312 seconds
+[2023-11-05 23:31:46,471] {processor.py:153} INFO - Started process (PID=2875) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:31:46,477] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:31:46,478] {logging_mixin.py:115} INFO - [2023-11-05 23:31:46,478] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:31:46,822] {logging_mixin.py:115} INFO - [2023-11-05 23:31:46,819] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:31:46,822] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:31:46,854] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.387 seconds
+[2023-11-05 23:32:17,519] {processor.py:153} INFO - Started process (PID=2939) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:32:17,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:32:17,521] {logging_mixin.py:115} INFO - [2023-11-05 23:32:17,521] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:32:17,854] {logging_mixin.py:115} INFO - [2023-11-05 23:32:17,852] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:32:17,855] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:32:17,878] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.362 seconds
+[2023-11-05 23:32:48,180] {processor.py:153} INFO - Started process (PID=2998) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:32:48,181] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:32:48,181] {logging_mixin.py:115} INFO - [2023-11-05 23:32:48,181] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:32:48,490] {logging_mixin.py:115} INFO - [2023-11-05 23:32:48,488] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:32:48,491] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:32:48,511] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.334 seconds
+[2023-11-05 23:33:18,922] {processor.py:153} INFO - Started process (PID=3067) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:33:18,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:33:18,924] {logging_mixin.py:115} INFO - [2023-11-05 23:33:18,924] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:33:19,244] {logging_mixin.py:115} INFO - [2023-11-05 23:33:19,242] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:33:19,245] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:33:19,266] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.348 seconds
+[2023-11-05 23:33:49,375] {processor.py:153} INFO - Started process (PID=3138) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:33:49,375] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:33:49,376] {logging_mixin.py:115} INFO - [2023-11-05 23:33:49,376] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:33:49,763] {logging_mixin.py:115} INFO - [2023-11-05 23:33:49,760] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:33:49,764] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:33:49,795] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.424 seconds
+[2023-11-05 23:34:19,883] {processor.py:153} INFO - Started process (PID=3198) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:34:19,884] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:34:19,885] {logging_mixin.py:115} INFO - [2023-11-05 23:34:19,885] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:34:20,215] {logging_mixin.py:115} INFO - [2023-11-05 23:34:20,213] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:34:20,216] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:34:20,238] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.359 seconds
+[2023-11-05 23:34:50,951] {processor.py:153} INFO - Started process (PID=3266) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:34:50,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:34:50,952] {logging_mixin.py:115} INFO - [2023-11-05 23:34:50,952] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:34:51,286] {logging_mixin.py:115} INFO - [2023-11-05 23:34:51,284] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:34:51,287] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:34:51,311] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.365 seconds
+[2023-11-05 23:35:21,595] {processor.py:153} INFO - Started process (PID=3329) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:35:21,596] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:35:21,597] {logging_mixin.py:115} INFO - [2023-11-05 23:35:21,596] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:35:21,899] {logging_mixin.py:115} INFO - [2023-11-05 23:35:21,897] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:35:21,900] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:35:21,922] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.330 seconds
+[2023-11-05 23:35:51,984] {processor.py:153} INFO - Started process (PID=3390) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:35:51,985] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:35:51,985] {logging_mixin.py:115} INFO - [2023-11-05 23:35:51,985] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:35:52,332] {logging_mixin.py:115} INFO - [2023-11-05 23:35:52,330] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:35:52,333] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:35:52,356] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.377 seconds
+[2023-11-05 23:36:22,559] {processor.py:153} INFO - Started process (PID=3456) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:36:22,560] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:36:22,560] {logging_mixin.py:115} INFO - [2023-11-05 23:36:22,560] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:36:22,967] {logging_mixin.py:115} INFO - [2023-11-05 23:36:22,964] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:36:22,968] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:36:23,029] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.475 seconds
+[2023-11-05 23:36:53,086] {processor.py:153} INFO - Started process (PID=3517) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:36:53,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:36:53,088] {logging_mixin.py:115} INFO - [2023-11-05 23:36:53,088] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:36:53,446] {logging_mixin.py:115} INFO - [2023-11-05 23:36:53,444] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:36:53,447] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:36:53,472] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.390 seconds
+[2023-11-05 23:37:23,574] {processor.py:153} INFO - Started process (PID=3582) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:37:23,575] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:37:23,576] {logging_mixin.py:115} INFO - [2023-11-05 23:37:23,576] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:37:23,860] {logging_mixin.py:115} INFO - [2023-11-05 23:37:23,858] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:37:23,861] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:37:23,881] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.310 seconds
+[2023-11-05 23:37:53,903] {processor.py:153} INFO - Started process (PID=3646) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:37:53,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:37:53,905] {logging_mixin.py:115} INFO - [2023-11-05 23:37:53,905] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:37:54,196] {logging_mixin.py:115} INFO - [2023-11-05 23:37:54,194] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:37:54,197] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:37:54,217] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.318 seconds
+[2023-11-05 23:38:25,026] {processor.py:153} INFO - Started process (PID=3706) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:38:25,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:38:25,027] {logging_mixin.py:115} INFO - [2023-11-05 23:38:25,027] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:38:25,379] {logging_mixin.py:115} INFO - [2023-11-05 23:38:25,377] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:38:25,379] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:38:25,403] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.381 seconds
+[2023-11-05 23:38:55,755] {processor.py:153} INFO - Started process (PID=3774) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:38:55,756] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:38:55,757] {logging_mixin.py:115} INFO - [2023-11-05 23:38:55,757] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:38:56,120] {logging_mixin.py:115} INFO - [2023-11-05 23:38:56,118] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:38:56,121] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:38:56,144] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.393 seconds
+[2023-11-05 23:39:26,225] {processor.py:153} INFO - Started process (PID=3845) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:39:26,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:39:26,227] {logging_mixin.py:115} INFO - [2023-11-05 23:39:26,227] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:39:26,655] {logging_mixin.py:115} INFO - [2023-11-05 23:39:26,652] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:39:26,656] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:39:26,680] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.459 seconds
+[2023-11-05 23:39:56,772] {processor.py:153} INFO - Started process (PID=3906) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:39:56,773] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:39:56,774] {logging_mixin.py:115} INFO - [2023-11-05 23:39:56,774] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:39:57,086] {logging_mixin.py:115} INFO - [2023-11-05 23:39:57,084] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:39:57,087] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:39:57,108] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.339 seconds
+[2023-11-05 23:40:27,451] {processor.py:153} INFO - Started process (PID=3974) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:40:27,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:40:27,452] {logging_mixin.py:115} INFO - [2023-11-05 23:40:27,452] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:40:27,792] {logging_mixin.py:115} INFO - [2023-11-05 23:40:27,789] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:40:27,793] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:40:27,840] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.393 seconds
+[2023-11-05 23:40:57,953] {processor.py:153} INFO - Started process (PID=4032) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:40:57,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:40:57,954] {logging_mixin.py:115} INFO - [2023-11-05 23:40:57,954] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:40:58,276] {logging_mixin.py:115} INFO - [2023-11-05 23:40:58,274] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:40:58,276] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:40:58,298] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.349 seconds
+[2023-11-05 23:41:28,380] {processor.py:153} INFO - Started process (PID=4099) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:41:28,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:41:28,381] {logging_mixin.py:115} INFO - [2023-11-05 23:41:28,381] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:41:28,769] {logging_mixin.py:115} INFO - [2023-11-05 23:41:28,767] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:41:28,770] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:41:28,792] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.416 seconds
+[2023-11-05 23:41:58,855] {processor.py:153} INFO - Started process (PID=4164) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:41:58,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:41:58,856] {logging_mixin.py:115} INFO - [2023-11-05 23:41:58,856] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:41:59,163] {logging_mixin.py:115} INFO - [2023-11-05 23:41:59,161] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:41:59,164] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:41:59,186] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.335 seconds
+[2023-11-05 23:42:30,578] {processor.py:153} INFO - Started process (PID=4222) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:42:30,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:42:30,581] {logging_mixin.py:115} INFO - [2023-11-05 23:42:30,581] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:42:31,719] {logging_mixin.py:115} INFO - [2023-11-05 23:42:31,713] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 9, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:42:31,720] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:42:31,776] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 1.225 seconds
+[2023-11-05 23:42:44,422] {processor.py:153} INFO - Started process (PID=4252) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:42:44,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:42:44,469] {logging_mixin.py:115} INFO - [2023-11-05 23:42:44,468] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:42:44,969] {logging_mixin.py:115} INFO - [2023-11-05 23:42:44,967] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:42:44,970] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:42:44,995] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.582 seconds
+[2023-11-05 23:43:15,569] {processor.py:153} INFO - Started process (PID=4318) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:43:15,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:43:15,571] {logging_mixin.py:115} INFO - [2023-11-05 23:43:15,570] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:43:15,880] {logging_mixin.py:115} INFO - [2023-11-05 23:43:15,877] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:43:15,881] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:43:15,913] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.349 seconds
+[2023-11-05 23:43:46,041] {processor.py:153} INFO - Started process (PID=4384) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:43:46,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:43:46,043] {logging_mixin.py:115} INFO - [2023-11-05 23:43:46,043] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:43:46,329] {logging_mixin.py:115} INFO - [2023-11-05 23:43:46,327] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:43:46,330] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:43:46,349] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.312 seconds
+[2023-11-05 23:44:16,812] {processor.py:153} INFO - Started process (PID=4441) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:44:16,813] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:44:16,816] {logging_mixin.py:115} INFO - [2023-11-05 23:44:16,815] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:44:17,269] {logging_mixin.py:115} INFO - [2023-11-05 23:44:17,266] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:44:17,269] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:44:17,325] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.518 seconds
+[2023-11-05 23:44:35,077] {processor.py:153} INFO - Started process (PID=4490) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:44:35,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:44:35,079] {logging_mixin.py:115} INFO - [2023-11-05 23:44:35,079] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:44:35,479] {logging_mixin.py:115} INFO - [2023-11-05 23:44:35,477] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:44:35,481] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:44:35,508] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.434 seconds
+[2023-11-05 23:45:06,108] {processor.py:153} INFO - Started process (PID=4559) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:45:06,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:45:06,115] {logging_mixin.py:115} INFO - [2023-11-05 23:45:06,115] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:45:06,774] {logging_mixin.py:115} INFO - [2023-11-05 23:45:06,771] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:45:06,776] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:45:06,836] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.734 seconds
+[2023-11-05 23:45:37,316] {processor.py:153} INFO - Started process (PID=4616) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:45:37,318] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:45:37,319] {logging_mixin.py:115} INFO - [2023-11-05 23:45:37,319] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:45:37,638] {logging_mixin.py:115} INFO - [2023-11-05 23:45:37,635] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:45:37,638] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:45:37,666] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.354 seconds
+[2023-11-05 23:46:08,300] {processor.py:153} INFO - Started process (PID=4682) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:46:08,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:46:08,301] {logging_mixin.py:115} INFO - [2023-11-05 23:46:08,301] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:46:08,600] {logging_mixin.py:115} INFO - [2023-11-05 23:46:08,599] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:46:08,601] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:46:08,624] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.328 seconds
+[2023-11-05 23:46:38,684] {processor.py:153} INFO - Started process (PID=4750) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:46:38,685] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:46:38,686] {logging_mixin.py:115} INFO - [2023-11-05 23:46:38,686] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:46:38,973] {logging_mixin.py:115} INFO - [2023-11-05 23:46:38,971] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:46:38,973] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:46:38,992] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.311 seconds
+[2023-11-05 23:47:09,015] {processor.py:153} INFO - Started process (PID=4809) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:09,016] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:47:09,017] {logging_mixin.py:115} INFO - [2023-11-05 23:47:09,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:09,290] {logging_mixin.py:115} INFO - [2023-11-05 23:47:09,288] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/local_write_xlsx_to_csv_s3.py", line 7, in <module>
+    import pydevd_pycharm
+ModuleNotFoundError: No module named 'pydevd_pycharm'
+[2023-11-05 23:47:09,291] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:09,310] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.297 seconds
+[2023-11-05 23:47:23,366] {processor.py:153} INFO - Started process (PID=4831) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:23,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:47:23,368] {logging_mixin.py:115} INFO - [2023-11-05 23:47:23,368] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:23,913] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:23,941] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.580 seconds
+[2023-11-05 23:47:54,455] {processor.py:153} INFO - Started process (PID=4888) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:54,456] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:47:54,458] {logging_mixin.py:115} INFO - [2023-11-05 23:47:54,457] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:54,766] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:47:54,780] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.330 seconds
+[2023-11-05 23:48:02,989] {processor.py:153} INFO - Started process (PID=4908) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:48:02,989] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:48:02,990] {logging_mixin.py:115} INFO - [2023-11-05 23:48:02,990] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:48:03,314] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:48:03,329] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.344 seconds
+[2023-11-05 23:48:33,361] {processor.py:153} INFO - Started process (PID=4974) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:48:33,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:48:33,363] {logging_mixin.py:115} INFO - [2023-11-05 23:48:33,363] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:48:33,674] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:48:33,689] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.332 seconds
+[2023-11-05 23:49:04,463] {processor.py:153} INFO - Started process (PID=5031) to work on /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:49:04,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/local_write_xlsx_to_csv_s3.py for tasks to queue
+[2023-11-05 23:49:04,465] {logging_mixin.py:115} INFO - [2023-11-05 23:49:04,465] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:49:04,749] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/local_write_xlsx_to_csv_s3.py
+[2023-11-05 23:49:04,763] {processor.py:161} INFO - Processing /opt/airflow/dags/local_write_xlsx_to_csv_s3.py took 0.304 seconds

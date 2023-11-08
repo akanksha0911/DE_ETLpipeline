@@ -1,0 +1,17 @@
+[2023-11-07T02:45:59.239+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ps_etl.ps_schema_validation manual__2023-11-07T02:45:53.695847+00:00 [queued]>
+[2023-11-07T02:45:59.248+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ps_etl.ps_schema_validation manual__2023-11-07T02:45:53.695847+00:00 [queued]>
+[2023-11-07T02:45:59.248+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-07T02:45:59.259+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): ps_schema_validation> on 2023-11-07 02:45:53.695847+00:00
+[2023-11-07T02:45:59.264+0000] {standard_task_runner.py:57} INFO - Started process 835 to run task
+[2023-11-07T02:45:59.268+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ps_etl', 'ps_schema_validation', 'manual__2023-11-07T02:45:53.695847+00:00', '--job-id', '82', '--raw', '--subdir', 'DAGS_FOLDER/ps_etl.py', '--cfg-path', '/tmp/tmp5r4lb242']
+[2023-11-07T02:45:59.272+0000] {standard_task_runner.py:85} INFO - Job 82: Subtask ps_schema_validation
+[2023-11-07T02:45:59.317+0000] {task_command.py:416} INFO - Running <TaskInstance: ps_etl.ps_schema_validation manual__2023-11-07T02:45:53.695847+00:00 [running]> on host d2308b8de1b3
+[2023-11-07T02:45:59.384+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ps_etl' AIRFLOW_CTX_TASK_ID='ps_schema_validation' AIRFLOW_CTX_EXECUTION_DATE='2023-11-07T02:45:53.695847+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-07T02:45:53.695847+00:00'
+[2023-11-07T02:45:59.418+0000] {logging_mixin.py:151} INFO - Errors found. Details are written to error_sv_leh_2023-11-07-02-45-55.csv.
+[2023-11-07T02:45:59.421+0000] {logging_mixin.py:151} INFO - Errors found. Details are written to error_sv_purchases_2023-11-07-02-45-55.csv.
+[2023-11-07T02:45:59.430+0000] {base.py:73} INFO - Using connection ID 'aws_default' for task execution.
+[2023-11-07T02:45:59.431+0000] {connection_wrapper.py:340} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2023-11-07T02:46:01.613+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-07T02:46:01.623+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ps_etl, task_id=ps_schema_validation, execution_date=20231107T024553, start_date=20231107T024559, end_date=20231107T024601
+[2023-11-07T02:46:01.655+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-07T02:46:01.682+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
